@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>DFContact</name>
+	<creationDate>2009-03-23</creationDate>
+	<author>Daniel Filzhut</author>
+	<authorEmail>joomla@filzhut.de</authorEmail>
+	<authorUrl>http://software.filzhut.de</authorUrl>
+	<copyright>Copyright 2007 by Daniel Filzhut</copyright>
+	<license>GNU GPL</license>
+	<version>1.5 RC 4</version>
+	<description>DFContact is a Joomla! contact form component which is extremly easy to configure and has captcha support using com_securityimages. It displays contact data and a contact form on the same page. The fields in the form can be choosen and set as optional or duty fields. Availible fields: Textarea, checkbox, company, title, name, position, street, postbox, zip, city, state, country, phone, mobile, fax, email, aim, icq, yahoo, msn. Addresses can be displayed in american, british, french or german format. Includes english, german, french, spanish, portuguese, dutch, italian, swedish and turkish language support, easy integration of other languages due to the use of language constant files. It easily integrates with com_securityimages to display a captcha as spam-prevention. Released under GNU General Public License (GPL).</description>
+
+	<installfile></installfile>
+	
+	<uninstallfile></uninstallfile>
+
+	<files>
+		<filename>dfcontact.php</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.com_dfcontact.ini</language>
+		<language tag="de-DE">de-DE.com_dfcontact.ini</language>
+		<language tag="nl-NL">nl-NL.com_dfcontact.ini</language>
+	</languages>
+	
+	<media destination="com_dfcontact">
+	</media>
+
+	<administration>
+	
+		<menu>DFContact</menu>
+
+		<files folder="admin">
+			<filename>admin.dfcontact.html.php</filename>
+			<filename>admin.dfcontact.php</filename>
+			<filename>config.dfcontact.php</filename>
+			<filename>toolbar.dfcontact.html.php</filename>
+			<filename>toolbar.dfcontact.php</filename>
+			<folder>tmpl</folder>
+			<filename>logo-filzhut-de.png</filename>
+		</files>
+
+		<languages>
+			<language tag="en-GB">en-GB.com_dfcontact.ini</language>
+			<language tag="de-DE">de-DE.com_dfcontact.ini</language>
+			<language tag="nl-NL">nl-NL.com_dfcontact.ini</language>
+		</languages>
+
+	</administration>
+</install>

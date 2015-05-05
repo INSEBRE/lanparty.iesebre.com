@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+	<groups>
+		<group>
+			<name>Default</name>
+			<description>Default group for all users with edit access</description>
+			<types>19,20,21,23,24,25</types>
+			<rows>help,newdocument,bold,italic,underline,fontselect,fontsizeselect,styleselect,strikethrough,full,center,left,right,formatselect;paste,searchreplace,forecolor,backcolor,unlink,indent,outdent,undo,redo,numlist,bullist,anchor,cleanup,removeformat;directionality,emotions,fullscreen,preview,table,print,hr,sub,sup,visualaid,charmap;style,nonbreaking,visualchars,xhtmlxtras,imgmanager,advlink,spellchecker,advcode,article</rows>
+			<plugins>contextmenu,browser,inlinepopups,media,help,paste,searchreplace,directionality,emotions,fullscreen,preview,table,print,style,nonbreaking,visualchars,xhtmlxtras,imgmanager,advlink,spellchecker,advcode,article</plugins>
+			<published>1</published>
+			<ordering>1</ordering>
+		</group>
+		<group>
+			<name>Front End</name>
+			<description>Sample Group for Authors, Editors, Publishers</description>
+			<types>19,20,21</types>
+			<rows>help,newdocument,bold,italic,underline,styleselect,strikethrough,full,center,left,right,formatselect,undo,redo;paste,searchreplace,indent,outdent,numlist,bullist,cleanup,hr,sub,sup,charmap,removeformat,nonbreaking,visualchars;unlink,anchor,fullscreen,preview,print,visualaid,style,xhtmlxtras,imgmanager,advlink,spellchecker,advcode,article</rows>
+			<plugins>contextmenu,inlinepopups,help,paste,searchreplace,fullscreen,preview,print,style,nonbreaking,visualchars,xhtmlxtras,imgmanager,advlink,spellchecker,advcode,article</plugins>
+			<published>0</published>
+			<ordering>2</ordering>
+		</group>
+	</groups>
+</schema>

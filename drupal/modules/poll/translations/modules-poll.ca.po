@@ -1,0 +1,182 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  poll.module,v 1.263.2.3 2008/12/18 15:46:20 dries
+#  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-07-04 16:50+0200\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/poll/poll.module:133
+msgid "Most recent poll"
+msgstr "Enquesta més recent"
+
+#: modules/poll/poll.module:380
+msgid "Negative values are not allowed."
+msgstr "Els valors negatius no es permeten."
+
+#: modules/poll/poll.module:385
+msgid "You must fill in at least two choices."
+msgstr "Heu de completar almenys dues opcions."
+
+#: modules/poll/poll.module:307
+msgid "Choice @n"
+msgstr "Opció @n"
+
+#: modules/poll/poll.module:315
+msgid "Votes for choice @n"
+msgstr "Vots per l'opció @n"
+
+#: modules/poll/poll.module:251
+msgid "Closed"
+msgstr "Tancat"
+
+#: modules/poll/poll.module:263
+msgid "Poll status"
+msgstr "Estat de l'enquesta"
+
+#: modules/poll/poll.module:266
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr "Quan una enquesta està tancada els visitants no poden votar-hi més."
+
+#: modules/poll/poll.module:271
+msgid "Poll duration"
+msgstr "Durada de l'enquesta"
+
+#: modules/poll/poll.module:274
+msgid "After this period, the poll will be closed automatically."
+msgstr "Després d'aquest període l'enquesta es tancarà automàticament."
+
+#: modules/poll/poll.module:508
+msgid "Results"
+msgstr "Resultats"
+
+#: modules/poll/poll.module:175
+msgid "Question"
+msgstr "Pregunta"
+
+#: modules/poll/poll.pages.inc:20
+msgid "open"
+msgstr "obert"
+
+#: modules/poll/poll.pages.inc:20
+msgid "closed"
+msgstr "tancat"
+
+#: modules/poll/poll.module:754
+msgid "Cancel your vote"
+msgstr "Cancel·la el vostre vot"
+
+#: modules/poll/poll.module:611
+msgid "Your vote was recorded."
+msgstr "El vostre vot ha estat registrat."
+
+#: modules/poll/poll.module:506
+msgid "Older polls"
+msgstr "Enquestes antigues"
+
+#: modules/poll/poll.module:506
+msgid "View the list of polls on this site."
+msgstr "Mostra la llista d'enquestes d'aquest lloc."
+
+#: modules/poll/poll.module:508
+msgid "View the current poll results."
+msgstr "Mostra els resultats actuals de l'enquesta."
+
+#: modules/poll/poll.pages.inc:32
+msgid ""
+"This table lists all the recorded votes for this poll. If anonymous users "
+"are allowed to vote, they will be identified by the IP address of the "
+"computer they used when they voted."
+msgstr ""
+"Aquesta taula recull tots els vots registrats d'aquesta enquesta. Si els "
+"usuaris anònims poden votar, seran identificats per l'adreça IP de "
+"l'ordinador que han utilitzar per votar."
+
+#: modules/poll/poll.module:16
+msgid ""
+"The poll module can be used to create simple polls for site users. A poll is "
+"a simple, multiple choice questionnaire which displays the cumulative "
+"results of the answers to the poll. Having polls on the site is a good way "
+"to receive feedback from community members."
+msgstr ""
+"El mòdul d'enquestes es pot usar per crear enquestes senzilles per als "
+"usuaris del web. Una enquesta és un qüestionari simple amb múltiples "
+"respostes que mostra els resultats acumulatius de les respostes a "
+"l'enquesta. Amb enquestes al vostre web tindreu una bona manera de recabar "
+"les opinions dels membres de la vostra comunitat."
+
+#: modules/poll/poll.module:17
+msgid ""
+"When creating a poll, enter the question being posed, as well as the "
+"potential choices (and beginning vote counts for each choice). The status "
+"and duration (length of time the poll remains active for new votes) can also "
+"be specified. Use the <a href=\"@poll\">poll</a> menu item to view all "
+"current polls. To vote in or view the results of a specific poll, click on "
+"the poll itself."
+msgstr ""
+"Quan creeu una enquesta, entreu la pregunta plantejada, així com les "
+"possibies respostes (i els vots inicials de cada opció). L'estat i la durada "
+"(temps que l'enquesta roman activa a l'espera de nous vots) també es poden "
+"determinar. Utilitzeu l'element de menú <a href=\"@poll\">enquesta</a> per "
+"veure totes les enquestes actuals. Per votar o per veure els resultats d'una "
+"enquesta determinada, cliqueu al damunt de l'enquesta."
+
+#: modules/poll/poll.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@poll"
+"\">Poll module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Enquesta</"
+"a> al manual en línia."
+
+#: modules/poll/poll.module:174
+msgid ""
+"A <em>poll</em> is a question with a set of possible responses. A <em>poll</"
+"em>, once created, automatically provides a simple running count of the "
+"number of votes received for each response."
+msgstr ""
+"Una <em>enquesta</em> és una pregunta amb un conjunt de respostes possibles. "
+"Un cop creada, l'<em>enquesta</em> dóna automàticament un compte continu del "
+"nombre de vots rebuts per a cada resposta."
+
+#: modules/poll/poll.module:237
+msgid "More choices"
+msgstr "Més opcions"
+
+#: modules/poll/poll.module:238
+msgid ""
+"If the amount of boxes above isn't enough, click here to add more choices."
+msgstr ""
+"Si la quantitat de caixes de més amunt no és suficient, cliqueu aquí per "
+"afegir més opcions."
+
+#: modules/poll/poll.module:257
+msgid "Poll settings"
+msgstr "Paràmetres de configuració de les enquestes"
+
+#: modules/poll/poll.module:667
+msgid "Add another choice"
+msgstr "Afegeix una altra opció"
+
+#: modules/poll/poll.module:671
+msgid "Choice"
+msgstr "Opció"
+
+#: modules/poll/poll.module:672
+msgid "Vote count"
+msgstr "Recompte de vots"
+
+#: modules/poll/poll.module:588
+msgid ""
+"Your vote could not be recorded because you did not select any of the "
+"choices."
+msgstr ""
+"El vostre vot no s'ha pogut registrar perquè no heu escollit cap opció."

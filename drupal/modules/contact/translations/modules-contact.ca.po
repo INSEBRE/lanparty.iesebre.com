@@ -1,0 +1,391 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  contact.module,v 1.103.2.1 2008/04/09 21:11:46 goba
+#  contact.admin.inc,v 1.3 2007/11/09 07:55:13 dries
+#  contact.pages.inc,v 1.6.2.1 2008/02/12 14:42:50 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-12-10 08:21+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/contact/contact.module:25
+msgid ""
+"The menu item can be customized and configured only once the menu module has "
+"been <a href=\"@modules-page\">enabled</a>."
+msgstr ""
+"L'element de menú es pot personalitzar i configurar només quan s'ha <a href="
+"\"@modules-page\">activat</a> el mòdul menu."
+
+#: modules/contact/contact.module:30
+msgid ""
+"The contact module also adds a <a href=\"@menu-settings\">menu item</a> "
+"(disabled by default) to the navigation block."
+msgstr ""
+"El mòdul contact també afegeix un <a href=\"@menu-settings\">element de "
+"menú</a> (desactivat per defecte) al bloc de navegació."
+
+#: modules/contact/contact.module:144
+msgid "Contact settings"
+msgstr "Paràmetres de contacte"
+
+#: modules/contact/contact.module:149
+msgid "Personal contact form"
+msgstr "Formulari de contacte personal"
+
+#: modules/contact/contact.module:151
+msgid ""
+"Allow other users to contact you by e-mail via <a href=\"@url\">your "
+"personal contact form</a>. Note that while your e-mail address is not made "
+"public to other members of the community, privileged users such as site "
+"administrators are able to contact you even if you choose not to enable this "
+"feature."
+msgstr ""
+"Permet que altres usuaris contactin amb vos per correu electrònic a través "
+"del <a href=\"@url\">vostre formulari de contacte personal</a>. Tingueu en "
+"compte que mentre la vostra adreça de correu electrònic no es fa pública a "
+"altres membres de la comunitat, els usuaris privilegiats, com els "
+"administradors del lloc, poden contactar amb vos encara que hageu decidit no "
+"activar aquesta funcionalitat."
+
+#: modules/contact/contact.admin.inc:18,47
+msgid "Recipients"
+msgstr "Destinataris"
+
+#: modules/contact/contact.admin.inc:43
+msgid "Example: 'website feedback' or 'product information'."
+msgstr "Exemple: \"resposta del lloc web\" o \"informació del producte\"."
+
+#: modules/contact/contact.admin.inc:49
+msgid ""
+"Example: 'webmaster@example.com' or 'sales@example.com,support@example.com'. "
+"To specify multiple recipients, separate each e-mail address with a comma."
+msgstr ""
+"Exemple: 'webmastar@example.com' o 'vendes@example.com,suport@example.com'. "
+"Per especificar múltiples destinataris, separeu cada adreça de correu amb "
+"una coma."
+
+#: modules/contact/contact.admin.inc:53
+msgid "Auto-reply"
+msgstr "Resposta automàtica"
+
+#: modules/contact/contact.admin.inc:55
+msgid ""
+"Optional auto-reply. Leave empty if you do not want to send the user an auto-"
+"reply message."
+msgstr ""
+"Resposta automàtica opcional. Deixeu-ho en blanc si no voleu enviar a "
+"l'usuari un missatge de resposta automàtica."
+
+#: modules/contact/contact.admin.inc:60
+msgid ""
+"When listing categories, those with lighter (smaller) weights get listed "
+"before categories with heavier (larger) weights. Categories with equal "
+"weights are sorted alphabetically."
+msgstr ""
+"Quan es llisten les categories, aquelles amb pesos més lleugers (petits) es "
+"llistaran abans que les categories amb pesos més pesats (grans). Les "
+"categories amb el mateix pes s'ordenaran alfabèticament."
+
+#: modules/contact/contact.admin.inc:66
+msgid ""
+"Set this to <em>Yes</em> if you would like this category to be selected by "
+"default."
+msgstr ""
+"Poseu-li un <em>Sí</em> si us agradaria que aquesta categoria es seleccionés "
+"per defecte."
+
+#: modules/contact/contact.admin.inc:86
+msgid "You must enter one or more recipients."
+msgstr "Heu d'entrar un o més destinataris."
+
+#: modules/contact/contact.admin.inc:92
+msgid "%recipient is an invalid e-mail address."
+msgstr "L'adreça de correu %recipient no és vàlida."
+
+#: modules/contact/contact.admin.inc:114
+msgid "Category %category has been added."
+msgstr "La categoria %category s'ha afegit."
+
+#: modules/contact/contact.admin.inc:115
+msgid "Contact form: category %category added."
+msgstr "Formulari de contacte: la categoria %category s'ha afegit."
+
+#: modules/contact/contact.admin.inc:120
+msgid "Category %category has been updated."
+msgstr "La categoria %category s'ha actualitzat."
+
+#: modules/contact/contact.admin.inc:121
+msgid "Contact form: category %category updated."
+msgstr "Formulari de contacte: la categoria %category s'ha actualitzat."
+
+#: modules/contact/contact.admin.inc:138
+msgid "Are you sure you want to delete %category?"
+msgstr "Esteu segur de voler suprimir la %category?"
+
+#: modules/contact/contact.admin.inc:147
+msgid "Category %category has been deleted."
+msgstr "La categoria %category s'ha suprimit."
+
+#: modules/contact/contact.admin.inc:148
+msgid "Contact form: category %category deleted."
+msgstr "Formulari de contacte: la categoria %category s'ha suprimit."
+
+#: modules/contact/contact.admin.inc:156
+msgid "Additional information"
+msgstr "Informació addicional"
+
+#: modules/contact/contact.admin.inc:158
+msgid ""
+"Information to show on the <a href=\"@form\">contact page</a>. Can be "
+"anything from submission guidelines to your postal address or telephone "
+"number."
+msgstr ""
+"Informació per mostrar a la <a href=\"@form\">pàgina de contacte</a>. Pot "
+"ser qualsevol cosa, des de les directrius de les trameses a la vostra adreça "
+"postal o nombre de telèfon."
+
+#: modules/contact/contact.admin.inc:161
+msgid "Hourly threshold"
+msgstr "Llindar per hores"
+
+#: modules/contact/contact.admin.inc:164
+msgid ""
+"The maximum number of contact form submissions a user can perform per hour."
+msgstr ""
+"El nombre màxim de trameses de formulari de contacte que un usuari pot fer "
+"per hora."
+
+#: modules/contact/contact.admin.inc:168
+msgid "Enable personal contact form by default"
+msgstr "Habilita el formulari de contacte personal per defecte."
+
+#: modules/contact/contact.admin.inc:170
+msgid "Default status of the personal contact form for new users."
+msgstr "Estat predeterminat del formulari de contacte pels nous usuaris."
+
+#: modules/contact/contact.pages.inc:161
+msgid ""
+"You need to provide a valid e-mail address to contact other users. Please "
+"update your <a href=\"@url\">user information</a> and try again."
+msgstr ""
+"Necessiteu proveir una adreça de correu electrònica vàlida per contactar amb "
+"altres usuaris. Actualitzeu la vostra <a href=\"@url\">informació d'usuari</"
+"a> i torneu-ho a provar."
+
+#: modules/contact/contact.pages.inc:164
+msgid ""
+"You cannot contact more than %number users per hour. Please try again later."
+msgstr ""
+"No podeu contactar a més de %number usuaris per hora. Proveu-ho més tard."
+
+#: modules/contact/contact.pages.inc:179
+msgid "From"
+msgstr "De"
+
+#: modules/contact/contact.pages.inc:183
+msgid "To"
+msgstr "Per"
+
+#: modules/contact/contact.pages.inc:88,197
+msgid "Send yourself a copy."
+msgstr "Envieu-vos una còpia"
+
+#: modules/contact/contact.module:187
+msgid ""
+"!name (!name-url) has sent you a message via your contact form (!form-url) "
+"at !site."
+msgstr ""
+"!name (!name-url) us ha enviat un missatge a través del vostre formulari de "
+"contacte (!form-url) a !site."
+
+#: modules/contact/contact.module:188
+msgid ""
+"If you don't want to receive such e-mails, you can change your settings at !"
+"url."
+msgstr ""
+"Si no voleu rebre aquests correus, podeu canviar els vostres paràmetres a !"
+"url."
+
+#: modules/contact/contact.module:189
+msgid "Message:"
+msgstr "Missatge:"
+
+#: modules/contact/contact.pages.inc:231
+msgid "%name-from sent %name-to an e-mail."
+msgstr "%name-from ha enviat a %name-to un correu electrònic."
+
+#: modules/contact/contact.pages.inc:232
+msgid "The message has been sent."
+msgstr "El missatge s'ha enviat."
+
+#: modules/contact/contact.pages.inc:17
+msgid ""
+"You cannot send more than %number messages per hour. Please try again later."
+msgstr ""
+"No podeu enviar més de %number missatges per hora. Torneu-ho a provar més "
+"tard."
+
+#: modules/contact/contact.pages.inc:49
+msgid "Your e-mail address"
+msgstr "La vostra adreça electrònica"
+
+#: modules/contact/contact.pages.inc:109
+msgid "You must select a valid category."
+msgstr "Heu d'especificar una categoria vàlida"
+
+#: modules/contact/contact.pages.inc:112
+msgid "You must enter a valid e-mail address."
+msgstr "Heu d'introduir una adreça de correu electrònic vàlida."
+
+#: modules/contact/contact.module:173
+msgid "!name sent a message using the contact form at !form."
+msgstr "!name ha enviat un missatge amb el el formulari de contacte a !form."
+
+#: modules/contact/contact.module:172,178
+msgid "[!category] !subject"
+msgstr "[!category] !subject"
+
+#: modules/contact/contact.pages.inc:146
+msgid "%name-from sent an e-mail regarding %category."
+msgstr "%name-form ha enviat un correu electrònic referent a %categoria."
+
+#: modules/contact/contact.pages.inc:147
+msgid "Your message has been sent."
+msgstr "El vostre missatge s'ha enviat."
+
+#: modules/contact/contact.pages.inc:99
+msgid ""
+"The contact form has not been configured. <a href=\"@add\">Add one or more "
+"categories</a> to the form."
+msgstr ""
+"El formulari de contacte no ha estat configurat. <a href=\"@add\">Afegiu una "
+"o més categories</a> al formulari."
+
+#: modules/contact/contact.module:15
+msgid ""
+"The contact module facilitates communication via e-mail, by allowing your "
+"site's visitors to contact one another (personal contact forms), and by "
+"providing a simple way to direct messages to a set of administrator-defined "
+"recipients (the <a href=\"@contact\">contact page</a>). With either form, "
+"users specify a subject, write their message, and (optionally) have a copy "
+"of their message sent to their own e-mail address."
+msgstr ""
+"El mòdul de contacte proporciona comunicació a través del correu electrònic, "
+"permetent que els vostres visitants es contactin entre si (formularis "
+"personals de contacte) i proporcionant una manera senzilla d'enviar "
+"missatges a un conjunt de destinataris definit per l'administrador (la <a "
+"href=\"@contact\">pàgina de contacte</a>). En qualsevol de les dues formes, "
+"els usuaris especifiquen un assumpte, escriuen el seu missatge i, "
+"opcionalment, en reben una còpia a la seva adreça de correu electrònic."
+
+#: modules/contact/contact.module:16
+msgid ""
+"Personal contact forms allow users to be contacted via e-mail, while keeping "
+"recipient e-mail addresses private. Users may enable or disable their "
+"personal contact forms by editing their <em>My account</em> page. If "
+"enabled, a <em>Contact</em> tab leading to their personal contact form is "
+"available on their user profile. Site administrators have access to all "
+"personal contact forms (even if they have been disabled). The <em>Contact</"
+"em> tab is only visible when viewing another user's profile (users do not "
+"see their own <em>Contact</em> tab)."
+msgstr ""
+"Els formularis de contacte personal permeten contactar amb usuaris via "
+"correu electrònic mantenint la privacitat de l'adreça electrònica del "
+"destinatari. Els usuaris poden habilitar i inhabilitar els seus formularis "
+"de contacte personal editant la seva pàgina <em>El meu compte</em>. Si està "
+"habilitat, al perfil de l'usuari hi ha una pestanya <em>Contacte</em> que "
+"porta al formulari de contacte personal. Els administadors tenen accés a "
+"tots els formularis de contacte personal (encara que estiguin inhabilitats). "
+"La pestanya <em>Contacte</em> només es mostra quan s'està visualitzant el "
+"perfil d'un altre usuari (l'usuari no pot veure la seva pròpia pestanya "
+"<em>Contacte</em>)."
+
+#: modules/contact/contact.module:17
+msgid ""
+"The <a href=\"@contact\">contact page</a> provides a simple form for "
+"visitors to leave comments, feedback, or other requests. Messages are routed "
+"by selecting a category from a list of administrator-defined options; each "
+"category has its own set of e-mail recipients. Common categories for a "
+"business site include, for example, \"Website feedback\" (messages are "
+"forwarded to web site administrators) and \"Product information\" (messages "
+"are forwarded to members of the sales department). The actual e-mail "
+"addresses defined within a category are not displayed. Only users in roles "
+"with the <em>access site-wide contact form</em> permission may access the <a "
+"href=\"@contact\">contact page</a>."
+msgstr ""
+"La <a href=\"@contact\">pàgina de contacte</a> permet al visitants usar un "
+"formulari senzill per deixar comentaris, suggeriments i altres peticions. "
+"Els missatges són dirigits mitjançant la selecció d'una categoria d'una "
+"llista d'opcions definides per l'administrador; cada categoria té la seva "
+"pròpia llista de destinataris. Les categories comunes per un web comercial "
+"inclouen, per exemple, \"Preguntes sobre el Web\" missatges que són "
+"redireccionats als administradors del web) i \"Informació sobre els productes"
+"\" (missatges que son redireccionats als comercials). Les adreces "
+"electròniques definides en una categoria no són visibles. Només els usuaris "
+"de rols amb el permís d'<em>accés al formulari de contacte de la Web</em> "
+"poden accedir a la <a href=\"@contact\">pàgina de contacte</a>"
+
+#: modules/contact/contact.module:18
+msgid ""
+"A link to your site's <a href=\"@contact\">contact page</a> from the main "
+"<em>Navigation</em> menu is created, but is disabled by default. Create a "
+"similar link on another menu by adding a menu item pointing to the path "
+"\"contact\""
+msgstr ""
+"Un enllaç a la <a href=\"@contact\">pàgina de contactes</a> des del menú de "
+"<em>Navegació</em> principal es crea però per defecte està inhabilitat. "
+"Creeu un enllaç similar en un altre menú afegint un element de menú que "
+"apunti a la ruta \"contacte\"."
+
+#: modules/contact/contact.module:19
+msgid ""
+"Customize the <a href=\"@contact\">contact page</a> with additional "
+"information (like physical location, mailing address, and telephone number) "
+"using the <a href=\"@contact-settings\">contact form settings page</a>. The "
+"<a href=\"@contact-settings\">settings page</a> also provides configuration "
+"options for the maximum number of contact form submissions a user may "
+"perform per hour, and the default status of users' personal contact forms."
+msgstr ""
+"Personalitzeu la <a href=\"@contact\">pàgina de contactes</a> amb informació "
+"addicional (com ara la ubicació física, l'adreça de correu o el número de "
+"telèfon) utilitzant la <a href=\"@contact-settings\">pàgina de configuració "
+"del formulari de contacte</a>. La <a href=\"@contact-settings\">pàgina de "
+"configuració</a> també permet configurar opcions per al nombre màxim "
+"d'enviaments de formularis de contacte que un usuari pot fer per hora, i "
+"l'estat predeterminat dels formularis de contacte personal."
+
+#: modules/contact/contact.module:20
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@contact"
+"\">Contact module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Contacte</"
+"a> al manual en línia."
+
+#: modules/contact/contact.module:23
+msgid ""
+"This page lets you set up <a href=\"@form\">your site-wide contact form</a>. "
+"To do so, add one or more categories. You can associate different recipients "
+"with each category to route e-mails to different people. For example, you "
+"can route website feedback to the webmaster and direct product information "
+"requests to the sales department. On the <a href=\"@settings\">settings "
+"page</a>, you can customize the information shown above the contact form. "
+"This can be useful to provide additional contact information such as your "
+"postal address and telephone number."
+msgstr ""
+"Aquesta pàgina permet configurar el <a href=\"@form\">formulari de contacte "
+"del vostre web</a>. Per fer-ho, afegiu una o més categories. Podeu associar "
+"diferents destinataris per a cada categoria per enviar els missatges a "
+"diferents persones. Per exemple, podeu enviar els suggeriments a "
+"l'administrador del web i les sol·licituds d'informació de productes al "
+"departament de vendes. A la <a href=\"@settings\">pàgina de configuració</a> "
+"podeu personalitzar la informació mostrada sobre el formulari de contacte. "
+"Això pot ser útil per donar informació de contacte addicional com ara "
+"l'adreça de correu postal i el número de telèfon."

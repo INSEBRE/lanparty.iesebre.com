@@ -1,0 +1,325 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  statistics.module,v 1.272 2008/01/04 09:31:48 goba
+#  statistics.admin.inc,v 1.6 2008/01/08 10:35:42 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-07-04 17:08+0200\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/statistics/statistics.module:30
+msgid ""
+"Settings for the statistical information that Drupal will keep about the "
+"site. See <a href=\"@statistics\">site statistics</a> for the actual "
+"information."
+msgstr ""
+"Els paràmetres per a la informació estadística que Drupal mantindrà per al "
+"lloc. Mireu les <a href=\"@statistics\">estadístiques del lloc</a> per a la "
+"informació recent.</p>"
+
+#: modules/statistics/statistics.admin.inc:188
+msgid "Access log settings"
+msgstr "Paràmetres del registre d'accés"
+
+#: modules/statistics/statistics.admin.inc:50,79,115
+msgid "Hits"
+msgstr "Accessos"
+
+#: modules/statistics/statistics.admin.inc:52
+msgid "Average page generation time"
+msgstr "Temps mitjà de generació per pàgina"
+
+#: modules/statistics/statistics.admin.inc:53,81
+msgid "Total page generation time"
+msgstr "Temps total de generació de pàgines"
+
+#: modules/statistics/statistics.admin.inc:60
+msgid "%time ms"
+msgstr "%time ms"
+
+#: modules/statistics/statistics.admin.inc:67
+msgid "Top pages in the past %interval"
+msgstr "Pàgines principals dels últims %interval"
+
+#: modules/statistics/statistics.admin.inc:92
+msgid "unban"
+msgstr "readmetre"
+
+#: modules/statistics/statistics.admin.inc:92
+msgid "ban"
+msgstr "prohibeix"
+
+#: modules/statistics/statistics.admin.inc:100
+msgid "Top visitors in the past %interval"
+msgstr "Visitants més actius en el passat %interval"
+
+#: modules/statistics/statistics.admin.inc:112
+msgid "Top referrers in the past %interval"
+msgstr "Principals referents dels últims %interval"
+
+#: modules/statistics/statistics.admin.inc:116
+msgid "Url"
+msgstr "Url"
+
+#: modules/statistics/statistics.admin.inc:117
+msgid "Last visit"
+msgstr "Darrera visita"
+
+#: modules/statistics/statistics.admin.inc:191
+msgid "Enable access log"
+msgstr "Habilita el registre d'accés"
+
+#: modules/statistics/statistics.admin.inc:194
+msgid "Log each page access. Required for referrer statistics."
+msgstr ""
+"Registre cada accés de pàgina. Es requereix per a les estadístiques de "
+"referents."
+
+#: modules/statistics/statistics.admin.inc:198
+msgid "Discard access logs older than"
+msgstr "Descarta els registres d'accés més vells que"
+
+#: modules/statistics/statistics.admin.inc:206
+msgid "Content viewing counter settings"
+msgstr "Paràmetres del comptador de visualització dels continguts"
+
+#: modules/statistics/statistics.admin.inc:209
+msgid "Count content views"
+msgstr "Compta les visualitzacions dels continguts"
+
+#: modules/statistics/statistics.admin.inc:212
+msgid "Increment a counter each time content is viewed."
+msgstr "Incrementa un comptador cada vegada que es visualitza un contingut."
+
+#: modules/statistics/statistics.module:246,288
+msgid "Popular content"
+msgstr "Continguts populars"
+
+#: modules/statistics/statistics.module:256
+msgid "Number of day's top views to display"
+msgstr "Nombre de les més vistes del dia a mostrar"
+
+#: modules/statistics/statistics.module:256
+msgid "How many content items to display in \"day\" list."
+msgstr "Quants elements de contingut per mostrar en la llista \"dia\"."
+
+#: modules/statistics/statistics.module:257
+msgid "Number of all time views to display"
+msgstr "Nombre de visualitzacions històriques a mostrar"
+
+#: modules/statistics/statistics.module:257
+msgid "How many content items to display in \"all time\" list."
+msgstr "Quants elements de contingut per mostrar en la llista \"històriques\"."
+
+#: modules/statistics/statistics.module:258
+msgid "Number of most recent views to display"
+msgstr "Nombre de visualitzacions més recents a mostrar"
+
+#: modules/statistics/statistics.module:258
+msgid "How many content items to display in \"recently viewed\" list."
+msgstr ""
+"Quants elements de contingut per mostrar en la llista \"vist recentment\"."
+
+#: modules/statistics/statistics.module:272
+msgid "Today's:"
+msgstr "D'avui:"
+
+#: modules/statistics/statistics.module:277
+msgid "All time:"
+msgstr "Històrics:"
+
+#: modules/statistics/statistics.module:282
+msgid "Last viewed:"
+msgstr "Darrera visualització:"
+
+#: modules/statistics/statistics.module:85
+msgid "1 read"
+msgid_plural "@count reads"
+msgstr[0] "1 lectura"
+msgstr[1] "@count lectures"
+
+#: modules/statistics/statistics.admin.inc:201
+msgid ""
+"Older access log entries (including referrer statistics) will be "
+"automatically discarded. (Requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>.)"
+msgstr ""
+"Les entrades més velles del registre d'accessos (incloent les estadístiques "
+"dels referenciadors) es descartaran automàticament. (requereix una <a href="
+"\"@cron\">tasca de manteniment de cron</a> ben configurada.)"
+
+#: modules/statistics/statistics.module:15
+msgid ""
+"The statistics module keeps track of numerous site usage statistics, "
+"including the number of times, and from where, each of your posts is viewed. "
+"These statistics are useful in determining how users are interacting with "
+"each other and with your site, and are required for the display of some "
+"Drupal blocks."
+msgstr ""
+"El mòdul d'estadístiques fa el seguiment de moltes estadístiques al voltant "
+"de l'ús del web, incloent el nombre de vegades, i des d'on, que cadascun "
+"dels enviaments es visita. Aquestes estadístiques són útils per determinar "
+"com els usuaris interactuen entre ells i amb el web a més de ser necessàries "
+"per mostrar alguns blocs de Drupal."
+
+#: modules/statistics/statistics.module:16
+msgid "The statistics module provides:"
+msgstr "El mòdul d'estadístiques proveeix:"
+
+#: modules/statistics/statistics.module:17
+msgid ""
+"a counter for each post on your site that increments each time the post is "
+"viewed. (Enable <em>Count content views</em> on the <a href=\"@accesslog"
+"\">access log settings page</a>, and determine if the post access counters "
+"should be visible to any user roles on the <a href=\"@permissions"
+"\">permissions page</a>.)"
+msgstr ""
+"Un comptador per cada enviament del vostre web que s'incrementa cada cop que "
+"es visualitza l'enviament. (Habiliteu <em>Comptar les visualitzacions de "
+"contingut</em> a la <a href=\"@accesslog\">pàgina de configuració del "
+"registre d'accessos</a> i determineu a la <a href=\"@permissions\"> pàgina "
+"de permisos </a> si els comptadors d'accessos a continguts seran visibles "
+"per a qualsevol rol d'usuari."
+
+#: modules/statistics/statistics.module:18
+msgid ""
+"a <a href=\"@recent-hits\">recent hits</a> log that displays information "
+"about the latest activity on your site, including the URL and title of the "
+"page accessed, the user name (if available) and IP address of the accessing "
+"party."
+msgstr ""
+"Un registre dels <a href=\"@recent-hits\">hits recents</a> que mostra "
+"informació de la darrera activitat del web, incloent la URL i el títol de la "
+"pàgina accedida, el nom d'usuari >(si està disponible) i l'adreça IP del "
+"visitant."
+
+#: modules/statistics/statistics.module:19
+msgid ""
+"a <a href=\"@top-referrers\">top referrers</a> log that displays the "
+"referring parties for your site visits (where your visitors came from)."
+msgstr ""
+"Un registre que mostra els <a href=\"@top-referrers\">referenciadors</a> de "
+"les visites al web (d'on venen els vostres visitants)."
+
+#: modules/statistics/statistics.module:20
+msgid ""
+"a <a href=\"@top-pages\">top pages</a> log that displays site content in "
+"descending order by number of views."
+msgstr ""
+"Un registre de les <a href=\"@top-pages\">pàgines més populars</a> que "
+"mostra el contingut del web per ordre descendent de nombre  de visites."
+
+#: modules/statistics/statistics.module:21
+msgid ""
+"a <a href=\"@top-visitors\">top visitors</a> log that displays the most "
+"active users on your site."
+msgstr ""
+"Un registre dels <a href=\"@top-visitors\">visitants més freqüents</a> que "
+"mostra els usuaris més actius del vostre web."
+
+#: modules/statistics/statistics.module:22
+msgid ""
+"a <em>Popular content</em> block that displays the day's most viewed "
+"content, the all-time most viewed content, and the last content viewed. "
+"(Enable the <em>Popular content</em> block on the <a href=\"@blocks\">blocks "
+"administration page</a>.)"
+msgstr ""
+"Un bloc de <em>Contingut més popular</em> que mostra el contingut més vist "
+"del dia, de sempre, i l'últim contingut vist. (Habiliteu el bloc "
+"<em>contingut popular</em> a la <a href=\"@blocks\">pàgina d'administració "
+"de blocs</a>.)"
+
+#: modules/statistics/statistics.module:23
+msgid "Configuring the statistics module"
+msgstr "Configurant el mòdul d'estadístiques"
+
+#: modules/statistics/statistics.module:24
+msgid ""
+"When the <em>Enable access log</em> setting on the <a href=\"@accesslog"
+"\">access log settings page</a> is enabled, data about every page accessed "
+"(including the remote host's IP address, referrer, node accessed, and user "
+"name) is stored in the access log. The access log must be enabled for the <a "
+"href=\"@recent-hits\">recent hits</a>, <a href=\"@top-referrers\">top "
+"referrers</a>, <a href=\"@top-pages\">top pages</a>, and <a href=\"@top-"
+"visitors\">top visitors</a> log pages to function. Enabling the access log "
+"adds one additional database call per page displayed by Drupal."
+msgstr ""
+"Quan el paràmetre <em>Habilitar el registre d'accessos</em> de la <a href="
+"\"@accesslog\">pàgina de configuració del registre d'accessos</a> està "
+"habilitat, les dades de cada pàgina accedida (incloent l'adreça IP de la "
+"màquina remota, el referenciador, node accedit i nom d'usuari) es guarda al "
+"registre d'usuaris. Aquest ha de tenir habilitades dels pàgines de registre "
+"<a href=\"@recent-hits\">hits recents</a>, <a href=\"@top-referrers"
+"\">referenciadors</a>, <a href=\"@top-pages\">pàgines més populars</a>, i <a "
+"href=\"@top-visitors\">visitants més freqüents</a> per funcionar. Habilitant "
+"el registre d'accessos s'afegeix una crida addicional a la base de dades per "
+"cada pàgina mostrada en Drupal."
+
+#: modules/statistics/statistics.module:25
+msgid ""
+"The <em>Discard access logs older than</em> setting on the <a href="
+"\"@accesslog\">access log settings page</a> specifies the length of time "
+"entries are retained in the access log before they are deleted. Automatic "
+"access log entry deletion requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>."
+msgstr ""
+"El paràmetre <em>Descartar els registres d'accés més vells de</em> de la <a "
+"href=\"@accesslog\">pàgina de configuració del registre d'accessos</a> "
+"determina la quantitat de entrades del registre que se serven abans de ser "
+"esborrades. L'esborrat automàtic d'entrades del registre requereix que la <a "
+"href=\"@cron\">tasca de menteniment del cron</a> estigui ben configurada."
+
+#: modules/statistics/statistics.module:26
+msgid ""
+"The <em>Count content views</em> setting on the <a href=\"@accesslog"
+"\">access log settings page</a> enables a counter for each post on your site "
+"that increments each time the post is viewed. This option must be enabled to "
+"provide post-specific access counts. Enabling this option adds one "
+"additional database call per each post displayed by Drupal."
+msgstr ""
+"El paràmetre <em>Comptar les visualitzacions dels continguts</em> de la a "
+"href=\"@accesslog\">pàgina de configuració del registre d'accessos</a> "
+"habilita un comptador per cada enviament del web que s'incrementa cada cop "
+"que l'enviament es visualitza. Aquesta opció  ha d'estar habilitada per tal "
+"d'obtenir el nombre d'accessos de cada enviament. En habilitar aqueta opció "
+"s'afegeix una crida addicional a la base de dades per cada enviament que es "
+"mostra al web."
+
+#: modules/statistics/statistics.module:27
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@statistics"
+"\">Statistics module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul "
+"Estadístiques</a> al manual en línia."
+
+#: modules/statistics/statistics.module:32
+msgid "This page displays the site's most recent hits."
+msgstr "Aquesta pàgina mostra els <em>hits</em> més recents."
+
+#: modules/statistics/statistics.module:34
+msgid ""
+"This page displays all external referrers, or external references to your "
+"website."
+msgstr ""
+"Aquesta pàgina mostra tots els referenciadors, o referències externes al "
+"vostre web."
+
+#: modules/statistics/statistics.module:36
+msgid ""
+"When you ban a visitor, you prevent the visitor's IP address from accessing "
+"your site. Unlike blocking a user, banning a visitor works even for "
+"anonymous users. This is most commonly used to block resource-intensive bots "
+"or web crawlers."
+msgstr ""
+"Quan desterreu un usuari, prohibiu l'accés al web a l'adreça IP del "
+"visitant. A diferència de l'usuari bloquejat, el desterrar un usuari és fin "
+"i tot per als usuaris anònims. Això es fa servir usualment per bloquejar "
+"robots que consumeixen molts recursos o indexadors de webs."

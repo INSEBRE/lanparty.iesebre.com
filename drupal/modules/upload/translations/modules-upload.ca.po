@@ -1,0 +1,237 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  upload.module,v 1.197.2.4 2009/01/12 15:30:23 goba
+#  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-05-24 19:47+0200\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/upload/upload.module:344,517
+msgid "Size"
+msgstr "Mida"
+
+#: modules/upload/upload.admin.inc:64
+msgid "General settings"
+msgstr "Paràmetres generals"
+
+#: modules/upload/upload.module:517
+msgid "List"
+msgstr "Llista"
+
+#: modules/upload/upload.module:21
+msgid ""
+"Users with the <a href=\"@permissions\">upload files permission</a> can "
+"upload attachments. Users with the <a href=\"@permissions\">view uploaded "
+"files permission</a> can view uploaded attachments. You can choose which "
+"post types can take attachments on the <a href=\"@types\">content types "
+"settings</a> page."
+msgstr ""
+"Els usuaris amb <a href=\"@permissions\">permís per carregar fitxers</a> "
+"poden adjuntar fitxers. Els usuaris amb <a href=\"@permissions\">permís per "
+"veure fitxers carregats</a> poden veure els fitxers adjunts. Podeu triar "
+"quins tipus d'articles poden tenir fitxers adjunts a la pàgina de <a href="
+"\"@types\">configuració de tipus de contingut</a>."
+
+#: modules/upload/upload.module:67
+msgid "Read full article to view attachments."
+msgstr "Llegeix l'article complet per veure els adjunts."
+
+#: modules/upload/upload.admin.inc:10
+msgid ""
+"The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set "
+"to 0 for no restriction."
+msgstr ""
+"La mida màxima permesa de les imatges expressada com AMPLExALT (per exemple "
+"640x480). Establir a 0 per no restringir."
+
+#: modules/upload/upload.admin.inc:21,24,39,42
+msgid "The %role file size limit must be a number and greater than zero."
+msgstr ""
+"El límit de la mida del fitxer de %role ha de ser un nombre i major que 0."
+
+#: modules/upload/upload.admin.inc:21,24,31
+msgid "default"
+msgstr "predeterminat"
+
+#: modules/upload/upload.admin.inc:31,49
+msgid ""
+"The %role maximum file size per upload is greater than the total file size "
+"allowed per user"
+msgstr ""
+"La mida màxima del fitxer per carregar del rol és major que el total de la "
+"mida dels fitxers permès per usuari"
+
+#: modules/upload/upload.admin.inc:69
+msgid "Maximum resolution for uploaded images"
+msgstr "Resolució màxima per a les imatges carregades"
+
+#: modules/upload/upload.admin.inc:74
+msgid "WIDTHxHEIGHT"
+msgstr "AMPLADAxALÇADA"
+
+#: modules/upload/upload.admin.inc:78
+msgid "List files by default"
+msgstr "Llista de fitxers per defecte"
+
+#: modules/upload/upload.module:213
+msgid "Attachments"
+msgstr "Adjunts"
+
+#: modules/upload/upload.module:226
+msgid "File attachments"
+msgstr "Fitxers adjunts"
+
+#: modules/upload/upload.module:229
+msgid ""
+"Changes made to the attachments are not permanent until you save this post. "
+"The first \"listed\" file will be included in RSS feeds."
+msgstr ""
+"Els canvis fets als adjunts no són permanents fins que deseu aquest "
+"missatge. El primer fitxer \"llistat\" s'inclourà al canal RSS."
+
+#: modules/upload/upload.module:247
+msgid ""
+"File attachments are disabled. The file directories have not been properly "
+"configured."
+msgstr ""
+"Els fitxers adjunts estan inhabilitats. Els directoris no s'han configurat "
+"correctament."
+
+#: modules/upload/upload.module:249
+msgid ""
+"Please visit the <a href=\"@admin-file-system\">file system configuration "
+"page</a>."
+msgstr ""
+"Visiteu la <a href=\"@admin-file-system\">pàgina de configuració de fitxers "
+"de sistema</a>."
+
+#: modules/upload/upload.module:252
+msgid "Please contact the site administrator."
+msgstr "Contacteu amb l'administrador del lloc."
+
+#: modules/upload/upload.module:344
+msgid "Attachment"
+msgstr "Adjunt"
+
+#: modules/upload/upload.module:491
+msgid "Attach new file"
+msgstr "Adjunta un fitxer nou"
+
+#: modules/upload/upload.module:497
+msgid "Attach"
+msgstr "Adjunta"
+
+#: modules/upload/upload.module:65,309
+msgid "1 attachment"
+msgid_plural "@count attachments"
+msgstr[0] "1 adjunt"
+msgstr[1] "@count adjunts"
+
+#: modules/upload/upload.admin.inc:73
+msgid ""
+"The maximum allowed image size (e.g. 640x480). Set to 0 for no restriction. "
+"If an <a href=\"!image-toolkit-link\">image toolkit</a> is installed, files "
+"exceeding this value will be scaled down to fit."
+msgstr ""
+"Les mides màximes d'imatge permeses (p.ex. 640x480). Deixeu-les a 0 si no hi "
+"ha d'haver cap restricció. Si hi ha instal·lat alguna <a href=\"!image-"
+"toolkit-link\">eina d'imatges</a>, els arxius que sobrepassin aquest valor "
+"seran reduïts convenientment."
+
+#: modules/upload/upload.admin.inc:81
+msgid "Display attached files when viewing a post."
+msgstr "Mostra els fitxers adjunts quan es mostri un enviament."
+
+#: modules/upload/upload.admin.inc:97
+msgid ""
+"The default maximum file size a user can upload. If an image is uploaded and "
+"a maximum resolution is set, the size will be checked after the file has "
+"been resized."
+msgstr ""
+"La mida màxima d'arxiu que un usuari pot pujar. Si es puja una imatge i hi "
+"ha una resolució màxima definida, la mida es comprovarà un cop l'arxiu hagi "
+"estat redimensionat."
+
+#: modules/upload/upload.admin.inc:135
+msgid ""
+"The maximum size of a file a user can upload. If an image is uploaded and a "
+"maximum resolution is set, the size will be checked after the file has been "
+"resized."
+msgstr ""
+"La mida màxima d'arxiu que un usuari pot pujar. Si es puja una imatge i hi "
+"ha una resolució màxima definida, la mida es comprovarà un cop  la imatge "
+"hagi estat redimensionada."
+
+#: modules/upload/upload.admin.inc:144
+msgid "The maximum size of all files a user can have on the site."
+msgstr ""
+"La mida màxima de tots els fitxers que un usuari pot tenir al lloc web."
+
+#: modules/upload/upload.module:16
+msgid ""
+"The upload module allows users to upload files to the site. The ability to "
+"upload files is important for members of a community who want to share work. "
+"It is also useful to administrators who want to keep uploaded files "
+"connected to posts."
+msgstr ""
+"El mòdul Upload permet als usuaris pujar fitxers al lloc web. L'habilitat "
+"per pujar fitxers és important per als membre d'una comunitat que vol "
+"compartir el treball. També és útil als administradors que volen mantenir "
+"fitxer pujats connectats als enviaments."
+
+#: modules/upload/upload.module:17
+msgid ""
+"Users with the upload files permission can upload attachments to posts. "
+"Uploads may be enabled for specific content types on the content types "
+"settings page. Each user role can be customized to limit or control the file "
+"size of uploads, or the maximum dimension of image files."
+msgstr ""
+"Els usuaris amb permisos per pujar fitxers poden pujar adjunts als "
+"enviaments. Les pujades poden ser habilitades per a tipus de nodes "
+"específics a la pàgina de configuració del tipus de contingut. Cada rol "
+"d'usuari pot ser personalitzat per a limitar o controlar la mida de les "
+"pujades, o les dimensions màximes dels fitxers d'imatge."
+
+#: modules/upload/upload.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@upload"
+"\">Upload module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Upload</"
+"a> al manual en línia."
+
+#: modules/upload/upload.module:493
+msgid "Images are larger than %resolution will be resized. "
+msgstr "Les imatges més grans de %resolution seran redimensionades. "
+
+#: modules/upload/upload.module:493
+msgid ""
+"The maximum upload size is %filesize. Only files with the following "
+"extensions may be uploaded: %extensions. "
+msgstr ""
+"La mida màxima d'una pujada és %filesize. Sols els fitxers amb les següents "
+"extensions poden ser pujats: %extensions. "
+
+#: modules/upload/upload.module:502
+msgid "Please wait..."
+msgstr "Per favor, espereu..."
+
+#: modules/upload/upload.admin.inc:18
+msgid ""
+"Depending on your server environment, these settings may be changed in the "
+"system-wide php.ini file, a php.ini file in your Drupal root directory, in "
+"your Drupal site's settings.php file, or in the .htaccess file in your "
+"Drupal root directory."
+msgstr ""
+"Depenent de l'entorn del vostre servidor, aquests paràmetres de configuració "
+"es poden canviar a nivell de sistema a l'arxiu php.ini que hi ha al "
+"directori arrel de Drupal, a l'arxiu .htaccess del mateix directori, o a "
+"l'arxiu settings.php del lloc web."

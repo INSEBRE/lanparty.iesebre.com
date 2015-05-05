@@ -1,0 +1,185 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  path.module,v 1.138.2.3 2008/11/22 10:49:15 dries
+#  path.admin.inc,v 1.7.2.1 2008/11/22 10:49:15 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2009-01-10 02:08+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/path/path.module:15
+msgid ""
+"The path module allows you to specify aliases for Drupal URLs. Such aliases "
+"improve readability of URLs for your users and may help internet search "
+"engines to index your content more effectively. More than one alias may be "
+"created for a given page."
+msgstr ""
+"El mòdul path us permet especificar àlies per als URL de Drupal. Aquests "
+"àlies milloren la llegibilitat dels URL pels vostres usuaris i poden ajudar "
+"als cercadors de la xarxa a indexar el vostre contingut més efectivament. Es "
+"pot crear més d'un àlies per una pàgina donada."
+
+#: modules/path/path.module:16
+msgid ""
+"<p>Some examples of URL aliases are:</p>\n"
+"<ul>\n"
+"<li>user/login =&gt; login</li>\n"
+"<li>image/tid/16 =&gt; store</li>\n"
+"<li>taxonomy/term/7+19+20+21 =&gt; store/products/whirlygigs</li>\n"
+"<li>node/3 =&gt; contact</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>Alguns exemples d'àlies d'URL són:</p>\n"
+"<ul>\n"
+"<li>user/login =&gt; login</li>\n"
+"<li>image/tid/16 =&gt; store</li>\n"
+"<li>taxonomy/term/7+19+20+21 =&gt; store/products/whirlygigs</li>\n"
+"<li>node/3 =&gt; contact</li>\n"
+"</ul>\n"
+
+#: modules/path/path.module:31
+msgid ""
+"Enter the path you wish to create the alias for, followed by the name of the "
+"new alias."
+msgstr ""
+"Entra el camí al que voleu crear un àlies seguit pel nom del nou àlies."
+
+#: modules/path/path.admin.inc:167
+msgid "Are you sure you want to delete path alias %title?"
+msgstr "Esteu segur que voleu eliminar l'àlies del camí %title?"
+
+#: modules/path/path.module:82
+msgid "The alias has been deleted."
+msgstr "L'àlies s'ha eliminat."
+
+#: modules/path/path.admin.inc:93
+msgid "Existing system path"
+msgstr "Camins de sistema existent"
+
+#: modules/path/path.admin.inc:97
+msgid ""
+"Specify the existing path you wish to alias. For example: node/28, forum/1, "
+"taxonomy/term/1+2."
+msgstr ""
+"Especifiqueu el camí existent en el que voleu crear un àlies. Per exemple:  "
+"node/28, forum/1, taxonomy/term/1+2."
+
+#: modules/path/path.admin.inc:107
+msgid ""
+"Specify an alternative path by which this data can be accessed. For example, "
+"type \"about\" when writing an about page. Use a relative path and don't add "
+"a trailing slash or the URL alias won't work."
+msgstr ""
+"Especifiqueu un camí alternatiu per a accedir a la informació. Per exemple "
+"«quisom». Escriviu camins relatius i no utilitzeu guions o els àlies d'URL no "
+"funcionaran."
+
+#: modules/path/path.admin.inc:118
+msgid "Update alias"
+msgstr "Actualitza l'àlies"
+
+#: modules/path/path.admin.inc:121
+msgid "Create new alias"
+msgstr "Crea un nou àlies"
+
+#: modules/path/path.module:143
+msgid "The path is already in use."
+msgstr "Aquest camí ja s'utilitza."
+
+#: modules/path/path.module:186
+msgid "URL path settings"
+msgstr "Ajusts del camí URL"
+
+#: modules/path/path.module:198
+msgid ""
+"Optionally specify an alternative URL by which this node can be accessed. "
+"For example, type \"about\" when writing an about page. Use a relative path "
+"and don't add a trailing slash or the URL alias won't work."
+msgstr ""
+"Especifica opcionalment un URL alternatiu per accedir a aquest node. Per "
+"exemple \"quisom\". Escriviu camins relatius i no utilitzeu guions o els "
+"àlies d'URL no funcionaran."
+
+#: modules/path/path.admin.inc:30
+msgid "Alias"
+msgstr "Àlies"
+
+#: modules/path/path.admin.inc:54
+msgid "No URL aliases available."
+msgstr "No hi ha àlies d'URL disponibles."
+
+#: modules/path/path.admin.inc:154
+msgid "The alias has been saved."
+msgstr "L'àlies s'ha desat."
+
+#: modules/path/path.admin.inc:54
+msgid "No URL aliases found."
+msgstr "No s'ha trobat cap àlies d'URL."
+
+#: modules/path/path.admin.inc:103
+msgid "Path alias"
+msgstr "Àlies de camí"
+
+#: modules/path/path.admin.inc:139
+msgid "The alias %alias is already in use in this language."
+msgstr "L'àlies %alias ja està en ús en aquest idioma."
+
+#: modules/path/path.admin.inc:194
+msgid "Filter aliases"
+msgstr "Filtrar àlies"
+
+#: modules/path/path.module:24
+msgid ""
+"The path module enables appropriately permissioned users to specify an "
+"optional alias in all node input and editing forms, and provides an "
+"interface to view and edit all URL aliases. The two permissions related to "
+"URL aliasing are <em>administer url aliases</em> and <em>create url aliases</"
+"em>. "
+msgstr ""
+"El mòdul de rutes premet que els usuaris amb els permisos corresponents "
+"puguin especificar un àlies opcional en tots els formularis d'entrada i "
+"d'edició de nodes i proporciona una interfície per veure i editar els àlies "
+"d'URLs. Els dos permisos relacionats amb els àlies d'URLs són "
+"<em>administrar els àlies d'URLs</em> i <em>crear àlies d'URLs</em>. "
+
+#: modules/path/path.module:25
+msgid ""
+"This module also provides user-defined mass URL aliasing capabilities, which "
+"is useful if you wish to uniformly use URLs different from the default. For "
+"example, you may want to have your URLs presented in a different language. "
+"Access to the Drupal source code on the web server is required to set up "
+"mass URL aliasing. "
+msgstr ""
+"Aquest mòdul permet definir àlies massius d'URLs, cosa molt útil si voleu "
+"utilitzar, com a criteri general,  URLs diferents de les predeterminades. Pe "
+"exemple, podeu voler que les vostres URLs es mostrin en un idioma diferent. "
+"Cal tenir accés al codi font de Drupal del lloc web per tal de definit àlies "
+"massius d'URLs. "
+
+#: modules/path/path.module:26
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@path"
+"\">Path module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Camí</a> "
+"al manual en línia."
+
+#: modules/path/path.module:29
+msgid ""
+"Drupal provides complete control over URLs through aliasing, which is often "
+"used to make URLs more readable or easy to remember. For example, the alias "
+"'about' may be mapped onto the post at the system path 'node/1', creating a "
+"more meaningful URL. Each system path can have multiple aliases."
+msgstr ""
+"Drupal proporciona un control complet sobre les URLs mitjançant l'ús "
+"d'àlies, el que s'utilitza sovint per fer les URLs més llegibles o més "
+"fàcils de recordar. Per exemple, l'àlies 'al voltant de' es pot mapejar a "
+"l'enviament que hi ha a la ruta de sistema 'node/1', creant una URL més "
+"entenedora. Cada ruta del sistema pot tenir múltiples àlies."

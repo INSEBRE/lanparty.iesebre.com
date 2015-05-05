@@ -1,0 +1,1025 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  node.module,v 1.947.2.13 2009/01/14 23:34:07 goba
+#  node.pages.inc,v 1.28.2.3 2008/11/10 10:18:54 goba
+#  content_types.inc,v 1.50.2.1 2008/02/13 11:23:28 goba
+#  node.admin.inc,v 1.19.2.2 2008/11/10 10:31:06 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2009-02-17 10:34+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/node/node.module:1743
+msgid "RSS"
+msgstr "RSS"
+
+#: modules/node/node.module:977
+msgid "@type: deleted %title."
+msgstr "@type: %title eliminat."
+
+#: modules/node/node.pages.inc:161
+msgid "Log message"
+msgstr "Missatge del registre"
+
+#: modules/node/content_types.inc:42
+msgid "No content types available."
+msgstr "No hi ha tipus de contingut disponibles."
+
+#: modules/node/content_types.inc:98
+msgid ""
+"The machine-readable name of this content type. This field cannot be "
+"modified for system-defined content types."
+msgstr ""
+"El nom llegible-per-la-màquina d'aquest tipus de contingut. Aquest camp no "
+"podrà ser modificat pel tipus de continguts definits-pel-sistema."
+
+#: modules/node/content_types.inc:106
+msgid ""
+"A brief description of this content type. This text will be displayed as "
+"part of the list on the <em>create content</em> page."
+msgstr ""
+"Una breu descripció d'aquest tipus de contingut. El text es mostrarà com a "
+"part de la llista a la pàgina <em>crea contingut</em>."
+
+#: modules/node/content_types.inc:116
+msgid "Title field label"
+msgstr "Etiqueta del camp títol"
+
+#: modules/node/content_types.inc:125
+msgid "This content type does not have a title field."
+msgstr "Aquest tipus de contingut no disposa del camp títol."
+
+#: modules/node/content_types.inc:129
+msgid "Body field label"
+msgstr "Etiqueta del camp cos"
+
+#: modules/node/content_types.inc:132
+msgid ""
+"To omit the body field for this content type, remove any text and leave this "
+"field blank."
+msgstr ""
+"Per ometre el camp del cos per aquest tipus de contingut, elimineu qualsevol "
+"text i deixeu aquest camp en blanc."
+
+#: modules/node/content_types.inc:136
+msgid "Minimum number of words"
+msgstr "Nombre mínim de paraules"
+
+#: modules/node/content_types.inc:139
+msgid ""
+"The minimum number of words for the body field to be considered valid for "
+"this content type. This can be useful to rule out submissions that do not "
+"meet the site's standards, such as short test posts."
+msgstr ""
+"Nombre mínim de paraules d'aquest camp perquè sigui considerat vàlid. Això "
+"pot ser útil per eliminar trameses que no compleixin els estàndards del "
+"lloc, com els articles curts de prova."
+
+#: modules/node/content_types.inc:143
+msgid "Explanation or submission guidelines"
+msgstr "Guies de les trameses o explicacions."
+
+#: modules/node/content_types.inc:145
+msgid ""
+"This text will be displayed at the top of the submission form for this "
+"content type. It is useful for helping or instructing your users."
+msgstr ""
+"Aquest text es mostrarà a la part de dalt del formulari de la tramesa per "
+"aquest tipus de contingut. És útil per ajudar o instruir als vostres usuaris."
+
+#: modules/node/content_types.inc:154
+msgid "Default options"
+msgstr "Opcions predeterminades"
+
+#: modules/node/content_types.inc:162
+msgid ""
+"Users with the <em>administer nodes</em> permission will be able to override "
+"these options."
+msgstr ""
+"Els usuaris amb permisos en els <em>nodes d'administració</em> podran "
+"eliminar aquestes opcions."
+
+#: modules/node/content_types.inc:192
+msgid "Save content type"
+msgstr "Desa el tipus de contingut"
+
+#: modules/node/content_types.inc:200,282
+msgid "Delete content type"
+msgstr "Eliminar el tipus de contingut"
+
+#: modules/node/content_types.inc:231
+msgid "The machine-readable name %type is already taken."
+msgstr "El nom llegible-per-la-màquina %name ja està utilitzat."
+
+#: modules/node/content_types.inc:246
+msgid "The human-readable name %name is already taken."
+msgstr "El nom llegible-pels-humans %name ja està utilitzat."
+
+#: modules/node/content_types.inc:326
+msgid "The content type %name has been reset to its default values."
+msgstr ""
+"El tipus de contingut %name s'ha reiniciat als seus valors per defecte."
+
+#: modules/node/content_types.inc:331
+msgid "The content type %name has been updated."
+msgstr "El tipus de contingut %name s'ha actualitzat."
+
+#: modules/node/content_types.inc:334
+msgid "The content type %name has been added."
+msgstr "El tipus de contingut %name s'ha afegit."
+
+#: modules/node/content_types.inc:335
+msgid "Added content type %name."
+msgstr "Tipus de contingut %name afegit."
+
+#: modules/node/content_types.inc:383
+msgid "Are you sure you want to delete the content type %type?"
+msgstr "Esteu segur que voleu eliminar el tipus de contingut %type?"
+
+#: modules/node/content_types.inc:403
+msgid "The content type %name has been deleted."
+msgstr "El tipus de contingut %name s'ha eliminat."
+
+#: modules/node/content_types.inc:404
+msgid "Deleted content type %name."
+msgstr "Tipus de contingut %name eliminat."
+
+#: modules/node/content_types.inc:335
+msgid "node"
+msgstr "node"
+
+#: modules/node/node.module:47
+msgid ""
+"Below is a list of all the content types on your site. All posts that exist "
+"on your site are instances of one of these content types."
+msgstr ""
+"A sota hi ha una llista de tots els tipus de continguts del vostre lloc. "
+"Tots els articles que existeixen al vostre lloc son instàncies d'un "
+"d'aquests tipus de contingut."
+
+#: modules/node/node.module:49
+msgid ""
+"To create a new content type, enter the human-readable name, the machine-"
+"readable name, and all other relevant fields that are on this page. Once "
+"created, users of your site will be able to create posts that are instances "
+"of this content type."
+msgstr ""
+"Per crear un nou tipus de contingut, entreu un nom llegible-per-humans, el "
+"nom llegible-per-màquines i tots els altres camps rellevants que hi ha en "
+"aquesta pàgina. Una vegada creat, els usuaris del vostre lloc seran capaços "
+"de crear articles que són instàncies d'aquest tipus de contingut."
+
+#: modules/node/node.module:51
+msgid ""
+"The revisions let you track differences between multiple versions of a post."
+msgstr ""
+"Les revisions li permeten seguir diferències entre múltiples versions d'una "
+"publicació."
+
+#: modules/node/node.module:1158
+msgid "Content ranking"
+msgstr "Rànquing de contingut"
+
+#: modules/node/node.module:1162
+msgid ""
+"The following numbers control which properties the content search should "
+"favor when ordering the results. Higher numbers mean more influence, zero "
+"means the property is ignored. Changing these numbers does not require the "
+"search index to be rebuilt. Changes take effect immediately."
+msgstr ""
+"Els següents nombres controlen a quines propietats la cerca de contingut "
+"afavoriria quan ordena els resultats. Els nombres més alts indiquen una "
+"major influència, zero indica que la propietat és ignorada. Canviant aquests "
+"nombres no requereix refer l'índex de cerca. Els canvis tenen efecte "
+"immediat."
+
+#: modules/node/node.module:1165
+msgid "Keyword relevance"
+msgstr "Rellevància de la paraula clau"
+
+#: modules/node/node.module:1166
+msgid "Recently posted"
+msgstr "Articles recents"
+
+#: modules/node/node.module:1168
+msgid "Number of comments"
+msgstr "Nombre de comentaris"
+
+#: modules/node/node.module:1171
+msgid "Number of views"
+msgstr "Nombre de voltes vist"
+
+#: modules/node/node.module:1321
+msgid "Factor"
+msgstr "Factor"
+
+#: modules/node/node.admin.inc:17
+msgid ""
+"If the site is experiencing problems with permissions to content, you may "
+"have to rebuild the permissions cache. Possible causes for permission "
+"problems are disabling modules or configuration changes to permissions. "
+"Rebuilding will remove all privileges to posts, and replace them with "
+"permissions based on the current modules and settings."
+msgstr ""
+"Si el lloc està experimentant problemes amb permisos de contingut, podeu "
+"haver de refer la memòria cau dels permisos. Les possibles causes per "
+"problemes de permisos són degudes a deshabilitar mòduls o canvis a la "
+"configuració de permisos. Refer suprimirà tots els privilegis als articles i "
+"els substituirà amb permisos basats en l'actual mòdul i configuració."
+
+#: modules/node/node.admin.inc:18
+msgid ""
+"Rebuilding may take some time if there is a lot of content or complex "
+"permission settings. After rebuilding has completed posts will automatically "
+"use the new permissions."
+msgstr ""
+"Refer pot trigar un temps si hi ha molts continguts o configuracions de "
+"permisos complexes. Després de que refer hagi acabat els articles "
+"automàticament utilitzaran els nous permisos."
+
+#: modules/node/node.admin.inc:22
+msgid "Node access status"
+msgstr "Estat d'accés del node"
+
+#: modules/node/node.admin.inc:27,78
+msgid "Rebuild permissions"
+msgstr "Refés permisos"
+
+#: modules/node/node.admin.inc:33
+msgid "Number of posts on main page"
+msgstr "Nombre d'articles a la portada"
+
+#: modules/node/node.admin.inc:35
+msgid ""
+"The default maximum number of posts to display per page on overview pages "
+"such as the main page."
+msgstr ""
+"El màxim nombre d'articles per defecte a mostrar per pàgina en les pàgines "
+"de resum com la portada."
+
+#: modules/node/node.admin.inc:38
+msgid "Length of trimmed posts"
+msgstr "Mida dels articles retallats"
+
+#: modules/node/node.admin.inc:41
+msgid "200 characters"
+msgstr "200 caràcters"
+
+#: modules/node/node.admin.inc:42
+msgid "400 characters"
+msgstr "400 caràcters"
+
+#: modules/node/node.admin.inc:43
+msgid "600 characters"
+msgstr "600 caràcters"
+
+#: modules/node/node.admin.inc:44
+msgid "800 characters"
+msgstr "800 caràcters"
+
+#: modules/node/node.admin.inc:45
+msgid "1000 characters"
+msgstr "1000 caràcters"
+
+#: modules/node/node.admin.inc:46
+msgid "1200 characters"
+msgstr "1200 caràcters"
+
+#: modules/node/node.admin.inc:47
+msgid "1400 characters"
+msgstr "1400 caràcters"
+
+#: modules/node/node.admin.inc:48
+msgid "1600 characters"
+msgstr "1600 caràcters"
+
+#: modules/node/node.admin.inc:49
+msgid "1800 characters"
+msgstr "1800 caràcters"
+
+#: modules/node/node.admin.inc:50
+msgid "2000 characters"
+msgstr "2000 caràcters"
+
+#: modules/node/node.admin.inc:52
+msgid ""
+"The maximum number of characters used in the trimmed version of a post. "
+"Drupal will use this setting to determine at which offset long posts should "
+"be trimmed. The trimmed version of a post is typically used as a teaser when "
+"displaying the post on the main page, in XML feeds, etc. To disable teasers, "
+"set to 'Unlimited'. Note that this setting will only affect new or updated "
+"content and will not affect existing teasers."
+msgstr ""
+"El nombre màxim de caràcters utilitzats en la versió retallada d'un article. "
+"Drupal utilitzarà aquesta configuració per determinar en quin punt s'haurien "
+"de retallar els articles llargs. La versió retallada d'un article s'utilitza "
+"normalment com un resum quan es mostra l'article a la portada, canals XML, "
+"etc. Per a inhabilitar els resums, establiu a \"Il·limitat\". Teniu en "
+"compte que aquest paràmetre només afectarà al contingut nou o actualitzat i "
+"no afectarà els resums ja existents."
+
+#: modules/node/node.admin.inc:57
+msgid "Preview post"
+msgstr "Previsualitza l'article"
+
+#: modules/node/node.admin.inc:60
+msgid "Must users preview posts before submitting?"
+msgstr "Els usuaris han de previsualitzar els articles abans de trametre'ls?"
+
+#: modules/node/node.module:1355
+msgid "Read more"
+msgstr "Llegir més"
+
+#: modules/node/node.admin.inc:95
+msgid "Publish"
+msgstr "Publica"
+
+#: modules/node/node.admin.inc:100
+msgid "Unpublish"
+msgstr "Retira"
+
+#: modules/node/node.admin.inc:105
+msgid "Promote to front page"
+msgstr "Promou a la portada"
+
+#: modules/node/node.admin.inc:110
+msgid "Demote from front page"
+msgstr "Degrada de la portada"
+
+#: modules/node/node.admin.inc:115
+msgid "Make sticky"
+msgstr "Fes estàtic"
+
+#: modules/node/node.admin.inc:120
+msgid "Remove stickiness"
+msgstr "Desfés estàtic"
+
+#: modules/node/node.admin.inc:140,497
+msgid "published"
+msgstr "publicat"
+
+#: modules/node/node.admin.inc:141,497
+msgid "not published"
+msgstr "no publicat"
+
+#: modules/node/node.admin.inc:142
+msgid "promoted"
+msgstr "promocionat"
+
+#: modules/node/node.admin.inc:143
+msgid "not promoted"
+msgstr "no promocionat"
+
+#: modules/node/node.admin.inc:144
+msgid "sticky"
+msgstr "estàtic"
+
+#: modules/node/node.admin.inc:145
+msgid "not sticky"
+msgstr "no estàtic"
+
+#: modules/node/node.admin.inc:156
+msgid "type"
+msgstr "tipus"
+
+#: modules/node/node.admin.inc:160
+msgid "category"
+msgstr "categoria"
+
+#: modules/node/node.admin.inc:217
+msgid "Show only items where"
+msgstr "Veure només elements on"
+
+#: modules/node/node.admin.inc:518
+msgid "No items selected."
+msgstr "Sense elements seleccionats."
+
+#: modules/node/node.admin.inc:616
+msgid "Are you sure you want to delete these items?"
+msgstr "Esteu segur que vols eliminar aquest element?"
+
+#: modules/node/node.admin.inc:626
+msgid "The items have been deleted."
+msgstr "Els elements s'han esborrat."
+
+#: modules/node/node.pages.inc:525
+msgid "Revisions for %title"
+msgstr "Revisions per %title"
+
+#: modules/node/node.pages.inc:527
+msgid "Revision"
+msgstr "Revisió"
+
+#: modules/node/node.pages.inc:545,551
+msgid "!date by !username"
+msgstr "!date per !username"
+
+#: modules/node/node.pages.inc:548
+msgid "current revision"
+msgstr "revisió actual"
+
+#: modules/node/node.pages.inc:554
+msgid "revert"
+msgstr "reverteix"
+
+#: modules/node/node.pages.inc:571
+msgid "Are you sure you want to revert to the revision from %revision-date?"
+msgstr "Esteu segur que voleu canviar la revisió a %revision-date?"
+
+#: modules/node/node.pages.inc:571
+msgid "Revert"
+msgstr "Tornar"
+
+#: modules/node/node.pages.inc:577
+msgid "Copy of the revision from %date."
+msgstr "Còpia de la revisió de %date."
+
+#: modules/node/node.pages.inc:584
+msgid "@type: reverted %title revision %revision."
+msgstr "@type: s'ha tornat enrere la revisió %revision del %title."
+
+#: modules/node/node.pages.inc:591
+msgid "Are you sure you want to delete the revision from %revision-date?"
+msgstr "Esteu segur que voleu eliminar la revisió del %revision-date?"
+
+#: modules/node/node.pages.inc:598
+msgid "@type: deleted %title revision %revision."
+msgstr "@type: suprimit %title amb revisió %revision."
+
+#: modules/node/node.module:1622,1628,1629
+msgid "Syndicate"
+msgstr "Sindica"
+
+#: modules/node/node.module:785
+msgid "The body of your @type is too short. You need at least %words words."
+msgstr ""
+"El cos del vostre @type és massa curt. Necessiteu, almenys, %words paraules."
+
+#: modules/node/node.module:789
+msgid ""
+"This content has been modified by another user, changes cannot be saved."
+msgstr ""
+"Aquest contingut s'ha modificat per un altre usuari, els canvis no seran "
+"desats."
+
+#: modules/node/node.module:798
+msgid "The username %name does not exist."
+msgstr "L'usuari \"%name\" no existeix."
+
+#: modules/node/node.pages.inc:163
+msgid ""
+"An explanation of the additions or updates being made to help other authors "
+"understand your motivations."
+msgstr ""
+"Una explicació dels afegits o actualitzacions fetes per ajudar a altres "
+"autors a entendre la vostra motivació."
+
+#: modules/node/node.pages.inc:171
+msgid "Authoring information"
+msgstr "Informació de l'autoria"
+
+#: modules/node/node.pages.inc:183
+msgid "Leave blank for %anonymous."
+msgstr "Deixeu-ho en blanc per %anonymous."
+
+#: modules/node/node.pages.inc:189
+msgid "Format: %time. Leave blank to use the time of form submission."
+msgstr ""
+"Format: %time. Deixeu-ho en blanc per utilitzar l'hora del formulari de "
+"submissió."
+
+#: modules/node/node.pages.inc:200
+msgid "Publishing options"
+msgstr "Opcions de publicació"
+
+#: modules/node/node.pages.inc:435
+msgid "Preview trimmed version"
+msgstr "Previsualitza la versió reduïda"
+
+#: modules/node/node.pages.inc:437
+msgid "Preview full version"
+msgstr "Previsualitza la versió sencera"
+
+#: modules/node/node.module:1113
+msgid "Log"
+msgstr "Registre"
+
+#: modules/node/node.pages.inc:463
+msgid "@type: updated %title."
+msgstr "@type: %title actualitzat."
+
+#: modules/node/node.pages.inc:459
+msgid "@type: added %title."
+msgstr "@type: %title afegit."
+
+#: modules/node/node.pages.inc:502
+msgid "Are you sure you want to delete %title?"
+msgstr "Esteu segur de voler esborrar %title?"
+
+#: modules/node/node.module:1093
+msgid "Revision of %title from %date"
+msgstr "Revisió de %title de %date"
+
+#: modules/node/node.module:1747
+msgid ""
+"<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow "
+"these steps to set up and start using your website:</p>"
+msgstr ""
+"<h1 class=\"title\">Us donem la benvinguda al vostre nou lloc amb Drupal!</"
+"h1><p>Seguiu aquestes passes per a configurar i començar a utilitzar el "
+"vostre lloc web:</p>"
+
+#: modules/node/node.module:1750
+msgid ""
+"<strong>Configure your website</strong> Once logged in, visit the <a href="
+"\"@admin\">administration section</a>, where you can <a href=\"@config"
+"\">customize and configure</a> all aspects of your website."
+msgstr ""
+"<strong>Configureu el vostre lloc web</strong> Una vegada dins, visiteu la "
+"<a href=\"@admin\">secció administració</a>, on podeu <a href=\"@config"
+"\">personalitzar i configurar</a> tots els aspectes del vostre lloc web."
+
+#: modules/node/node.module:1751
+msgid ""
+"<strong>Enable additional functionality</strong> Next, visit the <a href="
+"\"@modules\">module list</a> and enable features which suit your specific "
+"needs. You can find additional modules in the <a href=\"@download_modules"
+"\">Drupal modules download section</a>."
+msgstr ""
+"<strong>Activeu funcionalitat addicional</strong> Després, visiteu la <a "
+"href=\"@modules\">llista de mòduls</a> i activeu aquella funcionalitat amb "
+"què cobrireu les vostres necessitats. Podeu trobar mòduls addicionals a la "
+"<a href=\"@download_modules\">secció de baixada de mòduls de Drupal</a>."
+
+#: modules/node/node.module:1752
+msgid ""
+"<strong>Customize your website design</strong> To change the \"look and feel"
+"\" of your website, visit the <a href=\"@themes\">themes section</a>. You "
+"may choose from one of the included themes or download additional themes "
+"from the <a href=\"@download_themes\">Drupal themes download section</a>."
+msgstr ""
+"<strong>Personalitzeu el disseny del vostre lloc web</strong> Per a canviar "
+"l'«aspecte i el comportament» del vostre lloc web, visiteu la <a href="
+"\"@themes\">secció de temes</a>. Podeu triar un dels temes inclosos o baixar-"
+"ne d'addicionals de la <a href=\"@download_themes\">secció de baixada de "
+"temes de Drupal</a>."
+
+#: modules/node/node.module:1753
+msgid ""
+"<strong>Start posting content</strong> Finally, you can <a href=\"@content"
+"\">create content</a> for your website. This message will disappear once you "
+"have promoted a post to the front page."
+msgstr ""
+"<strong>Comenceu publicant contingut</strong> Finalment, podreu <a href="
+"\"@content\">crear contingut</a> per al vostre lloc web. Aquest missatge "
+"desapareixerà una vegada hàgiu promogut un article a la portada."
+
+#: modules/node/node.module:1755
+msgid ""
+"For more information, please refer to the <a href=\"@help\">help section</"
+"a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also "
+"post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of "
+"<a href=\"@support\">other support options</a> available."
+msgstr ""
+"Per a més informació, aneu a la <a href=\"@help\">secció d'ajuda</a>, o als "
+"<a href=\"@handbook\">manuals al web de Drupal</a>. També podeu mirar al <a "
+"href=\"@forum\">fòrum de Drupal</a>, o consultar l'ample ventall d'<a href="
+"\"@support\">altres opcions d'ajuda</a> disponibles."
+
+#: modules/node/node.module:1827,1879
+msgid "Advanced search"
+msgstr "Cerca avançada"
+
+#: modules/node/node.module:1838
+msgid "Containing any of the words"
+msgstr "Que contengui qualsevol de les paraules"
+
+#: modules/node/node.module:1844
+msgid "Containing the phrase"
+msgstr "Que contengui la frase"
+
+#: modules/node/node.module:1850
+msgid "Containing none of the words"
+msgstr "Que no contengui les paraules"
+
+#: modules/node/node.module:1859
+msgid "Only in the category(s)"
+msgstr "Només a la/les categoria/es"
+
+#: modules/node/node.module:1872
+msgid "Only of the type(s)"
+msgstr "Només del/dels tipus"
+
+#: modules/node/node.module:2667
+msgid "The username of the user to which you would like to assign ownership."
+msgstr "El nom de l'usuari a qui voleu assignar l'autoria."
+
+#: modules/node/node.module:2706
+msgid "Please enter a valid username."
+msgstr "Per favor introduïu un nom d'usuari vàlid."
+
+#: modules/node/content_types.inc:86
+msgid ""
+"The machine-readable name of this content type. This text will be used for "
+"constructing the URL of the <em>create content</em> page for this content "
+"type. This name must contain only lowercase letters, numbers, and "
+"underscores. Underscores will be converted into hyphens when constructing "
+"the URL of the <em>create content</em> page. This name must be unique."
+msgstr ""
+"El nom comprensible per la màquina d'un tipus de contingut. És el text que "
+"s'utilitzarà per construir l'URL de la pàgina <em>Creeu contingut</em> per "
+"aquest tipus de contingut. Només pot tenir lletres minúscules, xifres i "
+"guions baixos. Els guions baixos seran convertits en guions normals quan es "
+"construeixi l'URL de la pàgina <em>Creeu contingut</em>. El nom ha de ser "
+"únic."
+
+#: modules/node/content_types.inc:111
+msgid "Submission form settings"
+msgstr "Configuració del formulari d'enviament de dades"
+
+#: modules/node/content_types.inc:149
+msgid "Workflow settings"
+msgstr "Configuració del flux de treball"
+
+#: modules/node/content_types.inc:234
+msgid ""
+"The machine-readable name must contain only lowercase letters, numbers, and "
+"underscores."
+msgstr ""
+"El nom llegible-per-la-maquina hauria de contenir sols lletres en minúscula, "
+"números, i subratllats."
+
+#: modules/node/content_types.inc:350
+msgid "Changed the content type of 1 post from %old-type to %type."
+msgid_plural ""
+"Changed the content type of @count posts from %old-type to %type."
+msgstr[0] ""
+"S'ha canviat el tipus de contingut d'1 contribució de %old-type a %type."
+msgstr[1] ""
+"S'ha canviat el tipus de contingut de @count contribucions de %old-type a %"
+"type."
+
+#: modules/node/content_types.inc:388
+msgid ""
+"<strong>Warning:</strong> there is currently 1 %type post on your site. It "
+"may not be able to be displayed or edited correctly, once you have removed "
+"this content type."
+msgid_plural ""
+"<strong>Warning:</strong> there are currently @count %type posts on your "
+"site. They may not be able to be displayed or edited correctly, once you "
+"have removed this content type."
+msgstr[0] ""
+"&lt;strong&gt;Advertència:&lt;/strong&gt; encara queda una aportació del "
+"tipus %type en el vostre web. No es mostrarà o editarà correctament un cop "
+"s'hagi esborrat aquest tipus de contingut."
+msgstr[1] ""
+"&lt;strong&gt;Advertència:&lt;/strong&gt; encara queden @count aportacions "
+"del tipus %type en el vostre web. No es mostraran o editaran correctament un "
+"cop s'hagi esborrat aquest tipus de contingut."
+
+#: modules/node/node.admin.inc:77
+msgid "Are you sure you want to rebuild the permissions on site content?"
+msgstr ""
+"Esteu segur de voler reconstruir els permisos del contingut del lloc web?"
+
+#: modules/node/node.admin.inc:78
+msgid ""
+"This action rebuilds all permissions on site content, and may be a lengthy "
+"process. This action cannot be undone."
+msgstr ""
+"Aquesta acció reconstrueix tots els permisos dels lloc web i pot ser un "
+"procés llarg. Aquesta acció no es pot desfer."
+
+#: modules/node/node.admin.inc:165
+msgid "language"
+msgstr "idioma"
+
+#: modules/node/node.admin.inc:235
+msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
+msgstr "<em>i</em> on <strong>%a</strong> és <strong>%b</strong>"
+
+#: modules/node/node.admin.inc:238
+msgid "<strong>%a</strong> is <strong>%b</strong>"
+msgstr "<strong>%a</strong> és <strong>%b</strong>"
+
+#: modules/node/node.admin.inc:366
+msgid "The update has encountered an error."
+msgstr "L'actualització ha trobat un error."
+
+#: modules/node/node.admin.inc:432
+msgid "An error occurred and processing did not complete."
+msgstr "Ha succeït un error i el procés no s'ha completat."
+
+#: modules/node/node.admin.inc:433
+msgid "1 item successfully processed:"
+msgid_plural "@count items successfully processed:"
+msgstr[0] "S'ha processat un element amb èxit."
+msgstr[1] "S'han processat @count elements amb èxit."
+
+#: modules/node/node.pages.inc:57
+msgid "Create @name"
+msgstr "Crea @name"
+
+#: modules/node/node.pages.inc:147
+msgid "Revision information"
+msgstr "Informació de la revisió"
+
+#: modules/node/node.pages.inc:281
+msgid "Show summary in full view"
+msgstr "Mostra el sumari en vista completa."
+
+#: modules/node/node.pages.inc:434
+msgid ""
+"The trimmed version of your post shows what your post looks like when "
+"promoted to the main page or when exported for syndication.<span class=\"no-"
+"js\"> You can insert the delimiter \"&lt;!--break--&gt;\" (without the "
+"quotes) to fine-tune where your post gets split.</span>"
+msgstr ""
+"La versió retallada dels vostres enviaments mostra quin aspecte tenen "
+"aquests quan es promouen a la pàgina principal o quan s'exporten per a "
+"sindicació. <span class=\"no-js\"> Podeu inserir el delimitador \"&amp;lt;!--"
+"break--&amp;gt;;\" (sense les cometes) per ajustar el punt de tall de "
+"l'enviament.</span>"
+
+#: modules/node/node.pages.inc:460
+msgid "@type %title has been created."
+msgstr "@type %title ha estat creat."
+
+#: modules/node/node.pages.inc:464
+msgid "@type %title has been updated."
+msgstr "@type %title ha estat actualitzat."
+
+#: modules/node/node.pages.inc:474
+msgid "The post could not be saved."
+msgstr "No s'ha pogut desar l'enviament."
+
+#: modules/node/node.pages.inc:585
+msgid ""
+"@type %title has been reverted back to the revision from %revision-date."
+msgstr "S'ha retornat @type %title a la revisió de %revision-date."
+
+#: modules/node/node.pages.inc:599
+msgid "Revision from %revision-date of @type %title has been deleted."
+msgstr "S'ha esborrat la revisió de %revision-date de @type %title."
+
+#: modules/node/node.module:29
+msgid "The content access permissions need to be rebuilt."
+msgstr "Cal reconstruir els permisos d'accés al contingut."
+
+#: modules/node/node.module:32
+msgid ""
+"The content access permissions need to be rebuilt. Please visit <a href="
+"\"@node_access_rebuild\">this page</a>."
+msgstr ""
+"Cal reconstruir els permisos d'accés al contingut. Visiteu <a href="
+"\"@node_access_rebuild\">aquesta pàgina</a>."
+
+#: modules/node/node.module:39
+msgid ""
+"The node module manages content on your site, and stores all posts "
+"(regardless of type) as a \"node\". In addition to basic publishing "
+"settings, including whether the post has been published, promoted to the "
+"site front page, or should remain present (or sticky) at the top of lists, "
+"the node module also records basic information about the author of a post. "
+"Optional revision control over edits is available. For additional "
+"functionality, the node module is often extended by other modules."
+msgstr ""
+"El mòdul de nodes gestiona els continguts del vostre web i emmagatzema tots "
+"els enviaments (sense tenir en compte el tipus) com a \"nodes\". A més dels "
+"paràmetres bàsics de publicació, incloent si l'enviament ha estat publicat, "
+"promogut a la pàgina principal, o ha de romandre present (o fix) al damunt "
+"de les llistes, el mòdul de nodes registra també informació bàsica de "
+"l'autor de l'enviament. Opcionalment es pot fer un control de revisions "
+"sobre les edicions. Per tal de tenir més funcionalitats, el mòdul de nodes "
+"s'estén sovint amb altres mòduls."
+
+#: modules/node/node.module:40
+msgid ""
+"Though each post on your site is a node, each post is also of a particular "
+"<a href=\"@content-type\">content type</a>. <a href=\"@content-type"
+"\">Content types</a> are used to define the characteristics of a post, "
+"including the title and description of the fields displayed on its add and "
+"edit pages. Each content type may have different default settings for "
+"<em>Publishing options</em> and other workflow controls. By default, the two "
+"content types in a standard Drupal installation are <em>Page</em> and "
+"<em>Story</em>. Use the <a href=\"@content-type\">content types page</a> to "
+"add new or edit existing content types. Additional content types also become "
+"available as you enable additional core, contributed and custom modules."
+msgstr ""
+"Tot i que cada enviament del vostre web és un node, cada enviament té un <a "
+"href=\"@content-type\">tipus de contingut</a> en concret. Els <a href="
+"\"@content-type\">Tipus de contingut</a> s'usen per a definir les "
+"característiques d'un enviament, incloent el títol i la descripció dels "
+"camps que es mostren a les pàgines d'alta i d'edició. Cada tipus de "
+"contingut pot tenir diversos paràmetres predeterminats per a <em>Opcions de "
+"publicació</em> i altres. Per defecte, els dos tipus de continguts d'una "
+"instal·lació estàndard de Drupal són <em>Pàgina</em> i <em>Història</em>. "
+"Utilitzeu la <a href=\"@content-type\">pàgina de tipus de contingut</a> per "
+"afegir nous tipus de contingut o per editar-ne d'existents. Altres tipus de "
+"contingut addicionals estan disponibles quan habiliteu mòduls addicionals "
+"del nucli, contribuïts o personalitzats."
+
+#: modules/node/node.module:41
+msgid ""
+"The administrative <a href=\"@content\">content page</a> allows you to "
+"review and manage your site content. The <a href=\"@post-settings\">post "
+"settings page</a> sets certain options for the display of posts. The node "
+"module makes a number of permissions available for each content type, which "
+"may be set by role on the <a href=\"@permissions\">permissions page</a>."
+msgstr ""
+"La <a href=\"@content\">pàgina d'administració de continguts</a> permet "
+"revisar i gestionar els continguts del lloc web. La <a href=\"@post-settings"
+"\">pàgina de configuració dels enviaments</a> fixa algunes opcions de la "
+"visualització dels continguts. El mòdul de nodes associa un cert nombre de "
+"permisos a cada tipus de contingut, que es poden definir per a cada rol a la "
+"<a href=\"@permissions\">pàgina de permisos</a>."
+
+#: modules/node/node.module:42
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@node"
+"\">Node module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Node</a> "
+"al manual en línia."
+
+#: modules/node/node.module:978
+msgid "@type %title has been deleted."
+msgstr "@type %title ha estat eliminat."
+
+#: modules/node/node.module:1359
+msgid "Read the rest of !title."
+msgstr "Llegir la resta de !title."
+
+#: modules/node/node.module:2296
+msgid "Rebuilding content access permissions"
+msgstr "Reconstruint els permisos d'accés al contingut"
+
+#: modules/node/node.module:2326
+msgid "Content permissions have been rebuilt."
+msgstr "El permisos de contingut han estat reconstruïts."
+
+#: modules/node/node.module:2372
+msgid "The content access permissions have been rebuilt."
+msgstr "El permisos d'accés al contingut han estat reconstruïts."
+
+#: modules/node/node.module:2376
+msgid "The content access permissions have not been properly rebuilt."
+msgstr "Els permisos d'accés al contingut no s'han reconstruït adequadament."
+
+#: modules/node/node.module:2464
+msgid "Submitted by !username on @datetime"
+msgstr "Enviat per !username el @datetime"
+
+#: modules/node/node.module:2479
+msgid "When either saving a new post or updating an existing post"
+msgstr "Quan es desa un nou enviament o se n'actualitza un d'existent"
+
+#: modules/node/node.module:2482
+msgid "After saving a new post"
+msgstr "Després de desar un nou enviament"
+
+#: modules/node/node.module:2485
+msgid "After saving an updated post"
+msgstr "Després de desar un enviament actualitzat"
+
+#: modules/node/node.module:2488
+msgid "After deleting a post"
+msgstr "Després d'eliminar un enviament"
+
+#: modules/node/node.module:2491
+msgid "When content is viewed by an authenticated user"
+msgstr "Quan el contingut es vist per un usuari autenticat"
+
+#: modules/node/node.module:2505
+msgid "Publish post"
+msgstr "Publicar enviament"
+
+#: modules/node/node.module:2515
+msgid "Unpublish post"
+msgstr "No publicar enviament"
+
+#: modules/node/node.module:2525
+msgid "Make post sticky"
+msgstr "Fer l'enviament estàtic"
+
+#: modules/node/node.module:2535
+msgid "Make post unsticky"
+msgstr "Fer l'enviament no estàtic"
+
+#: modules/node/node.module:2545
+msgid "Promote post to front page"
+msgstr "Promocionar l'enviament a la pàgina pricipal"
+
+#: modules/node/node.module:2555
+msgid "Remove post from front page"
+msgstr "Treure l'enviament de la pàgina principal"
+
+#: modules/node/node.module:2565
+msgid "Change the author of a post"
+msgstr "Canviar l'autor de l'enviament"
+
+#: modules/node/node.module:2576
+msgid "Save post"
+msgstr "Desa l'enviament"
+
+#: modules/node/node.module:2584
+msgid "Unpublish post containing keyword(s)"
+msgstr "No publicar enviament que continga les paraules clau"
+
+#: modules/node/node.module:2720
+msgid ""
+"The post will be unpublished if it contains any of the character sequences "
+"above. Use a comma-separated list of character sequences. Example: funny, "
+"bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
+msgstr ""
+"L'aportació no serà publicada si conté alguna de les seqüències de caràcters "
+"incloses aquí. Utilitzeu una llista de seqüències de caràcters separades per "
+"comes. Exemple: divertit, teatre, \"Company, Inc.\". Les seqüències de "
+"caràcters són sensibles a les majúscules i minúscules."
+
+#: modules/node/node.module:2599
+msgid "Set @type %title to published."
+msgstr "Estableix @type %title a publicat."
+
+#: modules/node/node.module:2608,2743
+msgid "Set @type %title to unpublished."
+msgstr "Estableix @type %title a no publicat."
+
+#: modules/node/node.module:2617
+msgid "Set @type %title to sticky."
+msgstr "Estableix @type %title a estàtic."
+
+#: modules/node/node.module:2626
+msgid "Set @type %title to unsticky."
+msgstr "Estableix @type %title a no estàtic."
+
+#: modules/node/node.module:2635
+msgid "Promoted @type %title to front page."
+msgstr "Promocionar @type %title a la pàgina inicial."
+
+#: modules/node/node.module:2644
+msgid "Removed @type %title from front page."
+msgstr "Treure @type %title de la pàgina inicial."
+
+#: modules/node/node.module:2653
+msgid "Saved @type %title"
+msgstr "Desat @type %title"
+
+#: modules/node/node.module:2663
+msgid "Changed owner of @type %title to uid %name."
+msgstr "S'ha canviat el propietari de @type %title a l'uid %name."
+
+#: modules/node/node.module:260
+msgid ""
+"You specified that the summary should not be shown when this post is "
+"displayed in full view. This setting is ignored when the summary is empty."
+msgstr ""
+"Vàreu especificar que el resum no es veiés quan aquest enviament es mostrés "
+"a vista completa. Aquesta preferència s'ignora quan el resum està buit."
+
+#: modules/node/node.module:264
+msgid ""
+"You specified that the summary should not be shown when this post is "
+"displayed in full view. This setting has been ignored since you have not "
+"defined a summary for the post. (To define a summary, insert the delimiter "
+"\"&lt;!--break--&gt;\" (without the quotes) in the Body of the post to "
+"indicate the end of the summary and the start of the main content.)"
+msgstr ""
+"Vàreu especificar que el resum no es veiés quan aquest enviament es mostrés "
+"a vista completa. Aquesta preferència s'ha ignorat perquè no heu definit un "
+"resum per a l'enviament. (Per definir-ne un, inseriu el delimitador \"&lt;!--"
+"break--&gt;\" (sense les cometes) en el cos de l'enviament per indicar el "
+"final del resum i l'inici del contingut principal.)"
+
+#: modules/node/content_types.inc:75
+msgid ""
+"The human-readable name of this content type. This text will be displayed as "
+"part of the list on the <em>create content</em> page. It is recommended that "
+"this name begin with a capital letter and contain only letters, numbers, and "
+"<strong>spaces</strong>. This name must be unique."
+msgstr ""
+"El nom entenedor d'aquest tipus de contingut. Aquest text es mostrarà com a "
+"part de la llista de la pàgina <em>crear contingut</em>. Es recomana que "
+"comenci amb una lletra majúscula i que contingui només lletres, nombres i "
+"espais. Aquest nom ha de ser únic."
+
+#: modules/node/content_types.inc:239
+msgid "Invalid machine-readable name. Please enter a name other than %invalid."
+msgstr ""
+"Nom llegible-per-la-maquina invàlid. Per favor introduïu un nom distint a %"
+"invalid."
+
+#: modules/node/node.admin.inc:151
+msgid "Up to date translation"
+msgstr "Traducció actualitzada"
+
+#: modules/node/node.admin.inc:152
+msgid "Outdated translation"
+msgstr "Traducció caducada"

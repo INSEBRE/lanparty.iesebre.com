@@ -1,0 +1,159 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  trigger.admin.inc,v 1.5 2008/01/08 10:35:43 goba
+#  trigger.module,v 1.13.2.1 2008/04/09 21:11:51 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-05-24 18:14+0200\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/trigger/trigger.admin.inc:74
+msgid "Are you sure you want to unassign the action %title?"
+msgstr "Esteu segur que voleu desassignar l'acció %title?"
+
+#: modules/trigger/trigger.admin.inc:76
+msgid "You can assign it again later if you wish."
+msgstr "Podeu assignar-la més tard, si ho preferiu."
+
+#: modules/trigger/trigger.admin.inc:77
+msgid "Unassign"
+msgstr "Desassigna"
+
+#: modules/trigger/trigger.admin.inc:88,87
+msgid "Action %action has been unassigned."
+msgstr "L'acció %action ha estat desassignada"
+
+#: modules/trigger/trigger.admin.inc:144
+msgid "Trigger: "
+msgstr "Disparador: "
+
+#: modules/trigger/trigger.admin.inc:154
+msgid "unassign"
+msgstr "Desassignar"
+
+#: modules/trigger/trigger.admin.inc:171
+msgid "Assign"
+msgstr "Assignar"
+
+#: modules/trigger/trigger.admin.inc:176
+msgid "No available actions for this trigger."
+msgstr "No hi ha cap acció disponible per a aquest disparador."
+
+#: modules/trigger/trigger.admin.inc:218
+msgid ""
+"You have added an action that changes a the property of a post. A Save post "
+"action has been added so that the property change will be saved."
+msgstr ""
+"Heu afegit una acció que canvia una propietat d'un enviament. Una acció de "
+"Desar l'enviament ha estat afegida perquè la propietat canviada sigui desada."
+
+#: modules/trigger/trigger.admin.inc:238
+msgid "Operation"
+msgstr "Operació"
+
+#: modules/trigger/trigger.module:14
+msgid ""
+"Triggers are system events, such as when new content is added or when a user "
+"logs in. Trigger module combines these triggers with actions (functional "
+"tasks), such as unpublishing content or e-mailing an administrator. The <a "
+"href=\"@url\">Actions settings page</a> contains a list of existing actions "
+"and provides the ability to create and configure additional actions."
+msgstr ""
+"Els disparadors són esdeveniments del sistema com ara quan s'afegeixen nous "
+"continguts o quan un usuari s'identifica. El mòdul de disparadors (Trigger "
+"module) combina aquests disparadors amb accions (tasques funcionals) com ara "
+"despublicar un contingut o enviar un missatge a un administrador. La <a href="
+"\"@url\">pàgina de configuració d'accions</a> conté una llista de les "
+"accions existents i dóna la capacitat de crear i de configurar noves accions."
+
+#: modules/trigger/trigger.module:17
+msgid ""
+"Below you can assign actions to run when certain comment-related triggers "
+"happen. For example, you could promote a post to the front page when a "
+"comment is added."
+msgstr ""
+"A continuació, podeu assignar accions a prendre quan s'esdevenen certs "
+"disparadors relacionats amb els comentaris. Per exemple,  quan s'afegeix un "
+"comentari, podeu promoure'l a la pàgina principal."
+
+#: modules/trigger/trigger.module:21
+msgid ""
+"Below you can assign actions to run during each pass of a <a href=\"@cron"
+"\">cron maintenance task</a>."
+msgstr ""
+"A continuació, podeu assignar accions a prendre durant l'execució d'una <a "
+"href=\"@cron\">tasca de manteniment de cron</a>."
+
+#: modules/trigger/trigger.module:23
+msgid ""
+"Below you can assign actions to run when certain taxonomy-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"term is deleted."
+msgstr ""
+"A continuació, podeu assignar accions a prendre quan s'esdevenen certs "
+"disparadors relacionats amb la taxonomia. Per exemple, podeu enviar un "
+"missatge de correu a un administrador quan s'esborra un terme."
+
+#: modules/trigger/trigger.module:25
+msgid ""
+"Below you can assign actions to run when certain user-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"user account is deleted."
+msgstr ""
+"A continuació, podeu assignar accions a prendre quan s'esdevenen certs "
+"disparadors relacionats amb els usuaris. Per exemple, podeu enviar un "
+"missatge de correu a un administrador quan s'esborra un compte d'usuari."
+
+#: modules/trigger/trigger.module:27
+msgid ""
+"The Trigger module provides the ability to trigger <a href=\"@actions"
+"\">actions</a> upon system events, such as when new content is added or when "
+"a user logs in."
+msgstr ""
+"El mòdul de disparadors (Trigger module) permet desencadenar <a href="
+"\"@actions\">accions</a> en funció d'esdeveniments del sistema, com ara quan "
+"s'afegeixen nous continguts o quan un usuari s'identifica."
+
+#: modules/trigger/trigger.module:28
+msgid ""
+"The combination of actions and triggers can perform many useful tasks, such "
+"as e-mailing an administrator if a user account is deleted, or automatically "
+"unpublishing comments that contain certain words. By default, there are five "
+"\"contexts\" of events (Comments, Content, Cron, Taxonomy, and Users), but "
+"more may be added by additional modules."
+msgstr ""
+"La combinació d'accions i disparadors pot fer tasques molt útils tals com "
+"enviar un missatge a un administrador si s'esborra un compte d'usuari, o no "
+"publicar automàticament els comentaris que contenen certes paraules. Per "
+"defecte, hi ha cinc \"contextos\" d'esdeveniments (Comentaris, Contingut, "
+"Cron, Taxonomia i Usuaris), però els mòduls addicionals poden afegir-ne "
+"d'altres."
+
+#: modules/trigger/trigger.module:29
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@trigger"
+"\">Trigger module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@trigger\">mòdul "
+"Disparadors</a> al manual en línia."
+
+#: modules/trigger/trigger.admin.inc:192
+msgid "The action you chose is already assigned to that trigger."
+msgstr "L'acció que heu triat ja està assignada a aquest disparador."
+
+#: modules/trigger/trigger.module:19
+msgid ""
+"Below you can assign actions to run when certain content-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"post is created or updated."
+msgstr ""
+"A continuació, podeu assignar accions a prendre quan s'esdevenen certs "
+"disparadors relacionats amb el contingut. Per exemple,  podeu enviar un "
+"missatge a un administrador quan es crea o es modifica un enviament."

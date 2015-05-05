@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="language" version="1.5.0" client="administrator">
+	<name>Spanish - CK Forms - administrator</name> 
+	<tag>es-ES</tag>
+  <version>1.2.0</version> 
+  <creationDate>2009-01-21</creationDate> 
+  <author>CEscila Systems, S.L.</author>
+  <authorEmail>escila@escila.es</authorEmail>
+  <description>Backend español del componente CK Forms</description>
+  <files>
+	<file>es-ES-install.xml</file>
+	<file>es-ES.com_ckforms.ini</file>
+  </files>
+</install>

@@ -1,0 +1,1857 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  system.admin.inc,v 1.63.2.6 2009/01/06 13:33:24 dries
+#  system.module,v 1.585.2.30 2009/01/14 23:34:07 goba
+#  system.install,v 1.238.2.8 2009/01/14 21:36:16 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2009-02-20 14:07+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/system/system.admin.inc:2030
+msgid "Other"
+msgstr "Altres"
+
+#: modules/system/system.module:1381
+msgid "Create"
+msgstr "Crea"
+
+#: modules/system/system.install:20
+msgid "Drupal"
+msgstr "Drupal"
+
+#: modules/system/system.module:1155
+msgid "Confirm"
+msgstr "Confirma"
+
+#: modules/system/system.module:62
+msgid ""
+"Welcome to the administration section. Here you may control how your site "
+"functions."
+msgstr ""
+"Us donem la benvinguda a la secció d'administració. Aquí podeu controlar com "
+"funciona el vostre lloc."
+
+#: modules/system/system.module:64
+msgid "This page shows you all available administration tasks for each module."
+msgstr ""
+"Aquesta pàgina us mostra totes les tasques administratives disponibles per a "
+"cada mòdul."
+
+#: modules/system/system.module:74
+msgid ""
+"These options control the default display settings for your entire site, "
+"across all themes. Unless they have been overridden by a specific theme, "
+"these settings will be used."
+msgstr ""
+"Aquestes opcions controlen els paràmetres de visualització predeterminats "
+"pel al lloc sencer, per a tots els temes. A menys que hagin estat "
+"substituïts per un tema específic, seran utilitzats aquests paràmetres."
+
+#: modules/system/system.module:72
+msgid ""
+"These options control the display settings for the <code>%template</code> "
+"theme. When your site is displayed using this theme, these settings will be "
+"used. By clicking \"Reset to defaults,\" you can choose to use the <a href="
+"\"@global\">global settings</a> for this theme."
+msgstr ""
+"Aquestes opcions controlen els paràmetres de visualització per al tema <code>"
+"%template</code>. Quan es mostra el lloc fent servir aquest tema, "
+"s'utilitzaran aquests paràmetres. Fent clic a \"reinicia als valors per "
+"defecte\" podeu triar fer servir els <a href=\"@global\">paràmetres globals</"
+"a> per aquest tema."
+
+#: modules/system/system.module:86
+msgid ""
+"The uninstall process removes all data related to a module. To uninstall a "
+"module, you must first disable it. Not all modules support this feature."
+msgstr ""
+"El procés de desinstal·lació elimina totes les dades relacionades amb el "
+"mòdul. Per desinstal·lar un mòdul, primer l'heu de deshabilitar. No tots els "
+"mòduls suporten aquesta característica."
+
+#: modules/system/system.admin.inc:166
+msgid "Administration theme"
+msgstr "Tema d'administració"
+
+#: modules/system/system.admin.inc:1036,1081,2106
+msgid "Uninstall"
+msgstr "Desinstal·la"
+
+#: modules/system/system.admin.inc:1227
+msgid "Error reporting"
+msgstr "Informe d'error"
+
+#: modules/system/system.install:184
+msgid "File system"
+msgstr "Sistema de fitxers"
+
+#: modules/system/system.install:36
+msgid "PHP"
+msgstr "PHP"
+
+#: modules/system/system.module:552
+msgid "Selecting a different theme will change the look and feel of the site."
+msgstr ""
+"Seleccionant un disseny diferent canviareu l'aspecte i comportament del lloc."
+
+#: modules/system/system.module:564
+msgid "Time zone"
+msgstr "Fus horari"
+
+#: modules/system/system.module:567
+msgid ""
+"Select your current local time. Dates and times throughout this site will be "
+"displayed using this time zone."
+msgstr ""
+"Seleccioneu la vostra hora local actual. Les dates i les hores d'aquest lloc "
+"es mostraran fent servir aquest fus horari."
+
+#: modules/system/system.admin.inc:22
+msgid ""
+"One or more problems were detected with your Drupal installation. Check the "
+"<a href=\"@status\">status report</a> for more information."
+msgstr ""
+"S'han detectat un o més problemes amb la instal·lació de Drupal. Verifiqueu "
+"l'<a href=\"@status\">informe d'estat</a> per a més informació."
+
+#: modules/system/system.admin.inc:158
+msgid "System default"
+msgstr "Valor per defecte del sistema"
+
+#: modules/system/system.admin.inc:167
+msgid ""
+"Choose which theme the administration pages should display in. If you choose "
+"\"System default\" the administration pages will use the same theme as the "
+"rest of the site."
+msgstr ""
+"Trieu amb quin tema es mostraran les pàgines d'administració. Si trieu "
+"\"Valor per defecte del sistema\" les pàgines d'administració utilitzaran el "
+"mateix tema que la resta del lloc."
+
+#: modules/system/system.module:692
+msgid "Theme configuration"
+msgstr "Configuració del tema"
+
+#: modules/system/system.module:715
+msgid "(site default theme)"
+msgstr "(tema predeterminat del lloc)"
+
+#: modules/system/system.admin.inc:2149,2207
+msgid "Screenshot"
+msgstr "Captura"
+
+#: modules/system/system.admin.inc:1143
+msgid "Slogan"
+msgstr "Eslògan"
+
+#: modules/system/system.admin.inc:1149
+msgid "Mission"
+msgstr "Missió"
+
+#: modules/system/system.admin.inc:1155
+msgid "Footer message"
+msgstr "Missatge del peu"
+
+#: modules/system/system.admin.inc:1157
+msgid ""
+"This text will be displayed at the bottom of each page. Useful for adding a "
+"copyright notice to your pages."
+msgstr ""
+"Aquest text es mostrarà a la part inferior de cada pàgina. És útil per "
+"afegir una declaració de copyright a les vostres pàgines."
+
+#: modules/system/system.admin.inc:1161
+msgid "Anonymous user"
+msgstr "Usuari anònim"
+
+#: modules/system/system.admin.inc:1163
+msgid "The name used to indicate anonymous users."
+msgstr "El nom utilitzat per a referir-se als usuaris anònims."
+
+#: modules/system/system.admin.inc:1168
+msgid "Default front page"
+msgstr "Portada predeterminada"
+
+#: modules/system/system.admin.inc:1171
+msgid ""
+"The home page displays content from this relative URL. If unsure, specify "
+"\"node\"."
+msgstr ""
+"La pàgina inicial mostra el contingut d'aquest URL relatiu. Si no n'esteu "
+"segur, especifiqueu el \"node\"."
+
+#: modules/system/system.admin.inc:1210
+msgid "Default 403 (access denied) page"
+msgstr "Pàgina predeterminada per a 403 (accés denegat)"
+
+#: modules/system/system.admin.inc:1213
+msgid ""
+"This page is displayed when the requested document is denied to the current "
+"user. If unsure, specify nothing."
+msgstr ""
+"Aquesta pàgina es mostrarà quan el document sol·licitat és denegat a "
+"l'actual usuari. Si no n'esteu segur, no poseu res."
+
+#: modules/system/system.admin.inc:1219
+msgid "Default 404 (not found) page"
+msgstr "Pàgina predeterminada per a 404 (no trobat)"
+
+#: modules/system/system.admin.inc:1222
+msgid ""
+"This page is displayed when no other content matches the requested document. "
+"If unsure, specify nothing."
+msgstr ""
+"Aquesta pàgina es mostrarà quan no hi un altre contingut que coincideixi amb "
+"el document sol·licitat. Si no n'esteu segur, no hi poseu res."
+
+#: modules/system/system.admin.inc:1228
+msgid "Write errors to the log"
+msgstr "Escriu els errors al registre"
+
+#: modules/system/system.admin.inc:1228
+msgid "Write errors to the log and to the screen"
+msgstr "Escriu els errors al registre i a la pantalla"
+
+#: modules/system/system.admin.inc:1264
+msgid ""
+"<strong class=\"ok\">Currently, all enabled modules are compatible with the "
+"aggressive caching policy.</strong> Please note, if you use aggressive "
+"caching and enable new modules, you will need to check this page again to "
+"ensure compatibility."
+msgstr ""
+"<strong class=\"ok\">Actualment, tots els mòduls activats són compatibles "
+"amb la política del mode agressiu de memòria cau.</strong> Heu de tenir en "
+"compte que si utilitzeu el mode agressiu de memòria cau i activeu nous "
+"mòduls, necessitareu verificar aquesta pàgina una altra vegada per assegurar-"
+"vos la compatibilitat."
+
+#: modules/system/system.admin.inc:1268
+msgid "Page cache"
+msgstr "Memòria cau de pàgina"
+
+#: modules/system/system.admin.inc:1274
+msgid "Caching mode"
+msgstr "Mode de memòria cau"
+
+#: modules/system/system.admin.inc:1276
+msgid "Aggressive (experts only, possible side effects)"
+msgstr "Agressiu (només experts, possibles efectes secundaris)"
+
+#: modules/system/system.admin.inc:1284
+msgid "Minimum cache lifetime"
+msgstr "Mínim de permanència en memòria cau"
+
+#: modules/system/system.admin.inc:1314
+msgid "Bandwidth optimizations"
+msgstr "Optimitzacions d'amplada de banda"
+
+#: modules/system/system.admin.inc:1375
+msgid "File system path"
+msgstr "Camí del sistema de fitxers"
+
+#: modules/system/system.admin.inc:1384
+msgid "Temporary directory"
+msgstr "Directori temporal"
+
+#: modules/system/system.admin.inc:1393
+msgid "Download method"
+msgstr "Mètode de descàrrega"
+
+#: modules/system/system.admin.inc:1395
+msgid "Public - files are available using HTTP directly."
+msgstr "Públic - els fitxers estan disponibles utilitzant HTTP directament."
+
+#: modules/system/system.admin.inc:1395
+msgid "Private - files are transferred by Drupal."
+msgstr "Privat - els fitxer es transfereixen per Drupal."
+
+#: modules/system/system.admin.inc:1413
+msgid "Select an image processing toolkit"
+msgstr "Trieu una eina de processament d'imatges"
+
+#: modules/system/system.admin.inc:1446
+msgid "Titles only"
+msgstr "Només títols"
+
+#: modules/system/system.admin.inc:1446
+msgid "Titles plus teaser"
+msgstr "Títols i avanços"
+
+#: modules/system/system.admin.inc:1446
+msgid "Full text"
+msgstr "Text complet"
+
+#: modules/system/system.admin.inc:1502
+msgid "Select the default site time zone."
+msgstr "Seleccioneu el fus horari predeterminat del lloc."
+
+#: modules/system/system.admin.inc:1531
+msgid "Short date format"
+msgstr "Format curt de la data"
+
+#: modules/system/system.admin.inc:1535
+msgid "The short format of date display."
+msgstr "El format curt de la visualització de la data."
+
+#: modules/system/system.admin.inc:1554
+msgid "Medium date format"
+msgstr "Format mitjà de la data"
+
+#: modules/system/system.admin.inc:1558
+msgid "The medium sized date display."
+msgstr "La mida mitjana del format de visualització de la data."
+
+#: modules/system/system.admin.inc:1577
+msgid "Long date format"
+msgstr "Format llarg de la data"
+
+#: modules/system/system.admin.inc:1581
+msgid "Longer date format used for detailed display."
+msgstr ""
+"Format més llarg de la data utilitzat per a la visualització detallada."
+
+#: modules/system/system.admin.inc:1515
+msgid "First day of week"
+msgstr "Primer dia de la setmana"
+
+#: modules/system/system.admin.inc:1518
+msgid "The first day of the week for calendar views."
+msgstr "El primer dia de la setmana per a les visualitzacions del calendari."
+
+#: modules/system/system.admin.inc:1636
+msgid "Site status"
+msgstr "Estat del lloc"
+
+#: modules/system/system.admin.inc:1638
+msgid "Online"
+msgstr "En línia"
+
+#: modules/system/system.admin.inc:1638
+msgid "Off-line"
+msgstr "Desconnectat"
+
+#: modules/system/system.admin.inc:1639
+msgid ""
+"When set to \"Online\", all visitors will be able to browse your site "
+"normally. When set to \"Off-line\", only users with the \"administer site "
+"configuration\" permission will be able to access your site to perform "
+"maintenance; all other visitors will see the site off-line message "
+"configured below. Authorized users can log in during \"Off-line\" mode "
+"directly via the <a href=\"@user-login\">user login</a> page."
+msgstr ""
+"Quan es posa a \"Connectat\", tots els visitants podran navegar normalment "
+"per al vostre lloc. Quan es posa a \"Desconnectat\", només els usuaris amb "
+"el permís d'\"administrar la configuració del lloc\" tendran accés al lloc "
+"per realitzar manteniment; tots els altres visitants veuran el missatge fora "
+"de línia del lloc configurat a sota. Els usuaris autoritzats poden iniciar "
+"sessió durant el mode \"Desconnectat\" directament per la pàgina d'<a href="
+"\"@user-login\">inici de sessió d'usuari</a>."
+
+#: modules/system/system.admin.inc:1644
+msgid "Site off-line message"
+msgstr "Missatge de desconnectat del lloc"
+
+#: modules/system/system.admin.inc:1646
+msgid "Message to show visitors when the site is in off-line mode."
+msgstr ""
+"Missatge per mostrar als visitants quan el lloc està en mode desconnectat."
+
+#: modules/system/system.module:1028
+msgid "The settings have not been saved because of the errors."
+msgstr "La configuració no s'ha desat degut als errors."
+
+#: modules/system/system.admin.inc:288
+msgid ""
+"Please note that the <a href=\"!admin_theme_page\">administration theme</a> "
+"is still set to the %admin_theme theme; consequently, the theme on this page "
+"remains unchanged. All non-administrative sections of the site, however, "
+"will show the selected %selected_theme theme by default."
+msgstr ""
+"Tingueu en compte que el <a href=\"!admin_theme_page\">tema d'administració</"
+"a> encara està establert al tema %admin_theme; conseqüentment, el tema en "
+"aquesta pàgina no ha canviat. Totes les seccions no administratives del "
+"lloc, mostraran el tema %selected_theme seleccionat per defecte."
+
+#: modules/system/system.admin.inc:699
+msgid "Depends on: !dependencies"
+msgstr "Depèn de: !dependencies"
+
+#: modules/system/system.admin.inc:722
+msgid "Required by: !required"
+msgstr "Requerit per: !required"
+
+#: modules/system/system.admin.inc:841
+msgid "Some required modules must be enabled"
+msgstr "Alguns mòduls requerits s'han d'activar."
+
+#: modules/system/system.admin.inc:843
+msgid "Would you like to continue with enabling the above?"
+msgstr "Voldríeu continuar activant el de dalt?"
+
+#: modules/system/system.admin.inc:844
+msgid "Continue"
+msgstr "Continua"
+
+#: modules/system/system.admin.inc:2023,2207
+msgid "Version"
+msgstr "Versió"
+
+#: modules/system/system.admin.inc:1075
+msgid ""
+"The following modules will be completely uninstalled from your site, and "
+"<em>all data from these modules will be lost</em>!"
+msgstr ""
+"Els següents mòduls es desinstal·laran completament del lloc i <em>totes les "
+"dades d'aquests mòduls es perdran</em>!"
+
+#: modules/system/system.admin.inc:1078
+msgid "Confirm uninstall"
+msgstr "Confirma la desinstal·lació"
+
+#: modules/system/system.admin.inc:1080
+msgid "Would you like to continue with uninstalling the above?"
+msgstr "Us agradaria continuar desinstal·lant el de d'alt?"
+
+#: modules/system/system.admin.inc:2123
+msgid "No modules are available to uninstall."
+msgstr "No hi ha mòduls disponibles per desinstal·lar."
+
+#: modules/system/system.admin.inc:1093
+msgid "No modules selected."
+msgstr "No hi ha mòduls seleccionats."
+
+#: modules/system/system.admin.inc:1110
+msgid "The selected modules have been uninstalled."
+msgstr "Els mòduls seleccionats s'han desinstal·lat."
+
+#: modules/system/system.admin.inc:1751
+msgid "Variable"
+msgstr "Variable"
+
+#: modules/system/system.admin.inc:1751
+msgid "Value"
+msgstr "Valor"
+
+#: modules/system/system.admin.inc:1766
+msgid "Command counters"
+msgstr "Comptadors d'ordres"
+
+#: modules/system/system.admin.inc:1768
+msgid "The number of <code>SELECT</code>-statements."
+msgstr "El nombre de declaracions <code>SELECT</code>."
+
+#: modules/system/system.admin.inc:1769
+msgid "The number of <code>INSERT</code>-statements."
+msgstr "El nombre de declaracions <code>INSERT</code>."
+
+#: modules/system/system.admin.inc:1770
+msgid "The number of <code>UPDATE</code>-statements."
+msgstr "El nombre de declaracions <code>UPDATE</code>."
+
+#: modules/system/system.admin.inc:1771
+msgid "The number of <code>DELETE</code>-statements."
+msgstr "El nombre de declaracions <code>DELETE</code>."
+
+#: modules/system/system.admin.inc:1772
+msgid "The number of table locks."
+msgstr "El nombre de bloquejos de taula."
+
+#: modules/system/system.admin.inc:1773
+msgid "The number of table unlocks."
+msgstr "El nombre de desbloquejos de taula."
+
+#: modules/system/system.admin.inc:1776
+msgid "Query performance"
+msgstr "Rendiment de la consulta"
+
+#: modules/system/system.admin.inc:1778
+msgid "The number of joins without an index; should be zero."
+msgstr "El nombre de unions sense un índex; hauria de ser zero."
+
+#: modules/system/system.admin.inc:1780
+msgid "The number of sorts done without using an index; should be zero."
+msgstr ""
+"El nombre d'ordenacions fetes sense utilitzar un índex; hauria de ser zero."
+
+#: modules/system/system.admin.inc:1781
+msgid "The number of times a lock could be acquired immediately."
+msgstr ""
+"El nombre de vegades que un bloqueig podria ser adquirit immediatament."
+
+#: modules/system/system.admin.inc:1782
+msgid "The number of times the server had to wait for a lock."
+msgstr ""
+"El nombre de vegades que el servidor ha hagut d'esperar per un bloqueig."
+
+#: modules/system/system.admin.inc:1785
+msgid "Query cache information"
+msgstr "Informació de la memòria cau de consulta"
+
+#: modules/system/system.admin.inc:1788
+msgid "The number of queries in the query cache."
+msgstr "El nombre de consultes en la memòria cau de consulta."
+
+#: modules/system/system.admin.inc:377
+msgid "Logo"
+msgstr "Logotip"
+
+#: modules/system/system.admin.inc:379
+msgid "Site slogan"
+msgstr "Eslògan del lloc"
+
+#: modules/system/system.admin.inc:380
+msgid "Mission statement"
+msgstr "Missió"
+
+#: modules/system/system.admin.inc:381
+msgid "User pictures in posts"
+msgstr "Imatges d'usuari en els articles"
+
+#: modules/system/system.admin.inc:382
+msgid "User pictures in comments"
+msgstr "Imatges d'usuari en els comentaris"
+
+#: modules/system/system.admin.inc:383
+msgid "Search box"
+msgstr "Caixa de recerca"
+
+#: modules/system/system.admin.inc:384
+msgid "Shortcut icon"
+msgstr "Icona drecera"
+
+#: modules/system/system.admin.inc:401
+msgid "Toggle display"
+msgstr "Commuta la visualització"
+
+#: modules/system/system.admin.inc:402
+msgid "Enable or disable the display of certain page elements."
+msgstr ""
+"Habilita o deshabilita la visualització d'alguns elements de les pàgines."
+
+#: modules/system/system.admin.inc:427
+msgid "Display post information on"
+msgstr "Mostra informació de l'article a"
+
+#: modules/system/system.admin.inc:428
+msgid ""
+"Enable or disable the <em>submitted by Username on date</em> text when "
+"displaying posts of the following type."
+msgstr ""
+"Activeu o desactiveu el text <em>tramès per Usuari el dia</em> quan es "
+"mostren missatges del següent tipus."
+
+#: modules/system/system.admin.inc:447
+msgid "Logo image settings"
+msgstr "Paràmetres de la imatge del logotip"
+
+#: modules/system/system.admin.inc:448
+msgid "If toggled on, the following logo will be displayed."
+msgstr "Si es marca, el següent logotip es mostrarà."
+
+#: modules/system/system.admin.inc:453
+msgid "Use the default logo"
+msgstr "Utilitza el logotip predeterminat"
+
+#: modules/system/system.admin.inc:456
+msgid "Check here if you want the theme to use the logo supplied with it."
+msgstr ""
+"Activeu aquí si voleu que el tema faci servir el logotip subministrat amb "
+"ell."
+
+#: modules/system/system.admin.inc:460
+msgid "Path to custom logo"
+msgstr "Camí al logotip personalitzat"
+
+#: modules/system/system.admin.inc:462
+msgid ""
+"The path to the file you would like to use as your logo file instead of the "
+"default logo."
+msgstr ""
+"El camí cap al fitxer que voleu utilitzar com el vostre logotip en lloc del "
+"logotip predeterminat."
+
+#: modules/system/system.admin.inc:466
+msgid "Upload logo image"
+msgstr "Carrega una imatge de logotip"
+
+#: modules/system/system.admin.inc:468
+msgid ""
+"If you don't have direct file access to the server, use this field to upload "
+"your logo."
+msgstr ""
+"Si no teniu accés directe als fitxers al servidor, utilitzeu aquest camp per "
+"carregar el vostre logotip."
+
+#: modules/system/system.admin.inc:475
+msgid "Shortcut icon settings"
+msgstr "Paràmetres de la icona drecera"
+
+#: modules/system/system.admin.inc:480
+msgid "Use the default shortcut icon."
+msgstr "Empra la icona drecera predeterminada."
+
+#: modules/system/system.admin.inc:482
+msgid "Check here if you want the theme to use the default shortcut icon."
+msgstr ""
+"Marqueu aquí si voleu que el tema utilitzi la icona drecera predeterminada."
+
+#: modules/system/system.admin.inc:486
+msgid "Path to custom icon"
+msgstr "Ruta a la icona personalitzada"
+
+#: modules/system/system.admin.inc:488
+msgid ""
+"The path to the image file you would like to use as your custom shortcut "
+"icon."
+msgstr ""
+"El camí al fitxer de la imatge que us agradaria utilitzar com la vostra "
+"icona drecera personalitzada."
+
+#: modules/system/system.admin.inc:493
+msgid "Upload icon image"
+msgstr "Carrega la icona"
+
+#: modules/system/system.admin.inc:494
+msgid ""
+"If you don't have direct file access to the server, use this field to upload "
+"your shortcut icon."
+msgstr ""
+"Si no teniu accés directe als fitxers del servidor, utilitzeu aquest camp "
+"per carregar la vostra icona drecera."
+
+#: modules/system/system.admin.inc:515
+msgid ""
+"These settings only exist for all the templates and styles based on the %"
+"engine theme engine."
+msgstr ""
+"Aquests paràmetres existeixen només per a les plantilles i estils basats en "
+"el motor de tema %engine."
+
+#: modules/system/system.admin.inc:527
+msgid "Theme-specific settings"
+msgstr "Paràmetres específics del tema"
+
+#: modules/system/system.admin.inc:527
+msgid ""
+"These settings only exist for the %theme theme and all the styles based on "
+"it."
+msgstr ""
+"Aquests paràmetres existeixen només per al tema %theme i els estils basats "
+"en ell."
+
+#: modules/system/system.admin.inc:1904
+msgid "Show descriptions"
+msgstr "Mostra descripcions"
+
+#: modules/system/system.admin.inc:1907
+msgid "Hide descriptions"
+msgstr "Oculta descripcions"
+
+#: modules/system/system.admin.inc:118
+msgid "Get help"
+msgstr "Obté ajuda"
+
+#: modules/system/system.module:1199
+msgid "Configure permissions"
+msgstr "Configura permisos"
+
+#: modules/system/system.install:177
+msgid "You can <a href=\"@cron\">run cron manually</a>."
+msgstr "Podeu <a href=\"@cron\">executar el cron manualment</a>."
+
+#: modules/system/system.install:30
+msgid "Web server"
+msgstr "Servidor web"
+
+#: modules/system/system.install:40
+msgid ""
+"Your PHP installation is too old. Drupal requires at least PHP %version."
+msgstr ""
+"La vostra instal·lació PHP és massa antiga. Drupal requereix com a mínim PHP "
+"%version."
+
+#: modules/system/system.install:107,254
+msgid "Not protected"
+msgstr "No protegit"
+
+#: modules/system/system.install:115
+msgid ""
+"The file %file is not protected from modifications and poses a security "
+"risk. You must change the file's permissions to be non-writable."
+msgstr ""
+"El fitxer %file no està protegit contra modificacions i suposa un risc de "
+"seguretat. Heu de canviar els permisos d'escriptura del fitxer perquè no "
+"se'n permeti la seva sobre escriptura."
+
+#: modules/system/system.install:120,261
+msgid "Protected"
+msgstr "Protegit"
+
+#: modules/system/system.install:123
+msgid "Configuration file"
+msgstr "Fitxer de configuració"
+
+#: modules/system/system.install:166
+msgid "Last run !time ago"
+msgstr "Darrera execució: fa !time"
+
+#: modules/system/system.install:162
+msgid "Never run"
+msgstr "No s'ha executat mai"
+
+#: modules/system/system.install:174
+msgid "Cron maintenance tasks"
+msgstr "Tasques de manteniment del cron"
+
+#: modules/system/system.install:201
+msgid "The directory %directory is not writable."
+msgstr "No es pot escriure al directori $directory."
+
+#: modules/system/system.install:196
+msgid "Not writable"
+msgstr "No s'hi pot escriure"
+
+#: modules/system/system.install:205
+msgid ""
+"You may need to set the correct directory at the <a href=\"@admin-file-system"
+"\">file system settings page</a> or change the current directory's "
+"permissions so that it is writable."
+msgstr ""
+"Potser necessiteu configurar correctament el directori a la <a href=\"@admin-"
+"file-system\">pàgina de configuració del sistema d'arxius</a> o canviar els "
+"permisos actuals del directori per tal que s'hi pugui escriure."
+
+#: modules/system/system.install:220
+msgid "Writable (<em>public</em> download method)"
+msgstr "S'hi pot escriure (mètode de descàrrega <em>públic</em>)"
+
+#: modules/system/system.install:223
+msgid "Writable (<em>private</em> download method)"
+msgstr "S'hi pot escriure (mètode de descàrrega <em>privat</em>)"
+
+#: modules/system/system.install:243
+msgid ""
+"Some modules have database schema updates to install. You should run the <a "
+"href=\"@update\">database update script</a> immediately."
+msgstr ""
+"Alguns mòduls tenen una actualització de l'esquema de la base de dades "
+"pendent de realitzar. Hauríeu d'executar <a href=\"@update\">l'script "
+"d'actualització</a> immediatament."
+
+#: modules/system/system.module:0
+msgid "Footer"
+msgstr "Peu"
+
+#: modules/system/system.module:1697
+msgid "Sent email to %recipient"
+msgstr "Enviat el correu electrònic a %recipient"
+
+#: modules/system/system.module:1700
+msgid "Unable to send email to %recipient"
+msgstr "No s'ha pogut enviar el correu electrònic a %recipient"
+
+#: modules/system/system.module:1588
+msgid "Recipient"
+msgstr "Destinatari"
+
+#: modules/system/system.module:1598
+msgid "The subject of the message."
+msgstr "L'assumpte del missatge."
+
+#: modules/system/system.module:1619
+msgid "Please enter a valid email address or %author."
+msgstr "Introduïu una adreça vàlida de correu electrònic o %autor."
+
+#: modules/system/system.module:1343
+msgid "Actions available to Drupal:"
+msgstr "Accions disponibles per a Drupal:"
+
+#: modules/system/system.module:1504
+msgid "The action has been successfully saved."
+msgstr "L'acció s'ha desat satisfactòriament."
+
+#: modules/system/system.module:1524
+msgid "This cannot be undone."
+msgstr "No es pot desfer."
+
+#: modules/system/system.module:1539
+msgid "Deleted action %aid (%action)"
+msgstr "Eliminada acció %aid (%action)"
+
+#: modules/system/system.module:596
+msgid "Gray"
+msgstr "Gris"
+
+#: modules/system/system.admin.inc:58,79
+msgid "You do not have any administrative items."
+msgstr "No teniu cap element administratiu."
+
+#: modules/system/system.admin.inc:173
+msgid "Use administration theme for content editing"
+msgstr "Utilitzar el tema d'administració per editar el contingut"
+
+#: modules/system/system.admin.inc:174
+msgid ""
+"Use the administration theme when editing existing posts or creating new "
+"ones."
+msgstr ""
+"Utilitzar el tema d'administració quan s'editin enviaments existents o quan "
+"se'n creïn de nous."
+
+#: modules/system/system.admin.inc:476
+msgid ""
+"Your shortcut icon, or 'favicon', is displayed in the address bar and "
+"bookmarks of most browsers."
+msgstr ""
+"La vostra icona d'accés ràpid, o 'favicon', es mostra a la barra d'adreces i "
+"a les adreces d'interès de la majoria de navegadors."
+
+#: modules/system/system.admin.inc:515
+msgid "Theme-engine-specific settings"
+msgstr "Configuracions específiques del motor del tema"
+
+#: modules/system/system.admin.inc:1131
+msgid "The name of this website."
+msgstr "El nom d'aquest lloc web"
+
+#: modules/system/system.admin.inc:1145
+msgid ""
+"Your site's motto, tag line, or catchphrase (often displayed alongside the "
+"title of the site)."
+msgstr ""
+"Motiu o eslògan del vostre web (sovint mostrat al costat del títol de la "
+"pàgina)."
+
+#: modules/system/system.admin.inc:1151
+msgid ""
+"Your site's mission or focus statement (often prominently displayed on the "
+"front page)."
+msgstr ""
+"La missió del vostre web o sentència principal (mostrada sovint de forma "
+"destacada a la pàgina principal)."
+
+#: modules/system/system.admin.inc:1196
+msgid "The path '@path' is either invalid or you do not have access to it."
+msgstr "La ruta '@path' no és vàlida o no hi teniu accés."
+
+#: modules/system/system.admin.inc:1229
+msgid ""
+"Specify where Drupal, PHP and SQL errors are logged. While it is recommended "
+"that a site running in a production environment write errors to the log "
+"only, in a development or testing environment it may be helpful to write "
+"errors both to the log and to the screen."
+msgstr ""
+"Especifiqueu on es registraran els errors de Drupal, PHP i SQL. Mentres que "
+"es recomana que un web en un entorn de producció escrigui els errors sols en "
+"el registre, en un entorn de desenvolupament o de proves pot ser útil "
+"escriure els errors tant en el registre com a la pantalla."
+
+#: modules/system/system.admin.inc:1255
+msgid ""
+"The normal cache mode is suitable for most sites and does not cause any side "
+"effects. The aggressive cache mode causes Drupal to skip the loading (boot) "
+"and unloading (exit) of enabled modules when serving a cached page. This "
+"results in an additional performance boost but can cause unwanted side "
+"effects."
+msgstr ""
+"El mode normal de memòria cau s'adapta a la majoria de llocs web i no causa "
+"efectes secundaris. El mode agressiu de memòria cau provoca que Drupal se "
+"salti la càrrega (boot) i descàrrega (exit) dels mòduls habilitats quan "
+"serveix una pàgina en memòria cau. Això resulta en un rendiment més elevat "
+"però pot provocar efectes secundaris no desitjats."
+
+#: modules/system/system.admin.inc:1261
+msgid ""
+"<strong class=\"error\">The following enabled modules are incompatible with "
+"aggressive mode caching and will not function properly: %modules</strong>"
+msgstr ""
+"<strong class=\"error\">Els següents mòduls activats són incompatibles amb "
+"el mode agressiu de memòria cau i no funcionaran adequadament: %modules</"
+"strong>"
+
+#: modules/system/system.admin.inc:1269
+msgid ""
+"Enabling the page cache will offer a significant performance boost. Drupal "
+"can store and send compressed cached pages requested by <em>anonymous</em> "
+"users. By caching a web page, Drupal does not have to construct the page "
+"each time it is viewed."
+msgstr ""
+"Habilitar la memòria cau de pàgina millorarà de manera significativa el "
+"rendiment de la pàgina. Drupal pot emmagatzemar i enviar pàgines comprimides "
+"guardades en memòria cau demanades per usuaris <em>anònims</em>. En guardar "
+"una pàgina en memòria cau Drupal no ha de construir la pàgina cada cop que "
+"es visualitza."
+
+#: modules/system/system.admin.inc:1276
+msgid "Normal (recommended for production sites, no side effects)"
+msgstr "Normal (recomanat per a llocs web en producció, sense efectes)"
+
+#: modules/system/system.admin.inc:1287
+msgid ""
+"On high-traffic sites, it may be necessary to enforce a minimum cache "
+"lifetime. The minimum cache lifetime is the minimum amount of time that will "
+"elapse before the cache is emptied and recreated, and is applied to both "
+"page and block caches. A larger minimum cache lifetime offers better "
+"performance, but users will not see new content for a longer period of time."
+msgstr ""
+"En llocs web amb molt de tràfic, pot ser necessari forçar un mínim de vida "
+"de memòria cau. El mínim de vida de memòria cau és la mínima quantitat de "
+"temps que passa abans de buidar i tornar a crear la memòria cau, i s'aplica "
+"tant a la memòria cau de pàgines com de blocs. Un temps mínim de vida de "
+"memòria llarg permet millor rendiment, però els usuaris no veuran el nou "
+"contingut fins al cap de més temps."
+
+#: modules/system/system.admin.inc:1291
+msgid "Page compression"
+msgstr "Compressió de la pàgina"
+
+#: modules/system/system.admin.inc:1294
+msgid ""
+"By default, Drupal compresses the pages it caches in order to save bandwidth "
+"and improve download times. This option should be disabled when using a "
+"webserver that performs compression."
+msgstr ""
+"Per defecte, Drupal comprimeix les pàgines que guarda en memòria cau per "
+"estalviar ample de banda i millorar els temps de descàrrega. Aquesta opció "
+"s'hauria de deshabilitar quan es faci servir un servidor web que ja "
+"comprimeix les pàgines."
+
+#: modules/system/system.admin.inc:1299,1305
+msgid "Block cache"
+msgstr "Memòria cau de bloc"
+
+#: modules/system/system.admin.inc:1300
+msgid ""
+"Enabling the block cache can offer a performance increase for all users by "
+"preventing blocks from being reconstructed on each page load. If the page "
+"cache is also enabled, performance increases from enabling the block cache "
+"will mainly benefit authenticated users."
+msgstr ""
+"Habilitar la memòria cau de bloc pot oferir un increment de rendiment per "
+"tots els usuaris evitant que els blocs s'hagin de reconstruir cada cop que "
+"es carrega una pàgina. Si la memòria cau de pàgines també està activada, el "
+"rendiment s'incrementa si s'habilita la memòria cau de blocs, sobretot en "
+"benefici dels usuaris autenticats."
+
+#: modules/system/system.admin.inc:1307
+msgid "Enabled (recommended)"
+msgstr "Habilitat (recomanat)"
+
+#: modules/system/system.admin.inc:1309
+msgid ""
+"Note that block caching is inactive when modules defining content access "
+"restrictions are enabled."
+msgstr ""
+"Noteu que la memòria cau de bloc està inactiva quan hi ha mòduls que "
+"defineixen restriccions d'accés al contingut que estan actius."
+
+#: modules/system/system.admin.inc:1315
+msgid ""
+"<p>Drupal can automatically optimize external resources like CSS and "
+"JavaScript, which can reduce both the size and number of requests made to "
+"your website. CSS files can be aggregated and compressed into a single file, "
+"while JavaScript files are aggregated (but not compressed). These optional "
+"optimizations may reduce server load, bandwidth requirements, and page "
+"loading times.</p><p>These options are disabled if you have not set up your "
+"files directory, or if your download method is set to private.</p>"
+msgstr ""
+"<p>Drupal pot optimitzar automàticament recursos externs com CSS i "
+"JavaScript, que poden reduir la mida i el nombre de peticions del vostre "
+"web. Els fitxers CSS poden ser agregats i comprimits en un sol fitxer, "
+"mentre que els fitxers JavaScript són agregats (però no comprimits). "
+"Aquestes optimitzacions opcionals poden reduir la càrrega del servidor, els "
+"requeriments d'amplada de banda i els temps de càrrega de les pàgines.</"
+"p><p>Aquestes opcions estan desactivades si no heu configurat el vostre "
+"directori de fitxers, o si el vostre sistema de descàrrega està configurat "
+"com a privat.</p>;"
+
+#: modules/system/system.admin.inc:1322
+msgid "Optimize CSS files"
+msgstr "Optimitza els fitxers CSS"
+
+#: modules/system/system.admin.inc:1326
+msgid ""
+"This option can interfere with theme development and should only be enabled "
+"in a production environment."
+msgstr ""
+"Aquesta opció pot interferir amb el desenvolupament de temes i hauria de ser "
+"activada només en un entorn de producció."
+
+#: modules/system/system.admin.inc:1330
+msgid "Optimize JavaScript files"
+msgstr "Optimitza els fitxers JavaScript"
+
+#: modules/system/system.admin.inc:1334
+msgid ""
+"This option can interfere with module development and should only be enabled "
+"in a production environment."
+msgstr ""
+"Aquesta opció pot interferir amb el desenvolupament de mòduls i hauria de "
+"ser activada només en un entorn de producció."
+
+#: modules/system/system.admin.inc:1339,1345
+msgid "Clear cached data"
+msgstr "Netejar les dades de la memòria cau"
+
+#: modules/system/system.admin.inc:1340
+msgid ""
+"Caching data improves performance, but may cause problems while "
+"troubleshooting new modules, themes, or translations, if outdated "
+"information has been cached. To refresh all cached data on your site, click "
+"the button below. <em>Warning: high-traffic sites will experience "
+"performance slowdowns while cached data is rebuilt.</em>"
+msgstr ""
+"Guardar dades en memòria cau millora el rendiment però pot provocar "
+"problemes mentre proveu nous mòduls, temes o traduccions, si s'ha guardat  "
+"informació obsoleta a la memòria cau. Per refrescar totes les dades de la "
+"memòria cau del vostre web premeu el botó de sota. <em>Atenció: les webs amb "
+"molt de tràfic poden experimentar baixades de rendiment mentre es "
+"reconstrueixen les dades de la memòria cau.</em>;"
+
+#: modules/system/system.admin.inc:1378
+msgid ""
+"A file system path where the files will be stored. This directory must exist "
+"and be writable by Drupal. If the download method is set to public, this "
+"directory must be relative to the Drupal installation directory and be "
+"accessible over the web. If the download method is set to private, this "
+"directory should not be accessible over the web. Changing this location will "
+"modify all download paths and may cause unexpected problems on an existing "
+"site."
+msgstr ""
+"Un camí del sistema de fitxers on es guardaran els fitxers. Aquest directori "
+"ha d'existir i el Drupal i ha de poder escriure. Si el mètode de descàrrega "
+"és públic aquest directori ha de ser relatiu al directori d'instal·lació de "
+"Drupal i accessible per la web. Si el mètode de descàrrega és privat aquest "
+"directori no hauria de ser accessible a la web. Si canvieu aquesta ubicació "
+"modificareu tots els camins de les descàrregues i això podria causar "
+"problemes inesperats en un web ja existent."
+
+#: modules/system/system.admin.inc:1387
+msgid "A file system path where uploaded files will be stored during previews."
+msgstr ""
+"El camí del sistema de fitxers on es guardaran els fitxers durant les "
+"previsualitzacions."
+
+#: modules/system/system.admin.inc:1396
+msgid ""
+"Choose the <em>Public download</em> method unless you wish to enforce fine-"
+"grained access controls over file downloads. Changing the download method "
+"will modify all download paths and may cause unexpected problems on an "
+"existing site."
+msgstr ""
+"Trieu el mètode de <em>Descàrrega pública</em> excepte en el cas que "
+"desitgeu tenir un control d'accés molt precís sobre els fitxers a "
+"descarregar. Si canvieu el mètode de descàrrega es modificaran tots els "
+"camins de les descàrregues i això podria causar problemes inesperats en un "
+"web ja existent."
+
+#: modules/system/system.admin.inc:1437
+msgid "Number of items in each feed"
+msgstr "Nombre d'elements a cada canal"
+
+#: modules/system/system.admin.inc:1440
+msgid "Default number of items to include in each feed."
+msgstr "Nombre d'elements a incloure a cada canal per defecte."
+
+#: modules/system/system.admin.inc:1444
+msgid "Feed content"
+msgstr "Contingut del canal"
+
+#: modules/system/system.admin.inc:1447
+msgid "Global setting for the default display of content items in each feed."
+msgstr ""
+"Configuració global de com s'han de mostrar per defecte els elements de "
+"contingut de cada font."
+
+#: modules/system/system.admin.inc:1490
+msgid "Custom format"
+msgstr "Format personalitzat"
+
+#: modules/system/system.admin.inc:1507
+msgid "User-configurable time zones"
+msgstr "Fusos horaris configurables pels usuaris"
+
+#: modules/system/system.admin.inc:1510
+msgid ""
+"When enabled, users can set their own time zone and dates will be displayed "
+"accordingly."
+msgstr ""
+"Quan està activat, els usuaris poden definir el seu propi fus horari i les "
+"dates es mostraran d'acord amb aquest."
+
+#: modules/system/system.admin.inc:1523
+msgid "Formatting"
+msgstr "Format"
+
+#: modules/system/system.admin.inc:1543
+msgid "Custom short date format"
+msgstr "Format personalitzat de data curta"
+
+#: modules/system/system.admin.inc:1546
+msgid ""
+"A user-defined short date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as <span>%"
+"date</span>."
+msgstr ""
+"Un format de data curta definit per l'usuari. Vegeu el <a href=\"@url"
+"\">manual de PHP</a> per conèixer les opcions disponibles. Aquest format es "
+"mostra actualment com <span>%date</span>."
+
+#: modules/system/system.admin.inc:1566
+msgid "Custom medium date format"
+msgstr "Format personalitzat de data mitjana"
+
+#: modules/system/system.admin.inc:1569
+msgid ""
+"A user-defined medium date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as <span>%"
+"date</span>."
+msgstr ""
+"Un format de data mitjana definit per l'usuari. Vegeu el <a href=\"@url"
+"\">manual de PHP</a> per conèixer les opcions disponibles. Aquest format es "
+"mostra actualment com <span>%date</span>."
+
+#: modules/system/system.admin.inc:1589
+msgid "Custom long date format"
+msgstr "Format de data llarga personalitzat"
+
+#: modules/system/system.admin.inc:1592
+msgid ""
+"A user-defined long date format. See the <a href=\"@url\">PHP manual</a> for "
+"available options. This format is currently set to display as <span>%date</"
+"span>."
+msgstr ""
+"Un format de data llarga definit per l'usuari. Vegeu el <a href=\"@url"
+"\">manual de PHP</a> per conèixer les opcions disponibles. Aquest format es "
+"mostra actualment com <span>%date</span>."
+
+#: modules/system/system.admin.inc:1671
+msgid ""
+"Before enabling clean URLs, you must perform a test to determine if your "
+"server is properly configured. If you are able to see this page again after "
+"clicking the \"Run the clean URL test\" link, the test has succeeded and the "
+"radio buttons above will be available. If instead you are directed to a "
+"\"Page not found\" error, you will need to change the configuration of your "
+"server. The <a href=\"@handbook\">handbook page on Clean URLs</a> has "
+"additional troubleshooting information."
+msgstr ""
+"Abans d'activar els URL nets, heu de fer una prova per a determinar si el "
+"vostre servidor està configurat adequadament. Si sou capaços de veure "
+"aquesta pàgina de nou després de fer clic a l'enllaç «Executa la prova d'URL "
+"nets», la prova haurà tingut èxit i els botons de selecció de més amunt "
+"estaran disponibles. Si, en canvi, sou dirigits a una pàgina d'error «Pàgina "
+"no trobada», necessitareu canviar la configuració del vostre servidor. La <a "
+"href=\"@handbook\">pàgina del manual sobre URL nets</a> conté informació "
+"addicional per a resoldre el problema."
+
+#: modules/system/system.admin.inc:1675
+msgid "<a href=\"@clean_url\">Run the clean url test</a>."
+msgstr "<a href=\"@clean_url\">Executa la prova d'URL nets</a>."
+
+#: modules/system/system.admin.inc:1786
+msgid ""
+"The MySQL query cache can improve performance of your site by storing the "
+"result of queries. Then, if an identical query is received later, the MySQL "
+"server retrieves the result from the query cache rather than parsing and "
+"executing the statement again."
+msgstr ""
+"La memòria cau de consultes de MySQL pot millorar el rendiment del vostre "
+"web en guardar el resultat de les consultes. Si més tard es rep una consulta "
+"idèntica, el servidor MySQL retorna el resultat de la memòria cau de "
+"consultes enlloc de tornar a executar la consulta una altra vegada."
+
+#: modules/system/system.admin.inc:1789
+msgid "The number of times MySQL found previous results in the cache."
+msgstr ""
+"El nombre de vegades que el MySQL ha trobat els resultats anteriors en la "
+"memòria cau."
+
+#: modules/system/system.admin.inc:1790
+msgid "The number of times MySQL added a query to the cache (misses)."
+msgstr ""
+"El nombre de vegades que el MySQL ha afegit una consulta a la memòria cau "
+"(pèrdues)."
+
+#: modules/system/system.admin.inc:1791
+msgid ""
+"The number of times MySQL had to remove queries from the cache because it "
+"ran out of memory. Ideally should be zero."
+msgstr ""
+"El nombre de vegades que MySQL hauria d'esborrar consultes de la memòria cau "
+"perquè excedeix el límit de memòria. Idealment hauria de ser zero."
+
+#: modules/system/system.admin.inc:1904
+msgid "Expand layout to include descriptions."
+msgstr "Expandeix el format per a incloure-hi descripcions"
+
+#: modules/system/system.admin.inc:1907
+msgid "Compress layout by hiding descriptions."
+msgstr "Comprimeix el format per a amagar les descripcions."
+
+#: modules/system/system.admin.inc:2045,2050,2175,2180
+msgid "incompatible"
+msgstr "incompatible"
+
+#: modules/system/system.admin.inc:2045,2175
+msgid "Incompatible with this version of Drupal core"
+msgstr "Incompatible amb aquesta versió de Drupal"
+
+#: modules/system/system.admin.inc:2046,2176
+msgid ""
+"This version is incompatible with the !core_version version of Drupal core."
+msgstr ""
+"Aquesta versió és incompatible amb la versió !core_version del nucli de "
+"Drupal."
+
+#: modules/system/system.admin.inc:2050,2180
+msgid "Incompatible with this version of PHP"
+msgstr "Incompatible amb aquesta versió de PHP"
+
+#: modules/system/system.admin.inc:2055
+msgid ""
+"This module requires PHP version @php_required and is incompatible with PHP "
+"version !php_version."
+msgstr ""
+"Aquest mòdul requereix la versió @php_required de PHP i és incompatible amb "
+"la versió !php_version."
+
+#: modules/system/system.admin.inc:2185
+msgid ""
+"This theme requires PHP version @php_required and is incompatible with PHP "
+"version !php_version."
+msgstr ""
+"Aquest tema requereix la versió @php_required de PHP i és incompatible amb "
+"la versió !php_version."
+
+#: modules/system/system.admin.inc:833
+msgid "You must enable the @dependencies module to install @module."
+msgid_plural "You must enable the @dependencies modules to install @module."
+msgstr[0] ""
+"Heu d'habilitar el mòdul @dependencies per instal·lar el mòdul @module."
+msgstr[1] ""
+"Heu d'habilitar els mòduls @dependencies per instal·lar el mòdul @module."
+
+#: modules/system/system.module:52
+msgid ""
+"The system module is at the foundation of your Drupal website, and provides "
+"basic but extensible functionality for use by other modules and themes. Some "
+"integral elements of Drupal are contained in and managed by the system "
+"module, including caching, enabling or disabling of modules and themes, "
+"preparing and displaying the administrative page, and configuring "
+"fundamental site settings. A number of key system maintenance operations are "
+"also part of the system module."
+msgstr ""
+"El mòdul de sistema és fonamental per al vostre web amb Drupal, i proveeix "
+"la funcionalitat bàsica, però extensible, per utilitzar altres mòduls i "
+"temes gràfics. El mòdul de sistema conté i gestiona alguns elements "
+"integrals de Drupal, incloent la memòria cau, habilitació o inhabilitació de "
+"mòduls i temes gràfic, preparació i mostra de les pàgines d'administració i "
+"la configuració dels paràmetres bàsics del web. Un gran nombre d'operacions "
+"clau de manteniment del sistema també formen part del mòdul de sistema."
+
+#: modules/system/system.module:53
+msgid "The system module provides:"
+msgstr "El mòdul del sistema proporciona:"
+
+#: modules/system/system.module:54
+msgid ""
+"support for enabling and disabling <a href=\"@modules\">modules</a>. Drupal "
+"comes packaged with a number of core modules; each module provides a "
+"discrete set of features and may be enabled depending on the needs of your "
+"site. A wide array of additional modules contributed by members of the "
+"Drupal community are available for download at the <a href=\"@drupal-modules"
+"\">Drupal.org module page</a>."
+msgstr ""
+"funció per habilitar i inhabilitar <a href=\"@modules\">mòduls</a>. Drupal "
+"ve empaquetat amb un determinat nombre de mòduls de nucli; cada mòdul "
+"proveeix una sèrie de propietats i pot ser habilitat depenent de les "
+"necessitats del vostre web. Una llarga llista de mòduls addicionals, fruit "
+"de la contribució dels membres de la comunitat Drupal, està disponible per "
+"ser descarregats a la pàgina de <a href=\"@drupal-modules\">mòduls de Drupal."
+"</a>."
+
+#: modules/system/system.module:55
+msgid ""
+"support for enabling and disabling <a href=\"@themes\">themes</a>, which "
+"determine the design and presentation of your site. Drupal comes packaged "
+"with several core themes and additional contributed themes are available at "
+"the <a href=\"@drupal-themes\">Drupal.org theme page</a>."
+msgstr ""
+"funció per habilitar i inhabilitar <a href=\"@themes\">temes gràfics</a>, "
+"que determinen el disseny i presentació del vostre web. Drupal ve empaquetat "
+"amb diversos temes de nucli i molts més temes fruit de contribucions, que "
+"estan disponibles a la pàgina de <a href=\"@drupal-themes\">temes de Drupal."
+"org</a>."
+
+#: modules/system/system.module:56
+msgid ""
+"a robust <a href=\"@cache-settings\">caching system</a> that allows the "
+"efficient re-use of previously-constructed web pages and web page "
+"components. Drupal stores the pages requested by anonymous users in a "
+"compressed format; depending on your site configuration and the amount of "
+"your web traffic tied to anonymous visitors, Drupal's caching system may "
+"significantly increase the speed of your site."
+msgstr ""
+"un potent <a href=\"@cache-settings\">sistema de memòria cau</a> que permet "
+"la reutilització eficient de pàgines i components web prèviament construïts. "
+"Drupal emmagatzema les pàgines sol·licitades pels usuaris anònims en un "
+"format comprimit; depenent de la configuració del vostre web i de la "
+"quantitat de tràfic web provinent d'usuaris anònims, el sistema de memòria "
+"cau de Drupal pot incrementar significativament la velocitat del vostre web."
+
+#: modules/system/system.module:57
+msgid ""
+"a set of routine administrative operations that rely on a correctly-"
+"configured <a href=\"@cron\">cron maintenance task</a> to run automatically. "
+"A number of other modules, including the feed aggregator, ping module and "
+"search also rely on <a href=\"@cron\">cron maintenance tasks</a>. For more "
+"information, see the online handbook entry for <a href=\"@handbook"
+"\">configuring cron jobs</a>."
+msgstr ""
+"un conjunt d'operacions de rutines administratives que s'executen en una <a "
+"href=\"@cron\">tasca de manteniment d'un cron</a> correctament configurat "
+"perquè s'executi automàticament. Un gran nombre d'altres mòduls, incloent "
+"l'agregador de fonts, el mòdul ping i el de cerca també s'executen en una <a "
+"href=\"@cron\">tasca de manteniment de cron</a>. Per a més informació vegeu "
+"el <a href=\"@handbook\">manual d'usuari en línia</a> per configurar "
+"treballs de cron."
+
+#: modules/system/system.module:58
+msgid ""
+"basic configuration options for your site, including <a href=\"@date-settings"
+"\">date and time settings</a>, <a href=\"@file-system\">file system "
+"settings</a>, <a href=\"@clean-url\">clean URL support</a>, <a href=\"@site-"
+"info\">site name and other information</a>, and a <a href=\"@site-maintenance"
+"\">site maintenance</a> function for taking your site temporarily off-line."
+msgstr ""
+"opcions de configuració bàsica del vostre lloc web, incloent la <a href="
+"\"@date-settings\">configuració de la data i l'hora</a>, <a href=\"@file-"
+"system\">configuració del sistema de fitxers</a>, <a href=\"@clean-url"
+"\">l'implementació d'URL nets</a>, <a href=\"@site-info\">nom del web i "
+"altra informació</a>, i una funció de <a href=\"@site-maintenance"
+"\">manteniment del web</a> per a posar el web fora de línia temporalment."
+
+#: modules/system/system.module:59
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@system"
+"\">System module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Sistema</"
+"a> al manual en línia."
+
+#: modules/system/system.module:66
+msgid ""
+"Select which themes are available to your users and specify the default "
+"theme. To configure site-wide display settings, click the \"configure\" task "
+"above. Alternatively, to override these settings in a specific theme, click "
+"the \"configure\" link for that theme. Note that different themes may have "
+"different regions available for displaying content; for consistency in "
+"presentation, you may wish to enable only one theme."
+msgstr ""
+"Seleccioneu quins temes hi ha disponibles per als usuaris i especifiqueu el "
+"tema predeterminat. Per configurar la visualització de tot el sistema, "
+"cliqueu la tasca \"configurar\" de més amunt. Com a alternativa, per a "
+"obviar aquesta configuració en un tema determinat cliqueu a l'enllaç "
+"\"configurar\" d'aquest tema.  Noteu que altres temes poden tenir "
+"disponibles unes altres regions per mostrar continguts; per tal de mantenir "
+"la consistència en la presentació podeu habilitar un sol tema."
+
+#: modules/system/system.module:67
+msgid ""
+"To change the appearance of your site, a number of <a href=\"@themes"
+"\">contributed themes</a> are available."
+msgstr ""
+"Per canviar l'aparença del web hi ha disponible un cert nombre de <a href="
+"\"@themes\">temes contribuïts</a>."
+
+#: modules/system/system.module:76
+msgid ""
+"Modules are plugins that extend Drupal's core functionality. Enable modules "
+"by selecting the <em>Enabled</em> checkboxes below and clicking the <em>Save "
+"configuration</em> button. Once a module is enabled, new <a href="
+"\"@permissions\">permissions</a> may be available. To reduce server load, "
+"modules with their <em>Throttle</em> checkbox selected are temporarily "
+"disabled when your site becomes extremely busy. (Note that the <em>Throttle</"
+"em> checkbox is only available if the Throttle module is enabled.)"
+msgstr ""
+"Els mòduls són connectors que estenen la funcionalitat del nucli de Drupal. "
+"Habiliteu els mòduls seleccionant les caselles <em>Habilitat</em> de més "
+"avall i clicant al botó <em>Desar configuració</em>. Un cop un mòdul està "
+"habilitat poden aparèixer nous <a href=\"@permissions\">permisos</a>. Per "
+"tal de reduir la càrrega del servidor, els mòduls que tenen marcada la "
+"casella <em>Throttle</em> es desactiven temporalment quan el web està "
+"sobrecarregat. (Noteu que la casella <em>Throttle</em> només està disponible "
+"si el mòdul de rendiment està habilitat.)"
+
+#: modules/system/system.module:78
+msgid ""
+"The auto-throttle functionality must be enabled on the <a href=\"@throttle"
+"\">throttle configuration page</a> after having enabled the throttle module."
+msgstr ""
+"La funcionalitat d'auto-regulació ha de ser habilitada a la pàgina de <a "
+"href=\"@throttle\">configuració de regulació</a> després d'haver habilitat "
+"el mòdul de regulació."
+
+#: modules/system/system.module:81
+msgid ""
+"It is important that <a href=\"@update-php\">update.php</a> is run every "
+"time a module is updated to a newer version."
+msgstr ""
+"És important que s'executi <a href=\"@update-php\">update.php</a> cada cop "
+"que un mòdul s'actualitza a una nova versió."
+
+#: modules/system/system.module:82
+msgid ""
+"You can find all administration tasks belonging to a particular module on "
+"the <a href=\"@by-module\">administration by module page</a>."
+msgstr ""
+"Podeu trobar totes les tasques d'administració d'un mòdul concret a la <a "
+"href=\"@by-module\">pàgina d'administració per mòduls</a>."
+
+#: modules/system/system.module:83
+msgid ""
+"To extend the functionality of your site, a number of <a href=\"@modules"
+"\">contributed modules</a> are available."
+msgstr ""
+"Per tal d'estendre la funcionalitat del web hi ha disponible una gran "
+"quantitat de <a href=\"@modules\">mòduls contribuïts</a>."
+
+#: modules/system/system.module:89
+msgid ""
+"The <em>Powered by Drupal</em> block is an optional link to the home page of "
+"the Drupal project. While there is absolutely no requirement that sites "
+"feature this link, it may be used to show support for Drupal."
+msgstr ""
+"El bloc <em>Impulsat per Drupal</em> és un enllaç opcional a la pàgina "
+"principal del projecte Drupal. Tot i que no hi ha cap requeriment en absolut "
+"que els webs incorporin aquest enllaç, es pot fer servir com una manera "
+"d'evidenciar el nostre suport a Drupal."
+
+#: modules/system/system.module:94
+msgid ""
+"Actions are individual tasks that the system can do, such as unpublishing a "
+"piece of content or banning a user. Modules, such as the trigger module, can "
+"fire these actions when certain system events happen; for example, when a "
+"new post is added or when a user logs in. Modules may also provide "
+"additional actions."
+msgstr ""
+"Les accions són tasques individuals que el sistema pot fer, com ara "
+"despublicar un element de contingut o expulsar un usuari. Els mòduls, com "
+"ara el mòdul de disparadors, poden disparar aquestes accions quan tenen lloc "
+"esdeveniments concrets; per exemple, quan s'afegeix un nou enviament o quan "
+"un usuari es registra. Els mòduls també poden proporcionar altres accions "
+"addicionals."
+
+#: modules/system/system.module:95
+msgid ""
+"There are two types of actions: simple and advanced. Simple actions do not "
+"require any additional configuration, and are listed here automatically. "
+"Advanced actions can do more than simple actions; for example, send an e-"
+"mail to a specified address, or check for certain words within a piece of "
+"content. These actions need to be created and configured first before they "
+"may be used. To create an advanced action, select the action from the drop-"
+"down below and click the <em>Create</em> button."
+msgstr ""
+"Hi ha dos tipus d'accions: senzilla i avançada. Les accions senzilles no "
+"requereixen cap configuració addicional i es llisten automàticament. Les "
+"accions avançades poden fer més coses que les senzilles com, per exemple, "
+"enviar un correu a una adreça determinada, o cercar un grup de paraules dins "
+"d'un tros de contingut. Cal crear i configurar aquestes accions abans de fer-"
+"les servir. Per crear una acció avançada, seleccioneu l'acció a la lista "
+"desplegable de sota i cliqueu al botó <em>Crear</em>."
+
+#: modules/system/system.module:97
+msgid ""
+"You may proceed to the <a href=\"@url\">Triggers</a> page to assign these "
+"actions to system events."
+msgstr ""
+"Podeu anar a pàgina <a href=\"@url\">Disparadors</a> per assignar aquestes "
+"accions a esdeveniments del sistema."
+
+#: modules/system/system.module:101
+msgid ""
+"An advanced action offers additional configuration options which may be "
+"filled out below. Changing the <em>Description</em> field is recommended, in "
+"order to better identify the precise action taking place. This description "
+"will be displayed in modules such as the trigger module when assigning "
+"actions to system events, so it is best if it is as descriptive as possible "
+"(for example, \"Send e-mail to Moderation Team\" rather than simply \"Send e-"
+"mail\")."
+msgstr ""
+"Una acció avançada ofereix opcions de configuració addicionals que es poden "
+"emplenar més avall. Es recomana canviar el camp <em>Descripció</em> per tal "
+"d'identificar millor l'acció concreta que tindrà lloc. Aquesta descripció es "
+"mostrarà als mòduls com ara el de disparadors quan s'assignin accions a "
+"esdeveniments del sistema, per la qual cosa és preferible que sigui quant "
+"més descriptiva millor (per exemple, \"Enviar un correu al grup de moderadors"
+"\" en lloc de simplement \"Enviar correu\")."
+
+#: modules/system/system.module:103
+msgid ""
+"Here you can find a short overview of your site's parameters as well as any "
+"problems detected with your installation. It may be useful to copy and paste "
+"this information into support requests filed on drupal.org's support forums "
+"and project issue queues."
+msgstr ""
+"Aquí trobareu una breu visió de conjunt dels paràmetres del vostre lloc web "
+"així com els problemes detectats a la vostra instal·lació. Pot ser útil "
+"copiar i adjuntar aquesta informació a les peticions de suport enviades als "
+"fòrums de suport de drupal.org i a les cues de temes del projecte."
+
+#: modules/system/system.module:584
+msgid "Powered by Drupal"
+msgstr "Funciona amb el Drupal"
+
+#: modules/system/system.module:594
+msgid "Badge color"
+msgstr "Color de la insígnia"
+
+#: modules/system/system.module:596
+msgid "Black"
+msgstr "Negre"
+
+#: modules/system/system.module:596
+msgid "Blue"
+msgstr "Blau"
+
+#: modules/system/system.module:600
+msgid "Badge size"
+msgstr "Mida de la insígnia"
+
+#: modules/system/system.module:602
+msgid "Small"
+msgstr "Petit"
+
+#: modules/system/system.module:602
+msgid "Large"
+msgstr "Gran"
+
+#: modules/system/system.module:1232
+msgid "Could not delete temporary file \"%path\" during garbage collection"
+msgstr ""
+"No s'ha pogut esborrar l'arxiu temporal \"%path\" durant la recol·lecció de "
+"la brossa."
+
+#: modules/system/system.module:1253
+msgid "When cron runs"
+msgstr "Quan el cron està actiu"
+
+#: modules/system/system.module:1267
+msgid "Display a message to the user"
+msgstr "Mostrar un missatge a l'usuari"
+
+#: modules/system/system.module:1288
+msgid "Redirect to URL"
+msgstr "Reenviar a la URL"
+
+#: modules/system/system.module:1308
+msgid "Choose an advanced action"
+msgstr "Trieu una acció avançada"
+
+#: modules/system/system.module:1323
+msgid "Action type"
+msgstr "Tipus d'acció"
+
+#: modules/system/system.module:1369
+msgid "Make a new advanced action available"
+msgstr "Fes disponible una nova acció avançada"
+
+#: modules/system/system.module:1448
+msgid ""
+"A unique description for this advanced action. This description will be "
+"displayed in the interface of modules that integrate with actions, such as "
+"Trigger module."
+msgstr ""
+"Una descripció única per a aquesta acció avançada. Aquesta descripció es "
+"mostrarà a la interfície dels mòduls que s'integren amb accions, com ara el "
+"mòdul de disparadors."
+
+#: modules/system/system.module:1522
+msgid "Are you sure you want to delete the action %action?"
+msgstr "Esteu segur de voler esborrar l'acció %action?"
+
+#: modules/system/system.module:1540
+msgid "Action %action was deleted"
+msgstr "S'ha esborrat l'acció %action"
+
+#: modules/system/system.module:1552
+msgid "Deleted orphaned action (%action)."
+msgstr "S'a esborrat l'acció òrfena (%action)"
+
+#: modules/system/system.module:1591
+msgid ""
+"The email address to which the message should be sent OR enter %author if "
+"you would like to send an e-mail to the author of the original post."
+msgstr ""
+"L'adreça de correu electrònic a la qual s'enviarà el missatge O entreu %"
+"author si voleu enviar un correu a l'autor de l'enviament original."
+
+#: modules/system/system.module:1606
+msgid ""
+"The message that should be sent. You may include the following variables: %"
+"site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all "
+"variables will be available in all contexts."
+msgstr ""
+"El missatge que s'enviarà. Podeu incloure les variables següents: %"
+"site_name, %username, %node_url, %node_type, %title, %teaser, %body. No "
+"totes les variables estan disponibles en tots els contextos."
+
+#: modules/system/system.module:1752
+msgid ""
+"The message to be displayed to the current user. You may include the "
+"following variables: %site_name, %username, %node_url, %node_type, %title, %"
+"teaser, %body. Not all variables will be available in all contexts."
+msgstr ""
+"El missatge a mostrar a l'usuari actual. Podeu incloure les variables "
+"següents: %site_name, %username, %node_url, %node_type, %title, %teaser, %"
+"body. No totes les variables estan disponibles en tots els contextos."
+
+#: modules/system/system.module:1825
+msgid ""
+"The URL to which the user should be redirected. This can be an internal URL "
+"like node/1234 or an external URL like http://drupal.org."
+msgstr ""
+"La URL a la qual l'usuari serà redirigit. Pot ser una URL interna com "
+"node/1234 o una URL externa com http://drupal.org."
+
+#: modules/system/system.module:1882
+msgid "Powered by Drupal, an open source content management system"
+msgstr ""
+"Impulsat per Drupal, un sistema de gestió de continguts de programari lliure."
+
+#: modules/system/system.module:1666
+msgid "Cannot use %author token in this context."
+msgstr "No pot fer servir %author en aquest context."
+
+#: modules/system/system.install:497
+msgid ""
+"Stores details about batches (processes that run in multiple HTTP requests)."
+msgstr ""
+"Emmagatzema detalls dels lots (processos que corren en diverses peticions "
+"HTTP)."
+
+#: modules/system/system.install:112
+msgid ""
+"The directory %file is not protected from modifications and poses a security "
+"risk. You must change the directory's permissions to be non-writable. "
+msgstr ""
+"El directori %file no està protegit contra modificacions creant un risc de "
+"seguretat. Heu de treure els permisos d'escritura del directori. "
+
+#: modules/system/system.install:133
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@cron-"
+"handbook\">configuring cron jobs</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada <a href=\"@block\">configurant "
+"treballs cron</a> al manual en línia."
+
+#: modules/system/system.install:157
+msgid ""
+"Cron has not run. Please visit the <a href=\"@status\">status report</a> for "
+"more information."
+msgstr ""
+"El cron no s'ha executat. Per a més informació, vegeu l'<a href=\"@status"
+"\">informe d'estat</a> ."
+
+#: modules/system/system.install:163
+msgid "Cron has not run."
+msgstr "El cron no s'ha executat."
+
+#: modules/system/system.install:169
+msgid "Cron has not run recently."
+msgstr "El cron no s'ha executat recentment."
+
+#: modules/system/system.install:230
+msgid "Database updates"
+msgstr "Actualitzacions de la base de dades."
+
+#: modules/system/system.install:256
+msgid ""
+"The update.php script is accessible to everyone without authentication "
+"check, which is a security risk. You must change the $update_free_access "
+"value in your settings.php back to FALSE."
+msgstr ""
+"L'script update.php està accesible a tothom sense comprovar l'autenticació i "
+"això comporta un risc de seguretat. S'ha de canviar el valor de "
+"$update_free_access a FALSE dins del fitxer settings.php."
+
+#: modules/system/system.install:264
+msgid "Access to update.php"
+msgstr "Accés a update.php"
+
+#: modules/system/system.install:275
+msgid "Not enabled"
+msgstr "No habilitat"
+
+#: modules/system/system.install:277
+msgid ""
+"Update notifications are not enabled. It is <strong>highly recommended</"
+"strong> that you enable the update status module from the <a href=\"@module"
+"\">module administration page</a> in order to stay up-to-date on new "
+"releases. For more information please read the <a href=\"@update\">Update "
+"status handbook page</a>."
+msgstr ""
+"La notificació d'actualitzacions no està habilitada. És <strong>molt "
+"recomanable</strong> que habiliteu el mòdul d'estat de les actualitzacions "
+"de la <a href=\"@module\">pàgina d'administració de mòduls</a> per estar al "
+"dia amb les noves versions. Per a més informació llegeiu la<a href=\"@update"
+"\">Pàgina d'estat de les actualitzacions</a>."
+
+#: modules/system/system.install:290
+msgid "HTTP request status"
+msgstr "Estat de la sol·licitud HTTP"
+
+#: modules/system/system.install:291
+msgid "Fails"
+msgstr "Falla"
+
+#: modules/system/system.install:293
+msgid ""
+"Your system or network configuration does not allow Drupal to access web "
+"pages, resulting in reduced functionality. This could be due to your "
+"webserver configuration or PHP settings, and should be resolved in order to "
+"download information about available updates, fetch aggregator feeds, sign "
+"in via OpenID, or use other network-dependent services."
+msgstr ""
+"El sistema o la configuració de xarxa no permeten que Drupal accedeixi a les "
+"pàgines web, resultant-ne una funcionalitat reduïda. Això es pot deure a la "
+"configuració del servidor web o bé del PHP, i s'hauria de resoldre per tal "
+"de descarregar-se informació sobre les actualitzacions disponibles, recollir "
+"els canals agregats, firmar via OpenID, o utilitzar altres serveis depenents "
+"de la xarxa."
+
+#: modules/system/system.admin.inc:1716
+msgid "Cron ran successfully."
+msgstr "Cron s'ha executat amb èxit."
+
+#: modules/system/system.admin.inc:1719
+msgid "Cron run failed."
+msgstr "L'execució de cron ha fallat."
+
+#: modules/system/system.install:55
+msgid ""
+"<em>register_globals</em> is enabled. Drupal requires this configuration "
+"directive to be disabled. Your site may not be secure when "
+"<em>register_globals</em> is enabled. The PHP manual has instructions for <a "
+"href=\"http://php.net/configuration.changes\">how to change configuration "
+"settings</a>."
+msgstr ""
+"<em>register_globals</em> està habilitat. Drupal requereix que aquesta "
+"directiva de configuració estigui inhabilitada. El vostre lloc web no és "
+"segur si <em>register_globals</em> està habilitat. El manual de PHP té "
+"instruccions de <a href=\"http://php.net/configuration.changes\">com canviar "
+"els paràmetres de configuració</a>."
+
+#: modules/system/system.install:66
+msgid "PHP memory limit"
+msgstr "Límit de memòria de PHP"
+
+#: modules/system/system.install:73
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the installation process."
+msgstr ""
+"Considereu la possibilitat d'augmentar la memòria límit de PHP a %"
+"memory_minimum_limit per tal de prevenir errors durant el procés "
+"d'instal·lació."
+
+#: modules/system/system.install:79
+msgid ""
+"Depending on your configuration, Drupal can run with a %memory_limit PHP "
+"memory limit. However, a %memory_minimum_limit PHP memory limit or above is "
+"recommended, especially if your site uses additional custom or contributed "
+"modules."
+msgstr ""
+"Depenent de la vostra configuració, Drupal pot executar-se amb el límit de "
+"memòria de PHP %memory_limit. No obstant, en alguns casos es recomana un "
+"límit de memòria de PHP %memory_minimum_limit o superior, especialment si el "
+"vostre lloc web utilitza mòduls propis o contribuïts addicionals."
+
+#: modules/system/system.install:84
+msgid ""
+"Increase the memory limit by editing the memory_limit parameter in the file %"
+"configuration-file and then restart your web server (or contact your system "
+"administrator or hosting provider for assistance)."
+msgstr ""
+"Augmenteu el límit de memòria editant el paràmetre <em>memory_limit</em> en "
+"el fitxer %configuration-file i reinicieu el servidor web (o contacteu amb "
+"l'administrador del sistema o bé amb el vostre proveïdor d'hostatge per "
+"rebre assistència)."
+
+#: modules/system/system.install:87
+msgid ""
+"Contact your system administrator or hosting provider for assistance with "
+"increasing your PHP memory limit."
+msgstr ""
+"Contacteu l'administrador o bé el proveïdor d'hostatge per rebre assistència "
+"de com augmentar el límit de memòria de PHP."
+
+#: modules/system/system.install:90
+msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
+msgstr ""
+"Vegeu <a href=\"@url\">Requeriments del Drupal</a> per a més informació."
+
+#: modules/system/system.install:210
+msgid ""
+"An automated attempt to create this directory failed, possibly due to a "
+"permissions problem. To proceed with the installation, either create the "
+"directory and modify its permissions manually, or ensure that the installer "
+"has the permissions to create it automatically. For more information, please "
+"see INSTALL.txt or the <a href=\"@handbook_url\">on-line handbook</a>."
+msgstr ""
+"Un intent automàtic de crear aquest directori ha fracasat, possiblement per "
+"un problema de permisos. Per continuar amb la instal·lació, creeu el "
+"directori i modifiqueu els permisos manualment, o bé assegureu-vos que "
+"l'instal·lador tingui els permisos per crear-lo automàticament. Per a més "
+"informació, vegeu el fitxer INSTALL.txt o bé  el <a href=\"@handbook_url"
+"\">Manual en línia</a>."
+
+#: modules/system/system.admin.inc:1779
+msgid ""
+"The number of joins without keys that check for key usage after each row; "
+"should be zero."
+msgstr ""
+"El número d'unions sense claus que comprova l'ús de clau després de cada "
+"fila; hauria de ser zero."
+
+#: modules/system/system.install:46
+msgid "PHP register globals"
+msgstr "Registres globals de PHP"
+
+#: modules/system/system.install:57
+msgid "Enabled ('@value')"
+msgstr "Habilitat ('@value')"
+
+#: modules/system/system.install:76
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the update process."
+msgstr ""
+"Considereu la possibilitat d'augmentar la vostra memòria límit de PHP a %"
+"memory_minimum_limit per tal de prevenir errors durant el procés "
+"d'actualització."
+
+#: modules/system/system.admin.inc:1362
+msgid "Caches cleared."
+msgstr "Memòries cau netejades."
+
+#: modules/system/system.admin.inc:683,715
+msgid "@module (<span class=\"admin-disabled\">disabled</span>)"
+msgstr ""
+
+#: modules/system/system.admin.inc:686
+msgid "@module (<span class=\"admin-missing\">missing</span>)"
+msgstr ""
+
+#: modules/system/system.admin.inc:692,710
+msgid "@module (<span class=\"admin-enabled\">enabled</span>)"
+msgstr ""

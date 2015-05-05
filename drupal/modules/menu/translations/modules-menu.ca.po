@@ -1,0 +1,340 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  menu.module,v 1.157.2.3 2008/05/10 06:53:53 dries
+#  menu.admin.inc,v 1.26.2.3 2008/02/11 15:12:53 goba
+#  menu.install,v 1.9.2.1 2009/01/06 15:46:37 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-12-22 14:55+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/menu/menu.module:28
+msgid ""
+"Enter the name for your new menu. Remember to enable the newly created block "
+"in the <a href=\"@blocks\">blocks administration page</a>."
+msgstr ""
+"Entreu el nom per al vostre nou menú. Recordeu activar el nou bloc creat a "
+"la <a href=\"@blocks\">pàgina d'administració de blocs</a>."
+
+#: modules/menu/menu.admin.inc:289
+msgid "The description displayed when hovering over a menu item."
+msgstr ""
+"La descripció que es mostra quan es passa el punter per sobre un element del "
+"menú."
+
+#: modules/menu/menu.admin.inc:616
+msgid "No primary links"
+msgstr "Sense enllaços importants"
+
+#: modules/menu/menu.admin.inc:626
+msgid "No secondary links"
+msgstr "Sense enllaços secundaris"
+
+#: modules/menu/menu.admin.inc:260
+msgid ""
+"The path this menu item links to. This can be an internal Drupal path such "
+"as %add-node or an external URL such as %drupal. Enter %front to link to the "
+"front page."
+msgstr ""
+"El camí que enllaça a aquest element de menú. Això pot ser un camí intern de "
+"Drupal com %add-node o un URL extern com %drupal. Entreu %front per enllaçar "
+"a la portada."
+
+#: modules/menu/menu.admin.inc:177,299
+msgid "Expanded"
+msgstr "Expandit"
+
+#: modules/menu/menu.admin.inc:301
+msgid ""
+"If selected and this menu item has children, the menu will always appear "
+"expanded."
+msgstr ""
+"Si està seleccionat i aquest menú té fills, el menú apareixerà expandit."
+
+#: modules/menu/menu.admin.inc:564
+msgid "Are you sure you want to delete the custom menu item %item?"
+msgstr "Esteu segur que voleu eliminar l'element de menú personalitzat %item?"
+
+#: modules/menu/menu.admin.inc:574
+msgid "The menu item %title has been deleted."
+msgstr "L'element de menú %title s'ha eliminat."
+
+#: modules/menu/menu.admin.inc:575
+msgid "Deleted menu item %title."
+msgstr "Element de menú %title suprimit."
+
+#: modules/menu/menu.admin.inc:584
+msgid "Are you sure you want to reset the item %item to its default values?"
+msgstr ""
+"Esteu segur que voleu reiniciar l'element %item al seu valor predeterminat?"
+
+#: modules/menu/menu.admin.inc:584
+msgid "Any customizations will be lost. This action cannot be undone."
+msgstr "Qualsevol personalització es perdrà. Aquesta acció no es pot desfer."
+
+#: modules/menu/menu.admin.inc:593
+msgid "The menu item was reset to its default settings."
+msgstr "L'element de menú s'ha inicialitzat al valor predeterminat."
+
+#: modules/menu/menu.admin.inc:175
+msgid "Menu item"
+msgstr "Element del menú"
+
+#: modules/menu/menu.admin.inc:104
+msgid "reset"
+msgstr "reinicia"
+
+#: modules/menu/menu.admin.inc:54
+msgid "There are no menu items yet."
+msgstr "Encara no hi ha elements al menú."
+
+#: modules/menu/menu.admin.inc:281
+msgid ""
+"The link text corresponding to this item that should appear in the menu."
+msgstr ""
+"El text de l'enllaç corresponent a aquest element que hauria d'aparèixer al "
+"menú."
+
+#: modules/menu/menu.admin.inc:295
+msgid "Menu items that are not enabled will not be listed in any menu."
+msgstr ""
+"Els elements de menú que no estan habilitats no es llistaran a cap menú."
+
+#: modules/menu/menu.admin.inc:403
+msgid "Menu name"
+msgstr "Nom del menú"
+
+#: modules/menu/menu.admin.inc:405
+msgid ""
+"The machine-readable name of this menu. This text will be used for "
+"constructing the URL of the <em>menu overview</em> page for this menu. This "
+"name must contain only lowercase letters, numbers, and hyphens, and must be "
+"unique."
+msgstr ""
+"El nom comprensible per a la màquina d'aquest menú. Aquest text s'utilitzarà "
+"per a la construcció de l'URL de la pàgina <em>vista general de menú</em> "
+"d'aquest menú. Aquest nom només pot estar format per lletres minúscules, "
+"xifres i guions, i ha de ser únic."
+
+#: modules/menu/menu.admin.inc:460
+msgid "Are you sure you want to delete the custom menu %title?"
+msgstr "Esteu segur de voler eliminar el menú personalitzat %title?"
+
+#: modules/menu/menu.admin.inc:492
+msgid "The custom menu %title has been deleted."
+msgstr "El menú personalitzat %title ha estat eliminat."
+
+#: modules/menu/menu.admin.inc:502
+msgid ""
+"The menu name may only consist of lowercase letters, numbers, and hyphens."
+msgstr ""
+"El nom del menú pot contenir només lletres minúscules, nombres i guions."
+
+#: modules/menu/menu.admin.inc:512
+msgid "The menu already exists."
+msgstr "El menú ja existeix."
+
+#: modules/menu/menu.admin.inc:603
+msgid ""
+"The menu module allows on-the-fly creation of menu links in the content "
+"authoring forms. The following option sets the default menu in which a new "
+"link will be added."
+msgstr ""
+"El mòdul de menús permet la creació de menús al moment, en els formularis "
+"d'autoria de continguts. L'opció següent determina el menú predeterminat al "
+"qual s'afegirà un nou enllaç."
+
+#: modules/menu/menu.admin.inc:609
+msgid "Default menu for content"
+msgstr "Menú predeterminat per al contingut"
+
+#: modules/menu/menu.admin.inc:612
+msgid ""
+"Choose the menu to be the default in the menu options in the content "
+"authoring form."
+msgstr ""
+"Trieu el menú que esdevindrà predeterminat en les opcions de menú del "
+"formulari de creació de continguts."
+
+#: modules/menu/menu.admin.inc:629
+msgid "Source for the secondary links"
+msgstr "Font dels enllaços secundaris"
+
+#: modules/menu/menu.admin.inc:493
+msgid "Deleted custom menu %title and all its menu items."
+msgstr ""
+"S'ha esborrat el menú personalitzat %title i tots els seus elements de menú."
+
+#: modules/menu/menu.admin.inc:457
+msgid ""
+"<strong>Warning:</strong> There is currently 1 menu item in %title. It will "
+"be deleted (system-defined items will be reset)."
+msgid_plural ""
+"<strong>Warning:</strong> There are currently @count menu items in %title. "
+"They will be deleted (system-defined items will be reset)."
+msgstr[0] ""
+"&lt;strong&gt;Atenció:&lt;/strong&gt; Actualment hi ha 1 element de menú a %"
+"title i s'eliminarà (els elements definits pel sistema es reiniciaran)."
+msgstr[1] ""
+"&lt;strong&gt;Atenció:&lt;/strong&gt; Actualment hi ha @count elements de "
+"menú a %title i s'eliminaràn (els elements definits pel sistema es "
+"reiniciaran)."
+
+#: modules/menu/menu.admin.inc:505
+msgid "The menu name can't be longer than 1 character."
+msgid_plural "The menu name can't be longer than @count characters."
+msgstr[0] "El nom del menú no pot tenir més d'1 caràcter."
+msgstr[1] "El nom del menú no pot tenir més de @count caràcters."
+
+#: modules/menu/menu.module:21
+msgid ""
+"The menu module provides an interface to control and customize Drupal's "
+"powerful menu system. Menus are a hierarchical collection of links, or menu "
+"items, used to navigate a website, and are positioned and displayed using "
+"Drupal's flexible block system. By default, three menus are created during "
+"installation: <em>Navigation</em>, <em>Primary links</em>, and <em>Secondary "
+"links</em>. The <em>Navigation</em> menu contains most links necessary for "
+"working with and navigating your site, and is often displayed in either the "
+"left or right sidebar. Most Drupal themes also provide support for "
+"<em>Primary links</em> and <em>Secondary links</em>, by displaying them in "
+"either the header or footer of each page. By default, <em>Primary links</em> "
+"and <em>Secondary links</em> contain no menu items but may be configured to "
+"contain custom menu items specific to your site."
+msgstr ""
+"El mòdul de menús proporciona una interfície per controlar i personalitzar "
+"el poderós sistema de menús de Drupal. Els menús són col·leccions "
+"jeràrquiques d'enllaços, anomenats elements de menú, que s'usen per navegar "
+"per un web i que es posicionen i es mostren fent servir el flexible sistema "
+"de blocs de Drupal. Per  defecte es creen tres menús durant la instal·lació: "
+"<em>Navegació</em>, <em>Enllaços primaris</em> i <em>Enllaços secundaris</"
+"em>. El menú <em>Navegació</em> conté la majoria dels enllaços necessaris "
+"per  treballar i navegar amb el vostre web i es mostra generalment a les "
+"barres laterals esquerra o dreta. La majoria de temes de Drupal accepta "
+"també els <em>Enllaços primaris</em> i els <em>Enllaços secundaris</em>, que "
+"es mostren a la capçalera o al peu de cada pàgina. Per defecte, els "
+"<em>Enllaços primaris</em> i els <em>Enllaços secundaris</em> no contenen "
+"elements de menú però es poden configurar perquè continguin elements de menú "
+"específics del vostre web."
+
+#: modules/menu/menu.module:22
+msgid ""
+"The <a href=\"@menu\">menus page</a> displays all menus currently available "
+"on your site. Select a menu from this list to add or edit a menu item, or to "
+"rearrange items within the menu. Create new menus using the <a href=\"@add-"
+"menu\">add menu page</a> (the block containing a new menu must also be "
+"enabled on the <a href=\"@blocks\">blocks administration page</a>)."
+msgstr ""
+"La <a href=\"@menu\">pàgina de menús</a> mostra tots els menús actualment "
+"disponibles al vostre lloc web. Seleccioneu un menú d'aquesta llista per tal "
+"d'editar-ne un element, o per reordenar els elements dins del menú. Creeu "
+"nous menús mitjançant la <a href=\"@add-menu\">pàgina d'afegir menú</a> (el "
+"bloc que contindrà el nou menú ha d'estar també habilitat a la <a href="
+"\"@blocks\">pàgina d'administració de blocs</a>)."
+
+#: modules/menu/menu.module:23
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@menu"
+"\">Menu module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Menú</a> "
+"al manual en línia."
+
+#: modules/menu/menu.module:26
+msgid ""
+"Menus are a collection of links (menu items) used to navigate a website. The "
+"menus currently available on your site are displayed below. Select a menu "
+"from this list to manage its menu items."
+msgstr ""
+"Els menús són col·leccions d'enllaços (elements de menú) que s'usen per a "
+"navegar per un web. Els menús actualment disponibles al vostre web es "
+"mostren més avall. Seleccioneu un menú d'aquesta llista per gestionar-ne els "
+"elements."
+
+#: modules/menu/menu.module:30
+msgid ""
+"To rearrange menu items, grab a drag-and-drop handle under the <em>Menu "
+"item</em> column and drag the items (or group of items) to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"Per reorganitzar els elements del menú, arrossegueu un element (o grup "
+"d'elements) de la columna <em>Element de menú</em> i moveu-lo a la nova "
+"ubicació de la llista. (Arrossegueu un element clicant a la icona per moure "
+"i manteniu premut el botó del ratolí.) Recordeu que els canvis que hageu fet "
+"no es guardaran fins que no premeu el botó <em>Guardar configuració</em> del "
+"final de la pàgina."
+
+#: modules/menu/menu.module:32
+msgid "Enter the title and path for your new menu item."
+msgstr "Entreu el títol i la ruta del nou element de menú."
+
+#: modules/menu/menu.module:380
+msgid "Delete this menu item."
+msgstr "Elimina aquest element de menu."
+
+#: modules/menu/menu.module:395
+msgid ""
+"The link text corresponding to this item that should appear in the menu. "
+"Leave blank if you do not wish to add this post to the menu."
+msgstr ""
+"El text de l'enllaç corresponent a aquest element que hauria d'aparèixer al "
+"menú. Deixeu-lo en blanc si no voleu afegir aquest enviament al menú."
+
+#: modules/menu/menu.install:12
+msgid ""
+"The navigation menu is provided by Drupal and is the main interactive menu "
+"for any site. It is usually the only menu that contains personalized links "
+"for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+"El menú de navegació és proporcionat per Drupal i és el principal menú "
+"interactiu de qualsevol lloc. Normalment aquest és l'únic menú que conté els "
+"enllaços personalitzats per als usuaris autenticats, i sovint és visible per "
+"als usuaris anònims."
+
+#: modules/menu/menu.install:13
+msgid ""
+"Primary links are often used at the theme layer to show the major sections "
+"of a site. A typical representation for primary links would be tabs along "
+"the top."
+msgstr ""
+"Els enllaços primaris s'usen generalment per a mostrar les seccions més "
+"important d'un lloc. Una representació típica dels enllaços primaris seria a "
+"dalt de tot en forma de pestanyes."
+
+#: modules/menu/menu.install:14
+msgid ""
+"Secondary links are often used for pages like legal notices, contact "
+"details, and other secondary navigation items that play a lesser role than "
+"primary links"
+msgstr ""
+"Els enllaços secundaris sovint són usats per a pàgines com avís legal, "
+"detalls de contacte, i altres elements secundaris de navegació que juguen un "
+"rol menor que els enllaços primaris."
+
+#: modules/menu/menu.admin.inc:619
+msgid "Source for the primary links"
+msgstr "Font dels enllaços primaris"
+
+#: modules/menu/menu.admin.inc:623
+msgid "Select what should be displayed as the primary links."
+msgstr "Trieu què s'hauria de mostrar com a enllaços primaris."
+
+#: modules/menu/menu.admin.inc:633
+msgid ""
+"Select what should be displayed as the secondary links. You can choose the "
+"same menu for secondary links as for primary links (currently %primary). If "
+"you do this, the children of the active primary menu link will be displayed "
+"as secondary links."
+msgstr ""
+"Triar com s'han de mostrar els enllaços secundaris. Podeu seleccionar el "
+"mateix menú per als enllaços secundaris que per als enllaços primaris "
+"(actualment %primary). Si ho feu així, els fills de l'enllaç actiu del menú "
+"primari es mostraran com enllaços secundaris."

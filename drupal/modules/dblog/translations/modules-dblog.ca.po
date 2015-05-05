@@ -1,0 +1,104 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  dblog.admin.inc,v 1.6.2.1 2008/09/17 05:47:53 goba
+#  dblog.module,v 1.21.2.2 2008/04/09 21:11:46 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-11-10 17:58+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/dblog/dblog.admin.inc:91,119
+msgid "No log messages available."
+msgstr "No hi ha missatges de registre disponibles."
+
+#: modules/dblog/dblog.admin.inc:107
+msgid "Count"
+msgstr "Quantitat"
+
+#: modules/dblog/dblog.admin.inc:150
+msgid "Location"
+msgstr "Localització"
+
+#: modules/dblog/dblog.admin.inc:162,230
+msgid "Severity"
+msgstr "Severitat"
+
+#: modules/dblog/dblog.admin.inc:18
+msgid "Discard log entries above the following row limit"
+msgstr ""
+"Descartar les entrades del registre per sobre del límit de files següent"
+
+#: modules/dblog/dblog.admin.inc:21
+msgid ""
+"The maximum number of rows to keep in the database log. Older entries will "
+"be automatically discarded. (Requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>.)"
+msgstr ""
+"El nombre màxim de files a servar en el registre de la base de dades. Les "
+"entrades més velles es descartaran automàticament. (Requereix una <a href="
+"\"@cron\">tasca de manteniment de cron</a> degudament configurada.)"
+
+#: modules/dblog/dblog.admin.inc:270
+msgid "Filter log messages"
+msgstr "Filtrar els missatges de registre"
+
+#: modules/dblog/dblog.admin.inc:307
+msgid "You must select something to filter by."
+msgstr "Heu de seleccionar alguna cosa per la qual filtrar."
+
+#: modules/dblog/dblog.module:21
+msgid ""
+"The dblog module monitors your system, capturing system events in a log to "
+"be reviewed by an authorized individual at a later time. This is useful for "
+"site administrators who want a quick overview of activities on their site. "
+"The logs also record the sequence of events, so it can be useful for "
+"debugging site errors."
+msgstr ""
+"El mòdul dblog monitoritza el sistema, capturant-ne els esdeveniments en un "
+"registre perquè algú autoritzat els pugui revisar posteriorment. Això és "
+"útil per als administradors que volen tenir un resum de les activitats del "
+"seu lloc web. Els registres serven també la seqüència dels esdeveniments, "
+"per la qual cosa poden ser útils per a depurar errors del lloc web."
+
+#: modules/dblog/dblog.module:22
+msgid ""
+"The dblog log is simply a list of recorded events containing usage data, "
+"performance data, errors, warnings and operational information. "
+"Administrators should check the dblog report on a regular basis to ensure "
+"their site is working properly."
+msgstr ""
+"El registre dblog és simplement una llista d'esdeveniments que contenen "
+"dades d'ús, dades de rendiment, errors, advertències i informació "
+"operacional. Es recomana que els administradors revisin el registre dblog "
+"periòdicament per assegurar-se que el lloc web funciona adequadament."
+
+#: modules/dblog/dblog.module:23
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@dblog"
+"\">Dblog module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Dblog</a> "
+"al manual en línia."
+
+#: modules/dblog/dblog.module:26
+msgid ""
+"The dblog module monitors your website, capturing system events in a log to "
+"be reviewed by an authorized individual at a later time. The dblog log is "
+"simply a list of recorded events containing usage data, performance data, "
+"errors, warnings and operational information. It is vital to check the dblog "
+"report on a regular basis as it is often the only way to tell what is going "
+"on."
+msgstr ""
+"El mòdul dblog monitoritza el sistema, capturant-ne els esdeveniments en un "
+"registre perquè algú autoritzat els pugui revisar posteriorment. El registre "
+"dblog és simplement una llista d'esdeveniments que contenen dades d'ús, "
+"dades de rendiment, errors, advertències i informació operacional. És vital "
+"revisar el registre dblog periòdicament perquè és sovint l'única manera de "
+"saber què està passant."

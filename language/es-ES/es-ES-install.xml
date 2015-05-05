@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="language" version="1.5.0" client="site">
+	<name>Spanish - CK Forms - frontend</name> 
+	<tag>es-ES</tag>
+  <version>1.2.1</version> 
+  <creationDate>2009-01-25</creationDate> 
+  <author>Adolfo Abegg</author>
+  <authorEmail>info@adolfoabegg.com</authorEmail>
+  <description>Frontend español del componente CK Forms</description>
+  <files>
+	<file>es-ES-install.xml</file>
+	<file>es-ES.com_ckforms.ini</file>
+	<file>es-ES.plg_content_ckforms.ini</file>
+  </files>
+</install>

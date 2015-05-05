@@ -1,0 +1,123 @@
+#ckformcontainer {
+	width: 100%;
+}
+
+.ck_mandatory {
+	color:#FF0000;
+	padding: 0px;
+	font-size:0.83em;
+	font-weight: bold;
+}
+
+.cktooltip {
+	background-color:#FFFF99;
+	margin-left:-10px;
+	margin-right:-10px;
+	padding: 5px;
+}
+
+#cktooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 3px;
+	opacity: 0.85;
+	font-size:11px;
+	color:#333333;
+}
+
+#cktooltip h3 {
+	font-size:12px !important;
+}
+
+#cktooltip h3, #cktooltip div { margin: 0; }
+
+.ckform_tooltip {
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+#ckform {
+	margin-top: 10px;
+}
+
+#ckform div.error {
+	clear: both;
+	color: #FF0000 !important;
+	font-style: italic;
+	display: none;
+	padding: 0px !important;
+}
+
+#ckform div.error .ckCSSFloatLeft{
+	width: 20%;
+}
+	
+/*#ckform input { border: 1px solid black; }*/
+#ckform input:focus { border: 1px dotted black; }
+#ckform input.error {
+	border: 1px dotted #FF0000 !important;
+}
+#ckform textarea.error { border: 1px dotted red; }
+
+#ckpoweredby {
+	text-align:center !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#ckpoweredby a {color:#666666;}
+
+/* CSS layout */
+
+.ckCSSlabel {
+	display: block;
+	float: left;
+	margin-top: 10px;
+	width: 20%;
+	font-size:1em;
+}
+
+.ckCSSinputnormal {
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+.ckCSSinputnowidth {
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+.ckCSSnoTip {
+	width: 77%;
+}
+
+.ckCSSTip {
+	width: 74%;
+}
+
+.ckCSSclear {
+	margin: 0px;
+	padding: Opx;
+	clear: both;
+}
+
+.ckCSSFloatLeft {
+	float: left;
+}
+
+.ckCSSbot10 {margin-bottom: 10px;}
+.ckCSSbot5 {margin-bottom: 5px;}
+.ckCSStop10 {margin-top: 10px;}
+
+.ckCSScenter {
+	text-align:center !important;
+	margin-top: 10px !important;
+}
+
+.ui-datepicker-trigger {
+	margin-top: 13px;
+}

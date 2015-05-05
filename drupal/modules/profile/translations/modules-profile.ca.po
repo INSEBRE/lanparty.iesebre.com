@@ -1,0 +1,397 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  profile.module,v 1.236.2.3 2009/01/12 10:09:19 goba
+#  profile.pages.inc,v 1.2 2007/12/08 14:06:22 goba
+#  profile.admin.inc,v 1.8.2.1 2008/10/16 12:43:08 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-12-10 08:52+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/profile/profile.module:43,551
+msgid "date"
+msgstr "data"
+
+#: modules/profile/profile.pages.inc:102
+msgid "User list"
+msgstr "Llista d'usuaris"
+
+#: modules/profile/profile.module:141
+msgid "Author information"
+msgstr "Informació de l'autor"
+
+#: modules/profile/profile.module:152
+msgid "Link to full user profile"
+msgstr "Enllaça al perfil complet de l'usuari"
+
+#: modules/profile/profile.module:154
+msgid "Profile fields to display"
+msgstr "Camps de perfil a mostrar"
+
+#: modules/profile/profile.module:157
+msgid ""
+"Select which profile fields you wish to display in the block. Only fields "
+"designated as public in the <a href=\"@profile-admin\">profile field "
+"configuration</a> are available."
+msgstr ""
+"Seleccioneu quins camps del perfil voleu que es mostrin en el bloc. Només "
+"els camps designats com públics a la <a href=\"@profile-admin\">configuració "
+"del camp de perfil</a> estan disponibles."
+
+#: modules/profile/profile.module:189
+msgid "View full user profile"
+msgstr "Veure el perfil d'usuari complet"
+
+#: modules/profile/profile.module:194
+msgid "About %name"
+msgstr "Quant a %name"
+
+#: modules/profile/profile.admin.inc:178
+msgid "edit %title"
+msgstr "edita %title"
+
+#: modules/profile/profile.admin.inc:196
+msgid "add new %type"
+msgstr "afegeix un nou %type"
+
+#: modules/profile/profile.admin.inc:211
+msgid "Field settings"
+msgstr "Paràmetres del camp"
+
+#: modules/profile/profile.admin.inc:217
+msgid ""
+"The category the new field should be part of. Categories are used to group "
+"fields logically. An example category is \"Personal information\"."
+msgstr ""
+"La categoria a la que el nou camp ha de pertànyer. Les categories són "
+"emprades per agrupar els camps lògicament. Un exemple de categoria és "
+"\"Informació personal\"."
+
+#: modules/profile/profile.admin.inc:223
+msgid ""
+"The title of the new field. The title will be shown to the user. An example "
+"title is \"Favorite color\"."
+msgstr ""
+"El títol del camp nou. El títol es mostrarà a l'usuari. Un exemple de títol "
+"és \"Color favorit\"."
+
+#: modules/profile/profile.admin.inc:227
+msgid "Form name"
+msgstr "Nom del formulari"
+
+#: modules/profile/profile.admin.inc:229
+msgid ""
+"The name of the field. The form name is not shown to the user but used "
+"internally in the HTML code and URLs.\n"
+"Unless you know what you are doing, it is highly recommended that you prefix "
+"the form name with <code>profile_</code> to avoid name clashes with other "
+"fields. Spaces or any other special characters except dash (-) and "
+"underscore (_) are not allowed. An example name is \"profile_favorite_color"
+"\" or perhaps just \"profile_color\"."
+msgstr ""
+"El nom del camp. El nom del formulari no és mostrarà a l'usuari però és fa "
+"servir en el codi HTML i en els URL.\n"
+"A menys que sapigueu que esteu fent, és altament recomanable que prefixeu el "
+"nom del formulari amb <code>profile_</code> per evitar col·lisions de noms "
+"amb altres camps. Els espais o altres caràcters especials excepte el guió "
+"(-) i el subratllat (_) no estan permesos. Un exemple de nom és "
+"\"profile_favorite_color\" o potser només \"profile_color\"."
+
+#: modules/profile/profile.admin.inc:234
+msgid "Explanation"
+msgstr "Explicació"
+
+#: modules/profile/profile.admin.inc:236
+msgid ""
+"An optional explanation to go with the new field. The explanation will be "
+"shown to the user."
+msgstr ""
+"Una explicació opcional per al camp nou. L'explicació es mostrarà a l'usuari."
+
+#: modules/profile/profile.admin.inc:240
+msgid "Selection options"
+msgstr "Opcions de la selecció"
+
+#: modules/profile/profile.admin.inc:242
+msgid ""
+"A list of all options. Put each option on a separate line. Example options "
+"are \"red\", \"blue\", \"green\", etc."
+msgstr ""
+"Una llista amb totes les opcions. Poseu cada opció en una línia independent. "
+"Alguns exemples d'opcions: \"negre\", \"blau\", \"verd\", etc."
+
+#: modules/profile/profile.admin.inc:267
+msgid ""
+"The weights define the order in which the form fields are shown. Lighter "
+"fields \"float up\" towards the top of the category."
+msgstr ""
+"Els pesos defineixen l'ordre en el que es mostraran els camps. Els camps més "
+"lleugers \"flotaran\" cap a la part superior de la categoria."
+
+#: modules/profile/profile.admin.inc:246
+msgid "Visibility"
+msgstr "Visibilitat"
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Hidden profile field, only accessible by administrators, modules and themes."
+msgstr ""
+"Camp ocult del perfil. Només poden accedir a ell els administradors, els "
+"mòduls i els temes."
+
+#: modules/profile/profile.admin.inc:248
+msgid "Private field, content only available to privileged users."
+msgstr ""
+"Camp privat, el contingut només és disponible als usuaris privilegiats."
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Public field, content shown on profile page but not used on member list "
+"pages."
+msgstr ""
+"Camp públic, el contingut es mostra a la pàgina del perfil, però no "
+"s'utilitza a les pàgines de llistat de membres."
+
+#: modules/profile/profile.admin.inc:248
+msgid "Public field, content shown on profile page and on member list pages."
+msgstr ""
+"Camp públic, el contingut es mostra a la pàgina del perfil i a les pàgines "
+"de llistat de membres."
+
+#: modules/profile/profile.admin.inc:252,259
+msgid "Page title"
+msgstr "Títol de la pàgina"
+
+#: modules/profile/profile.admin.inc:254
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. The word <code>%value</code> will be substituted with the "
+"corresponding value. An example page title is \"People whose favorite color "
+"is %value\". This is only applicable for a public field."
+msgstr ""
+"Per permetre veure aquest camp pel valor, entreu un títol per a la pàgina "
+"resultant. La paraula <code>%value</code> es substituirà amb el corresponent "
+"valor. Un títol de pàgina d'exemple és \"Persones que el seu color favorit "
+"és %value\". Això només s'aplica per a un camp públic."
+
+#: modules/profile/profile.admin.inc:261
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. An example page title is \"People who are employed\". This is only "
+"applicable for a public field."
+msgstr ""
+"Per permetre veure aquest camp pel valor, entreu un títol per a la pàgina "
+"resultant. Un títol de pàgina d'exemple és \"Gent contractada\". Això només "
+"s'aplica per a un camp públic."
+
+#: modules/profile/profile.admin.inc:270
+msgid "Form will auto-complete while user is typing."
+msgstr "El formulari autocompletarà mentre l'usuari està escrivint."
+
+#: modules/profile/profile.admin.inc:275
+msgid "The user must enter a value."
+msgstr "L'usuari ha d'introduir un valor."
+
+#: modules/profile/profile.admin.inc:279
+msgid "Visible in user registration form."
+msgstr "És visible al formulari de registre d'usuaris."
+
+#: modules/profile/profile.admin.inc:283
+msgid "Save field"
+msgstr "Desa el camp"
+
+#: modules/profile/profile.admin.inc:294
+msgid ""
+"The specified form name contains one or more illegal characters. Spaces or "
+"any other special characters except dash (-) and underscore (_) are not "
+"allowed."
+msgstr ""
+"El nom de formulari especificat conté un o més caràcters prohibits. No es "
+"permeten espais o qualsevol altre caràcter especial excepte els guions (-) i "
+"subratllats (_)."
+
+#: modules/profile/profile.admin.inc:298
+msgid "The specified form name is reserved for use by Drupal."
+msgstr "El nom de camp especificat està reservat per a l'ús de Drupal."
+
+#: modules/profile/profile.admin.inc:305
+msgid "The specified category name is reserved for use by Drupal."
+msgstr "El nom de categoria especificat està reservat per a l'ús de Drupal."
+
+#: modules/profile/profile.admin.inc:317
+msgid "The specified title is already in use."
+msgstr "El títol especificat ja està en ús."
+
+#: modules/profile/profile.admin.inc:320
+msgid "The specified name is already in use."
+msgstr "El nom especificat ja està en ús."
+
+#: modules/profile/profile.admin.inc:345
+msgid "The field has been created."
+msgstr "S'ha actualitzat el camp."
+
+#: modules/profile/profile.admin.inc:346
+msgid "Profile field %field added under category %category."
+msgstr "El camp %field del perfil s'ha afegit a la categoria %category."
+
+#: modules/profile/profile.admin.inc:351
+msgid "The field has been updated."
+msgstr "S'ha actualitzat el camp."
+
+#: modules/profile/profile.admin.inc:373
+msgid "Are you sure you want to delete the field %field?"
+msgstr "Esteu segur de voler esborrar el camp %field?"
+
+#: modules/profile/profile.admin.inc:374
+msgid ""
+"This action cannot be undone. If users have entered values into this field "
+"in their profile, these entries will also be deleted. If you want to keep "
+"the user-entered data, instead of deleting the field you may wish to <a href="
+"\"@edit-field\">edit this field</a> and change it to a hidden profile field "
+"so that it may only be accessed by administrators."
+msgstr ""
+"Aquesta acció no es pot desfer. Si els usuaris han entrat valors en aquest "
+"camp al seu perfil, aquestes entrades també seran suprimides. Si voleu "
+"mantenir les dades introduïdes pels usuaris, enlloc de suprimir el camp "
+"podeu <a href=\"@edit-field\">editar aquest camp</a> i canviar-lo com un "
+"camp ocult del perfil pel que només hi podran accedir els administradors."
+
+#: modules/profile/profile.admin.inc:387
+msgid "The field %field has been deleted."
+msgstr "S'ha suprimit el camp %field."
+
+#: modules/profile/profile.admin.inc:388
+msgid "Profile field %field deleted."
+msgstr "El perfil del camp %field s'ha suprimit."
+
+#: modules/profile/profile.admin.inc:55
+msgid "Add new field"
+msgstr "Afegeix un camp nou"
+
+#: modules/profile/profile.module:337
+msgid ""
+"Put each item on a separate line or separate them by commas. No HTML allowed."
+msgstr ""
+"Poseu cada element en una línia distinta o separeu-los per comes. No es "
+"permet HTML."
+
+#: modules/profile/profile.module:439
+msgid "The value provided for %field is not a valid URL."
+msgstr "El valor proveït per %field no és un URL vàlid."
+
+#: modules/profile/profile.module:444
+msgid "The field %field is required."
+msgstr "Es requereix el camp %field."
+
+#: modules/profile/profile.module:37,545
+msgid "single-line textfield"
+msgstr "camp de text d'una línia"
+
+#: modules/profile/profile.module:38,546
+msgid "multi-line textfield"
+msgstr "camp de text de múltiples línies"
+
+#: modules/profile/profile.module:39,547
+msgid "checkbox"
+msgstr "quadre de comprovació"
+
+#: modules/profile/profile.module:40,548
+msgid "list selection"
+msgstr "selecció de llista"
+
+#: modules/profile/profile.module:41,549
+msgid "freeform list"
+msgstr "llista de formularis lliures"
+
+#: modules/profile/profile.admin.inc:346,388
+msgid "profile"
+msgstr "perfil"
+
+#: modules/profile/profile.admin.inc:82
+msgid "Profile fields have been updated."
+msgstr "Els camps del perfil han estat actualitzats."
+
+#: modules/profile/profile.admin.inc:115
+msgid ""
+"No fields in this category. If this category remains empty when saved, it "
+"will be removed."
+msgstr ""
+"No hi ha camps en aquesta categoria. Si continua buida en desar-la, "
+"s'esborrarà."
+
+#: modules/profile/profile.admin.inc:144
+msgid "No fields available."
+msgstr "No hi ha cap camp disponible."
+
+#: modules/profile/profile.admin.inc:324
+msgid "A hidden field cannot be required."
+msgstr "Un camp ocult no pot ser obligatori."
+
+#: modules/profile/profile.admin.inc:327
+msgid "A hidden field cannot be set to visible on the user registration form."
+msgstr ""
+"Un camp ocult no es pot definir com a visible al formulari de registre de "
+"l'usuari."
+
+#: modules/profile/profile.module:35
+msgid ""
+"The profile module allows custom fields (such as country, full name, or age) "
+"to be defined and displayed in the <em>My Account</em> section. This permits "
+"users of a site to share more information about themselves, and can help "
+"community-based sites organize users around specific information."
+msgstr ""
+"El mòdul de perfils permet definir i mostrar camps (com ara el país, el nom "
+"complet o l'edat) a la secció <em>El meu compte</em>. Això permet que els "
+"usuaris d'un lloc web comparteixin més informació al voltant d'ells mateixos "
+"i pot ajudar a organitzar els usuaris al voltant d'una informació "
+"determinada en els webs basats en comunitats."
+
+#: modules/profile/profile.module:36
+msgid "The following types of fields can be added to a user profile:"
+msgstr "Els tipus de camps següents es poden afegir a un perfil d'usuari:"
+
+#: modules/profile/profile.module:44
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@profile"
+"\">Profile module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Perfil</"
+"a> al manual en línia."
+
+#: modules/profile/profile.module:47
+msgid ""
+"This page displays a list of the existing custom profile fields to be "
+"displayed on a user's <em>My Account</em> page. To provide structure, "
+"similar or related fields may be placed inside a category. To add a new "
+"category (or edit an existing one), edit a profile field and provide a new "
+"category name. To change the category of a field or the order of fields "
+"within a category, grab a drag-and-drop handle under the Title column and "
+"drag the field to a new location in the list. (Grab a handle by clicking and "
+"holding the mouse while hovering over a handle icon.) Remember that your "
+"changes will not be saved until you click the <em>Save configuration</em> "
+"button at the bottom of the page."
+msgstr ""
+"Aquesta pàgina mostra una llista dels camps personalitzats existents per "
+"mostrar en la pàgina d'usuari <em>El meu compte</em>. Per donar-li "
+"estructura, els camps similars o relacionats poden estar situats dins d'una "
+"categoria. Per afegir una nova categoria (o editar-ne una ja existent), "
+"editeu un camp de perfil i doneu-li el nom de la nova categoria. Per canviar "
+"la categoria d'un camp o l'ordre dels camps dins d'una categoria, "
+"arrossegueu per la icona de desplaçament els elements de la columna Títol a "
+"la nova ubicació. (Arrossegueu un element prement sobre la icona de "
+"desplaçament i manteniu premut el botó del ratolí.) Recordeu que els canvis "
+"no es guardaran fins que premeu el botó <em>Guardar configuració</em> del "
+"final de la pàgina."
+
+#: modules/profile/profile.admin.inc:272
+msgid ""
+"For security, auto-complete will be disabled if the user does not have "
+"access to user profiles."
+msgstr ""

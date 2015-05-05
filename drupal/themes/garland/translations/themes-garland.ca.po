@@ -1,0 +1,21 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from file: template.php,v 1.16 2007/10/11 09:51:29 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-02-14 21:47+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: themes/garland/template.php:48
+msgid "Comments"
+msgstr "Comentaris"
+
+#: themes/garland/template.php:75,83
+msgid "!datetime — !username"
+msgstr "!datetime — !username"

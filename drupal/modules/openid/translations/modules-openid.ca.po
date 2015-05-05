@@ -1,0 +1,200 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  openid.inc,v 1.8 2008/01/30 22:11:22 goba
+#  openid.pages.inc,v 1.5.2.1 2008/07/09 21:48:28 goba
+#  openid.module,v 1.19.2.4 2009/01/14 21:36:16 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-08-13 23:21+0200\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/openid/openid.inc:44
+msgid "OpenID redirect"
+msgstr "Redirecció OpenID"
+
+#: modules/openid/openid.inc:67
+msgid "Send"
+msgstr "Enviar"
+
+#: modules/openid/openid.pages.inc:18
+msgid "OpenID login failed."
+msgstr "L'inici de sessió amb OpenID ha fallat."
+
+#: modules/openid/openid.pages.inc:21
+msgid "OpenID login cancelled."
+msgstr "Inici de sessió amb OpenID cancel·lat."
+
+#: modules/openid/openid.pages.inc:39
+msgid "Successfully added %identity"
+msgstr "%identity afegit satisfactòriament"
+
+#: modules/openid/openid.pages.inc:66
+msgid "Add an OpenID"
+msgstr "Afegir una OpenID"
+
+#: modules/openid/openid.pages.inc:74
+msgid "That OpenID is already in use on this site."
+msgstr "Aquesta OpenID ja està en ús en aquesta web."
+
+#: modules/openid/openid.pages.inc:109
+msgid "OpenID deleted."
+msgstr "OpenID eliminat."
+
+#: modules/openid/openid.module:48
+msgid ""
+"This site supports <a href=\"@openid-net\">OpenID</a>, a secure way to log "
+"into many websites using a single username and password. OpenID can reduce "
+"the necessity of managing many usernames and passwords for many websites."
+msgstr ""
+"Aquest web accepta <a href=\"@openid-net\">OpenID</a>, una forma segura de "
+"registrar-se en molts llocs web utilitzant un usuari i contrasenya. OpenID "
+"redueix la necessitat de gestionar molts usuaris i contrasenyes per a molts "
+"llocs web."
+
+#: modules/openid/openid.module:49
+msgid ""
+"To use OpenID you must first establish an identity on a public or private "
+"OpenID server. If you do not have an OpenID and would like one, look into "
+"one of the <a href=\"@openid-providers\">free public providers</a>. You can "
+"find out more about OpenID at <a href=\"@openid-net\">this website</a>."
+msgstr ""
+"Per utilitzar OPenID heu d'establir primer una identitat en un servidor "
+"OpenID, públic o privat. Si no teniu un OpenID i voldríeu tenir-ne un, mireu "
+"en algun dels <a href=\"@openid-providers\">proveedors lliures</a>. Podei "
+"trobar més informació al voltant d'OpenID en <a href=\"@openid-net\">aquest "
+"lloc web</a>."
+
+#: modules/openid/openid.module:50
+msgid ""
+"If you already have an OpenID, enter the URL to your OpenID server below (e."
+"g. myusername.openidprovider.com). Next time you login, you will be able to "
+"use this URL instead of a regular username and password. You can have "
+"multiple OpenID servers if you like; just keep adding them here."
+msgstr ""
+"Si ja teniu un OpenID, entreu la URL del vostre servidor OpenID més avall (p."
+"ex: myusername.openidprovider.com). El proper cop que us identifiqueu, "
+"podreu utilitzar aquesta URL en lloc d'un usuari i contrasenya habituals. "
+"Podeu tenir diversos servidors OpenID si voleu; simplement afegiu-los aquí."
+
+#: modules/openid/openid.module:54
+msgid ""
+"OpenID is a secure method for logging into many websites with a single "
+"username and password. It does not require special software, and it does not "
+"share passwords with any site to which it is associated; including your site."
+msgstr ""
+"OPenID és un mètode segur per identificar-se en un gran nombre de lloc web "
+"amb un sol usuari i contrasenya. No requereix cap programari especial i no "
+"comparteix contrasenyes amb cap lloc amb què estigui associat, incloent el "
+"vostre lloc web."
+
+#: modules/openid/openid.module:55
+msgid ""
+"Users can create accounts using their OpenID, assign one or more OpenIDs to "
+"an existing account, and log in using an OpenID. This lowers the barrier to "
+"registration, which is good for the site, and offers convenience and "
+"security to the users. OpenID is not a trust system, so email verification "
+"is still necessary. The benefit stems from the fact that users can have a "
+"single password that they can use on many websites. This means they can "
+"easily update their single password from a centralized location, rather than "
+"having to change dozens of passwords individually."
+msgstr ""
+"Els usuaris poden crear comptes utilitzant el seu OpenID, assignar un o més "
+"OpenIDs a un compte ja existent i identificar-se usant un OpenID. Això "
+"abaixa les barreres al registre, la qual cosa és bona per al lloc web, i "
+"ofereix conveniència i seguretat als usuaris. OpenID no és un sistema de "
+"certificació ja que encara cal verificar el correu electrònic. El benefici "
+"està en el fet que els suaris poden tenir una sola contrasenya i utilitzar-"
+"la en un gran nombre de llocs web. Això vol dir que poden actualitzar "
+"fàcilment la seva contrasenya única des d'una ubicació centralitzada, en "
+"lloc d'haver de canviar dotzenes de contrasenyes una per una."
+
+#: modules/openid/openid.module:56
+msgid ""
+"The basic concept is as follows: A user has an account on an OpenID server. "
+"This account provides them with a unique URL (such as myusername."
+"openidprovider.com). When the user comes to your site, they are presented "
+"with the option of entering this URL. Your site then communicates with the "
+"OpenID server, asking it to verify the identity of the user. If the user is "
+"logged into their OpenID server, the server communicates back to your site, "
+"verifying the user. If they are not logged in, the OpenID server will ask "
+"the user for their password. At no point does your site record, or need to "
+"record the user's password."
+msgstr ""
+"El concepte bàsic és el següent: Un usuari té un compte en un servidor "
+"OpenID. Aquest compte proporciona una URL única (com ara myusername."
+"openidprovider.com). Quan l'usuari arriba al vostre web, se li mostra "
+"l'opció d'entrar aquesta URL. El vostre web comunica llavors amb el servidor "
+"OpenID per tal de verificar la identitat de l'usuari. Si l'usuari està "
+"registrat al servidor OpenID, aquest respon al vostre web confirmant "
+"l'usuari. Si no està registrat, el servidor OpenID demanarà a l'usuari per "
+"la serva contrasenya. Al vostre servidor no li cal en cap moment registrar o "
+"emmagatzemar la contrasenya de l'usuari."
+
+#: modules/openid/openid.module:57
+msgid ""
+"More information on OpenID is available at <a href=\"@openid-net\">OpenID."
+"net</a>."
+msgstr ""
+"Hi ha més informació sobre OpenID a <a href=\"@openid-net\">OpenID.net</a>."
+
+#: modules/openid/openid.module:58
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@handbook"
+"\">OpenID module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul OpenID</"
+"a> al manual en línia."
+
+#: modules/openid/openid.module:70
+msgid "Once you have verified your email address, you may log in via OpenID."
+msgstr ""
+"Una vegada verificada la vostra adreça de correu electrònic, podreu entrar "
+"via OpenID."
+
+#: modules/openid/openid.module:92,109
+msgid "Log in using OpenID"
+msgstr "Entrar usant OpenID"
+
+#: modules/openid/openid.module:96
+msgid "Cancel OpenID login"
+msgstr "Cancel·lar entrada OpenID"
+
+#: modules/openid/openid.module:113
+msgid "What is OpenID?"
+msgstr "Què és OpenID?"
+
+#: modules/openid/openid.module:162
+msgid ""
+"Sorry, that is not a valid OpenID. Please ensure you have spelled your ID "
+"correctly."
+msgstr ""
+"Aquest no és un OpenID vàlid. Assegureu-vos que l'heu escrit correctament."
+
+#: modules/openid/openid.module:392
+msgid ""
+"You must validate your email address for this account before logging in via "
+"OpenID"
+msgstr ""
+"Heu de validar la vostra adreça de correu electrònic per a aquest compte "
+"abans de registrar-vos mitjançant OpenID."
+
+#: modules/openid/openid.module:410
+msgid ""
+"OpenID registration failed for the reasons listed. You may register now, or "
+"if you already have an account you can <a href=\"@login\">log in</a> now and "
+"add your OpenID under \"My Account\""
+msgstr ""
+"El registre OpenID ha fallat per les raons adjuntes. Podeu registrar-vos ara "
+"o, si ja teniu un compte, podeu <a href=\"@login\">identificar-vos</a> ara i "
+"afegir el vostre OpenID a \"El meu compte\"."
+
+#: modules/openid/openid.pages.inc:103
+msgid "Are you sure you want to delete the OpenID %authname for %user?"
+msgstr "Esteu segur que voleu esborrar l'OpenID %authname per %user?"

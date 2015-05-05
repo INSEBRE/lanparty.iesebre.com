@@ -1,0 +1,505 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  taxonomy.admin.inc,v 1.22.2.2 2008/10/08 14:23:59 goba
+#  taxonomy.module,v 1.414.2.5 2008/09/17 12:55:37 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-12-10 08:37+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/taxonomy/taxonomy.admin.inc:152
+msgid "Settings"
+msgstr "Paràmetres"
+
+#: modules/taxonomy/taxonomy.admin.inc:141,145
+msgid "Content types"
+msgstr "Tipus de contingut"
+
+#: modules/taxonomy/taxonomy.admin.inc:29
+msgid "edit vocabulary"
+msgstr "edita el vocabulari"
+
+#: modules/taxonomy/taxonomy.admin.inc:30
+msgid "list terms"
+msgstr "llista de termes"
+
+#: modules/taxonomy/taxonomy.admin.inc:31
+msgid "add terms"
+msgstr "afegeix termes"
+
+#: modules/taxonomy/taxonomy.admin.inc:409
+msgid "No terms available."
+msgstr "No hi ha termes disponibles."
+
+#: modules/taxonomy/taxonomy.admin.inc:122
+msgid "Vocabulary name"
+msgstr "Nom del vocabulari"
+
+#: modules/taxonomy/taxonomy.admin.inc:131
+msgid "Description of the vocabulary; can be used by modules."
+msgstr "Descripció del vocabulari; pot ser utilitzat pels mòduls."
+
+#: modules/taxonomy/taxonomy.admin.inc:134
+msgid "Help text"
+msgstr "Text d'ajuda"
+
+#: modules/taxonomy/taxonomy.admin.inc:696
+msgid "Related terms"
+msgstr "Termes relacionats"
+
+#: modules/taxonomy/taxonomy.admin.inc:161
+msgid "Multiple select"
+msgstr "Selecció múltiple"
+
+#: modules/taxonomy/taxonomy.admin.inc:202,203
+msgid "Created new vocabulary %name."
+msgstr "S'ha creat el vocabulari nou %name."
+
+#: modules/taxonomy/taxonomy.admin.inc:206,207
+msgid "Updated vocabulary %name."
+msgstr "S'ha actualitzat el vocabulari %name."
+
+#: modules/taxonomy/taxonomy.admin.inc:873
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr "Esteu segur de voler eliminar el vocabulari %title?"
+
+#: modules/taxonomy/taxonomy.admin.inc:876
+msgid ""
+"Deleting a vocabulary will delete all the terms in it. This action cannot be "
+"undone."
+msgstr ""
+"Esborrar un vocabulari esborrarà tots els seus termes. Aquesta acció no es "
+"pot desfer."
+
+#: modules/taxonomy/taxonomy.admin.inc:888,889
+msgid "Deleted vocabulary %name."
+msgstr "Vocabulari %name esborrat."
+
+#: modules/taxonomy/taxonomy.admin.inc:663
+msgid "Term name"
+msgstr "Nom del terme"
+
+#: modules/taxonomy/taxonomy.admin.inc:666
+msgid "The name of this term."
+msgstr "El nom d'aquest terme."
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parents"
+msgstr "Pares"
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parent terms"
+msgstr "Termes pare"
+
+#: modules/taxonomy/taxonomy.admin.inc:700
+msgid "Synonyms"
+msgstr "Sinònims"
+
+#: modules/taxonomy/taxonomy.admin.inc:768,769
+msgid "Created new term %term."
+msgstr "S'ha creat el terme nou %term."
+
+#: modules/taxonomy/taxonomy.admin.inc:772,773
+msgid "Updated term %term."
+msgstr "Terme %term actualitzat."
+
+#: modules/taxonomy/taxonomy.admin.inc:838
+msgid "Are you sure you want to delete the term %title?"
+msgstr "Esteu segur de voler eliminar el terme %title?"
+
+#: modules/taxonomy/taxonomy.admin.inc:841
+msgid ""
+"Deleting a term will delete all its children if there are any. This action "
+"cannot be undone."
+msgstr ""
+"Esborrar un terme esborrarà tots els seus fills si n'hi ha algun. Aquesta "
+"acció no es pot desfer."
+
+#: modules/taxonomy/taxonomy.admin.inc:854,855
+msgid "Deleted term %name."
+msgstr "S'ha esborrat el terme %name."
+
+#: modules/taxonomy/taxonomy.module:422
+msgid "- None selected -"
+msgstr "- cap seleccionat -"
+
+#: modules/taxonomy/taxonomy.module:521
+msgid ""
+"A comma-separated list of terms describing this content. Example: funny, "
+"bungee jumping, \"Company, Inc.\"."
+msgstr ""
+"Una llista separada per coma de termes que descriuen aquest contingut. "
+"Exemple: divertit, ponting, \"Empresa, S.A.\"."
+
+#: modules/taxonomy/taxonomy.module:639
+msgid "The %name vocabulary can not be modified in this way."
+msgstr "El vocabulari %name no es pot modificar d'aquesta forma."
+
+#: modules/taxonomy/taxonomy.module:1138
+msgid "There are currently no posts in this category."
+msgstr "Actualment no hi ha cap article en aquesta categoria."
+
+#: modules/taxonomy/taxonomy.admin.inc:203,207,769,773,855,889,924
+msgid "taxonomy"
+msgstr "taxonomia"
+
+#: modules/taxonomy/taxonomy.admin.inc:156
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: modules/taxonomy/taxonomy.admin.inc:85
+msgid "No vocabularies available."
+msgstr "Cap vocabulari disponible."
+
+#: modules/taxonomy/taxonomy.admin.inc:148
+msgid "Select content types to categorize using this vocabulary."
+msgstr ""
+"Seleccioneu els tipus de contingut a categoritzar utilitzant aquest "
+"vocabulari."
+
+#: modules/taxonomy/taxonomy.admin.inc:158
+msgid ""
+"Terms are created by users when submitting posts by typing a comma separated "
+"list."
+msgstr ""
+"Els termes són creats pels usuaris quan envien contribucions escrivint una "
+"llista separada per comes."
+
+#: modules/taxonomy/taxonomy.admin.inc:163
+msgid ""
+"Allows posts to have more than one term from this vocabulary (always true "
+"for tags)."
+msgstr ""
+"Permet que els enviaments tinguin més d'un terme d'aquest vocabulari (sempre "
+"cert per a les etiquetes)."
+
+#: modules/taxonomy/taxonomy.admin.inc:168
+msgid ""
+"At least one term in this vocabulary must be selected when submitting a post."
+msgstr ""
+"S'ha de seleccionar un terme d'aquest vocabulari, com a mínim, a l'hora de "
+"trametre un enviament."
+
+#: modules/taxonomy/taxonomy.admin.inc:173
+msgid "Vocabularies are displayed in ascending order by weight."
+msgstr "Els vocabularis es mostren per pes en ordre ascendent."
+
+#: modules/taxonomy/taxonomy.admin.inc:254
+msgid "Terms in %vocabulary"
+msgstr "Termes a %vocabulari"
+
+#: modules/taxonomy/taxonomy.admin.inc:418,445,912
+msgid "Reset to alphabetical"
+msgstr "Reinicia a ordre alfabètic"
+
+#: modules/taxonomy/taxonomy.admin.inc:624
+msgid "Add term to %vocabulary"
+msgstr "Afegeix el terme a %vocabulary"
+
+#: modules/taxonomy/taxonomy.admin.inc:672
+msgid ""
+"A description of the term. To be displayed on taxonomy/term pages and RSS "
+"feeds."
+msgstr ""
+"Una descripció del terme. Es mostra a les pàgines de taxonomia/terme i als "
+"canals RSS."
+
+#: modules/taxonomy/taxonomy.admin.inc:702
+msgid "Synonyms of this term, one synonym per line."
+msgstr "Sinònims d'aquest terme, un per línia."
+
+#: modules/taxonomy/taxonomy.admin.inc:708
+msgid "Terms are displayed in ascending order by weight."
+msgstr "Els termes es mostren per ordre de pes creixent."
+
+#: modules/taxonomy/taxonomy.admin.inc:739
+msgid "Weight value must be numeric."
+msgstr "Els pes ha de ser un valor numèric."
+
+#: modules/taxonomy/taxonomy.admin.inc:818
+msgid "Set multiple term parents?"
+msgstr "Assignar múltiples termes pare?"
+
+#: modules/taxonomy/taxonomy.admin.inc:819
+msgid ""
+"Adding multiple parents to a term will cause the %vocabulary vocabulary to "
+"look for multiple parents on every term. Because multiple parents are not "
+"supported when using the drag and drop outline interface, drag and drop will "
+"be disabled if you enable this option. If you choose to have multiple "
+"parents, you will only be able to set parents by using the term edit form."
+msgstr ""
+"Afegint diversos pares a un terme farem que el vocabulari %vocabulari cerqui "
+"més d'un pare per a cada terme. Com l'ús de diversos pares no és compatible "
+"amb l'ús de la interfície arrossegar-i-deixar-anar, aquesta funcionalitat es "
+"desactivarà si habiliteu aquella opció. Si escolliu poder tenir diversos "
+"pares només podreu definir pares mitjançant el formulari d'edició del terme."
+
+#: modules/taxonomy/taxonomy.admin.inc:820
+msgid ""
+"You may re-enable the drag and drop interface at any time by reducing "
+"multiple parents to a single parent for the terms in this vocabulary."
+msgstr ""
+"Podeu tornar a habilitar la interfície arrossegar-i-deixar-anar en qualsevol "
+"moment reduint els múltiples pares dels termes d'aquest vocabulari a un de "
+"sol."
+
+#: modules/taxonomy/taxonomy.admin.inc:821
+msgid "Set multiple parents"
+msgstr "Definir múltiples pares"
+
+#: modules/taxonomy/taxonomy.admin.inc:908
+msgid ""
+"Are you sure you want to reset the vocabulary %title to alphabetical order?"
+msgstr "Esteu segur de voler reordenar el vocabulari %title alfabèticament?"
+
+#: modules/taxonomy/taxonomy.admin.inc:911
+msgid ""
+"Resetting a vocabulary will discard all custom ordering and sort items "
+"alphabetically."
+msgstr ""
+"Reiniciant un vocabulari anul·larem totes les ordenacions personalitzades i "
+"el reordenarem alfabèticament."
+
+#: modules/taxonomy/taxonomy.admin.inc:923,924
+msgid "Reset vocabulary %name to alphabetical order."
+msgstr "Reordenar el vocabulari %name alfabèticament."
+
+#: modules/taxonomy/taxonomy.module:425
+msgid "- None -"
+msgstr "- Cap -"
+
+#: modules/taxonomy/taxonomy.module:552
+msgid "Vocabularies"
+msgstr "Vocabularis"
+
+#: modules/taxonomy/taxonomy.module:1241
+msgid ""
+"The taxonomy module allows you to categorize content using various systems "
+"of classification. Free-tagging vocabularies are created by users on the fly "
+"when they submit posts (as commonly found in blogs and social bookmarking "
+"applications). Controlled vocabularies allow for administrator-defined short "
+"lists of terms as well as complex hierarchies with multiple relationships "
+"between different terms. These methods can be applied to different content "
+"types and combined together to create a powerful and flexible method of "
+"classifying and presenting your content."
+msgstr ""
+"El mòdul de taxonomia us permet categoritzar els continguts utilitzant "
+"diversos sistemes de classificació. Els vocabularis de lliure-etiquetatge "
+"són creats pels usuaris sobre la marxa quan envien contribucions (com "
+"normalment es pot trobar en blogs i altres aplicacions socials d'enllaços). "
+"Els vocabularis controlats permeten tant llistes de termes, així com "
+"complexes jerarquies amb múltiples relacions entre diferents termes. Aquests "
+"mètodes poden ser aplicats a diferents tipus de continguts i combinar-se per "
+"crear un mètode potent i flexible de classificar i presentar el vostre "
+"contingut."
+
+#: modules/taxonomy/taxonomy.module:1242
+msgid ""
+"For example, when creating a recipe site, you might want to classify posts "
+"by both the type of meal and preparation time. A vocabulary for each allows "
+"you to categorize using each criteria independently instead of creating a "
+"tag for every possible combination."
+msgstr ""
+"Per exemple, si creeu un web de receptes de cuina, és possible que volgueu "
+"classificar els enviaments pel tipus de menjar i pel temps de preparació "
+"alhora. Amb un vocabulari per a cada criteri de classificació podreu "
+"categoritzar cada criteri independentment en lloc de crear una etiqueta per "
+"a cada possible combinació."
+
+#: modules/taxonomy/taxonomy.module:1243
+msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
+msgstr "Tipus de menjar: <em>Entrant, Segon plat, Amanida, Postre</em>"
+
+#: modules/taxonomy/taxonomy.module:1244
+msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
+msgstr "Temps de preparació: <em>0-30 min. 30-60 min, 1-2 hr, 2 hr+</em>"
+
+#: modules/taxonomy/taxonomy.module:1245
+msgid ""
+"Each taxonomy term (often called a 'category' or 'tag' in other systems) "
+"automatically provides lists of posts and a corresponding RSS feed. These "
+"taxonomy/term URLs can be manipulated to generate AND and OR lists of posts "
+"classified with terms. In our recipe site example, it then becomes easy to "
+"create pages displaying 'Main courses', '30 minute recipes', or '30 minute "
+"main courses and appetizers' by using terms on their own or in combination "
+"with others. There are a significant number of contributed modules which you "
+"to alter and extend the behavior of the core module for both display and "
+"organization of terms."
+msgstr ""
+"Cada terme de la taxonomia (anomenat sovint una 'categoria' o 'etiqueta' en "
+"altres sistemes) proporciona llistes d'enviaments i el canal RSS "
+"corresponent. Aquestes URLs de terme/taxonomia es poden manipular per "
+"generar llistes I i O d'enviaments classificades amb termes. En el nostre "
+"exemple del web de receptes resulta llavors fàcil crear pàgines mostrant "
+"'Segons plats', 'Receptes de 30 minuts', o 'Segons plats de 30 minuts i "
+"entrants' utilitzant els termes individualment o en combinació amb els "
+"altres. Hi ha un nombre important de mòduls contribuïts el comportament dels "
+"quals es pot canviar o estendre quant a la visualització i l'organització "
+"dels termes."
+
+#: modules/taxonomy/taxonomy.module:1246
+msgid ""
+"Terms can also be organized in parent/child relationships from the admin "
+"interface. An example would be a vocabulary grouping countries under their "
+"parent geo-political regions. The taxonomy module also enables advanced "
+"implementations of hierarchy, for example placing Turkey in both the 'Middle "
+"East' and 'Europe'."
+msgstr ""
+"Els termes es poden organitzar també en relacions pare/fill des de la "
+"interfície d'administració. Un exemple seria un vocabulari que agrupi països "
+"per la seva regió geopolítica. El mòdul de taxonomia també permet crear "
+"jerarquies de tipus avançat com, per exemple, ubicar Turquia sota 'Orient "
+"Mitjà' i sota 'Europa' alhora."
+
+#: modules/taxonomy/taxonomy.module:1247
+msgid ""
+"The taxonomy module supports the use of both synonyms and related terms, but "
+"does not directly use this functionality. However, optional contributed or "
+"custom modules may make full use of these advanced features."
+msgstr ""
+"El mòdul de taxonomia permet l'ús tant de sinònims com de termes relacionats "
+"però no fa servir directament aquesta funcionalitat. No obstant, els mòduls "
+"contribuïts o els personalitzats sí que poden utilitzar completament "
+"aquestes opcions avançades."
+
+#: modules/taxonomy/taxonomy.module:1248
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@taxonomy"
+"\">Taxonomy module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul "
+"Taxonomia</a> al manual en línia."
+
+#: modules/taxonomy/taxonomy.module:1251
+msgid ""
+"The taxonomy module allows you to categorize your content using both tags "
+"and administrator defined terms. It is a flexible tool for classifying "
+"content with many advanced features. To begin, create a 'Vocabulary' to hold "
+"one set of terms or tags. You can create one free-tagging vocabulary for "
+"everything, or separate controlled vocabularies to define the various "
+"properties of your content, for example 'Countries' or 'Colors'."
+msgstr ""
+"El mòdul de taxonomia permet categoritzar el contingut utilitzant tant "
+"etiquetes com termes definits per l'administrador. És una eina flexible per "
+"classificar contingut, amb moltes funcionalitats avançades. Per començar, "
+"creeu un 'Vocabulari' que contindrà un conjunt de termes i etiquetes. Podeu "
+"crear un vocabulari d'etiquetatge lliure per a tot o vocabularis separats "
+"per definir les diverses propietats del contingut com, per exemple, 'Països' "
+"o 'Colors'."
+
+#: modules/taxonomy/taxonomy.module:1257
+msgid ""
+"%capital_name is a free-tagging vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name és un vocabulari d'etiquetatge lliure. Per canviar el nom o la "
+"descripció d'un terme, cliqueu a l'enllaç <em>editar</em> que hi ha al "
+"costat del terme."
+
+#: modules/taxonomy/taxonomy.module:1261
+msgid ""
+"%capital_name is a flat vocabulary. You may organize the terms in the %name "
+"vocabulary by using the handles on the left side of the table. To change the "
+"name or description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name és un vocabulari pla. Podeu organitzar els termes del "
+"vocabulari %name utilitzant els/les ¿? de la part esquerra de la taula. Per "
+"canviar el nom o la descripció d'un terme, cliqueu a l'enllaç <em>Editar</"
+"em> que hi ha al costat del terme."
+
+#: modules/taxonomy/taxonomy.module:1263
+msgid ""
+"%capital_name is a single hierarchy vocabulary. You may organize the terms "
+"in the %name vocabulary by using the handles on the left side of the table. "
+"To change the name or description of a term, click the <em>edit</em> link "
+"next to the term."
+msgstr ""
+"%capital_name és un vocabulari de jerarquia simple. Podeu organitzar els "
+"termes del vocabulari %name utilitzant els/les ¿? de la part esquerra de la "
+"taula. Per canviar el nom o la descripció d'un terme, cliqueu a l'enllaç "
+"<em>Editar</em> que hi ha al costat del terme."
+
+#: modules/taxonomy/taxonomy.module:1265
+msgid ""
+"%capital_name is a multiple hierarchy vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term. Drag "
+"and drop of multiple hierarchies is not supported, but you can re-enable "
+"drag and drop support by editing each term to include only a single parent."
+msgstr ""
+"%capital_name és un vocabulari de jerarquia composta. Per canviar el nom o "
+"la descripció d'un terme, cliqueu a l'enllaç <em>Editar</em> que hi ha al "
+"costat del terme. Les jerarquies compostes no es poden arrossegar-i-deixar-"
+"anar però podeu tornar-lo a habilitar editant cada terme de manera que "
+"tingui un sol pare."
+
+#: modules/taxonomy/taxonomy.module:1268
+msgid ""
+"Define how your vocabulary will be presented to administrators and users, "
+"and which content types to categorize with it. Tags allows users to create "
+"terms when submitting posts by typing a comma separated list. Otherwise "
+"terms are chosen from a select list and can only be created by users with "
+"the \"administer taxonomy\" permission."
+msgstr ""
+"Defineix com es mostrarà el vostre vocabulari als administradors i als "
+"usuaris i quins tipus de contingut s'hi categoritzaran. Les etiquetes "
+"permeten als usuaris crear termes a l'hora de fer els enviaments escrivint "
+"una llista separada per comes. Si no, els termes es trien d'una llista de "
+"selecció i sols poden ser creats per usuaris amb el permís \"administrar "
+"taxonomia\"."
+
+#: modules/taxonomy/taxonomy.module:1252
+msgid ""
+"Use the list below to configure and review the vocabularies defined on your "
+"site, or to list and manage the terms (tags) they contain. A vocabulary may "
+"(optionally) be tied to specific content types as shown in the <em>Type</em> "
+"column and, if so, will be displayed when creating or editing posts of that "
+"type. Multiple vocabularies tied to the same content type will be displayed "
+"in the order shown below. To change the order of a vocabulary, grab a drag-"
+"and-drop handle under the <em>Name</em> column and drag it to a new location "
+"in the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"Useu la llista de més avall per configurar i revisar els vocabularis "
+"definits al lloc web, o per llistar i gestionar els termes (etiquetes) que "
+"contenen. Un vocabulari pot (opcionalment) estar lligat a tipus de contingut "
+"específics, tal com es mostra a la columna <em>Tipus</em> i, en aquest cas, "
+"es mostrarà quan es creïn o s'editin enviaments d'aquests tipus. Si hi ha "
+"diversos vocabularis lligats a un mateix tipus de contingut, aquells es "
+"mostraran en l'ordre indicat més avall. Per tal de canviar l'ordre de "
+"vocabulari, preneu una icona d'arrossegar-i-deixar-anar sota la columa "
+"<em>Nom</em> i arrossegueu-la fins a la seva nova ubicació de la llista "
+"(Preneu la icona clicant i mantenint el ratolí premut mentre esteu al damunt "
+"seu). Recordeu que els vostres canvis no es desaran fins que cliqueu al botó "
+"<em>Desa la configuració</em> del peu de pàgina."
+
+#: modules/taxonomy/taxonomy.module:1307
+msgid "After saving a new term to the database"
+msgstr "Després de desar un nou terme a la base de dades"
+
+#: modules/taxonomy/taxonomy.module:1310
+msgid "After saving an updated term to the database"
+msgstr "Després de desar un terme actualitzat a la base de dades"
+
+#: modules/taxonomy/taxonomy.module:1313
+msgid "After deleting a term"
+msgstr "Després d'eliminar un terme"
+
+#: modules/taxonomy/taxonomy.admin.inc:125
+msgid "The name for this vocabulary, e.g., <em>\"Tags\"</em>."
+msgstr "El nom per aquest vocabulari; per exemple, <em>\"Etiquetes\"</em>."
+
+#: modules/taxonomy/taxonomy.admin.inc:137
+msgid ""
+"Instructions to present to the user when selecting terms, e.g., <em>\"Enter "
+"a comma separated list of words\"</em>."
+msgstr ""
+"Instruccions per mostrar a l'usuari quan seleccioni els termes, exemple: <em>"
+"\"Introduïu una llista de paraules separades per comes\"</em>."

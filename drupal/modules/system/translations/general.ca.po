@@ -1,0 +1,1557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Robert Garrigós <robert@garrigos.cat>\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/aggregator/aggregator.admin.inc:27,38,63,263;
+#: modules/book/book.admin.inc:218; modules/filter/filter.module:220;
+#: modules/menu/menu.admin.inc:413; modules/node/content_types.inc:58;
+#: modules/node/node.admin.inc:562; modules/node/node.module:584;
+#: modules/profile/profile.admin.inc:147,221;
+#: modules/statistics/statistics.admin.inc:150;
+#: modules/translation/translation.pages.inc:27
+msgid "Title"
+msgstr "Títol"
+
+#: install.php:1082; modules/block/block.admin.inc:363;
+#: modules/comment/comment.module:501,553,585;
+#: modules/locale/locale.module:275;
+#: modules/statistics/statistics.admin.inc:185;
+#: modules/statistics/statistics.module:255;
+#: modules/system/system.admin.inc:1276,1293,1307,1325,1333,1509,1663;
+#: modules/system/system.install:60; modules/upload/upload.module:215;
+#: modules/user/user.admin.inc:412,430
+msgid "Disabled"
+msgstr "Deshabilitat"
+
+#: install.php:1082; includes/locale.inc:90;
+#: modules/comment/comment.module:553; modules/locale/locale.module:275;
+#: modules/menu/menu.admin.inc:176,293;
+#: modules/statistics/statistics.admin.inc:185;
+#: modules/system/system.admin.inc:1293,1325,1333,1509,1663,2018,2207;
+#: modules/system/system.install:282; modules/upload/upload.module:215;
+#: modules/user/user.admin.inc:412,430
+msgid "Enabled"
+msgstr "Habilitat"
+
+#: install.php:1043; modules/node/node.module:2683,2692;
+#: modules/user/user.admin.inc:134,745,790,907;
+#: modules/user/user.module:653,1248,1446
+msgid "Username"
+msgstr "Nom d'usuari"
+
+#: includes/locale.inc:90; modules/filter/filter.admin.inc:69;
+#: modules/system/system.admin.inc:2207
+msgid "Default"
+msgstr "Predeterminat"
+
+#: modules/aggregator/aggregator.admin.inc:269;
+#: modules/forum/forum.admin.inc:45,126; modules/menu/menu.admin.inc:286,419;
+#: modules/node/content_types.inc:15,103;
+#: modules/system/system.admin.inc:1751,2024,2108;
+#: modules/system/system.module:1324,1445;
+#: modules/taxonomy/taxonomy.admin.inc:129,670;
+#: modules/upload/upload.module:517
+msgid "Description"
+msgstr "Descripció"
+
+#: includes/locale.inc:90; modules/block/block-admin-display-form.tpl.php:43;
+#: modules/book/book.admin.inc:218; modules/book/book.module:387;
+#: modules/contact/contact.admin.inc:58; modules/filter/filter.admin.inc:362;
+#: modules/forum/forum.admin.inc:52,134; modules/menu/menu.admin.inc:178,320;
+#: modules/menu/menu.module:416; modules/node/node.module:1321;
+#: modules/profile/profile.admin.inc:150,265;
+#: modules/taxonomy/taxonomy.admin.inc:90,171,705;
+#: modules/upload/upload.module:517
+msgid "Weight"
+msgstr "Pes"
+
+#: modules/upload/upload.info:0
+msgid "Upload"
+msgstr "Carregueu"
+
+#: modules/menu/menu.admin.inc:258,274; modules/path/path.info:0
+msgid "Path"
+msgstr "Camí"
+
+#: includes/locale.inc:403,920;
+#: modules/aggregator/aggregator.admin.inc:102,142,275,306;
+#: modules/block/block.admin.inc:334; modules/comment/comment.admin.inc:248;
+#: modules/contact/contact.admin.inc:138; modules/filter/filter.admin.inc:252;
+#: modules/forum/forum.admin.inc:10,60,148,168;
+#: modules/menu/menu.admin.inc:265,393,460;
+#: modules/node/content_types.inc:393; modules/node/node.admin.inc:125;
+#: modules/node/node.pages.inc:247,505,591;
+#: modules/openid/openid.pages.inc:47; modules/profile/profile.admin.inc:375;
+#: modules/system/system.module:1525;
+#: modules/taxonomy/taxonomy.admin.inc:187,220,720,749,842,877;
+#: modules/upload/upload.module:517; modules/user/user.admin.inc:869;
+#: modules/user/user.pages.inc:257,324
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: modules/user/user.admin.inc:563; modules/user/user.pages.inc:293,359
+msgid "The changes have been saved."
+msgstr "S'han desat els canvis."
+
+#: includes/locale.inc:86,2048; modules/block/block.admin.inc:85;
+#: modules/book/book.admin.inc:238; modules/comment/comment.module:826;
+#: modules/contact/contact.admin.inc:16; modules/filter/filter.admin.inc:35;
+#: modules/menu/menu.admin.inc:100; modules/node/content_types.inc:32;
+#: modules/node/node.pages.inc:557; modules/path/path.admin.inc:44;
+#: modules/profile/profile.admin.inc:31; modules/system/system.module:1334;
+#: modules/user/user.admin.inc:890
+msgid "delete"
+msgstr "suprimeix"
+
+#: includes/locale.inc:90,2033; modules/aggregator/aggregator.admin.inc:27,38;
+#: modules/block/block-admin-display-form.tpl.php:47;
+#: modules/book/book.admin.inc:17,218; modules/comment/comment.admin.inc:58;
+#: modules/contact/contact.admin.inc:18; modules/dblog/dblog.admin.inc:62,170;
+#: modules/filter/filter.admin.inc:69; modules/menu/menu.admin.inc:179;
+#: modules/node/content_types.inc:15; modules/node/node.admin.inc:566;
+#: modules/node/node.pages.inc:527; modules/openid/openid.pages.inc:42;
+#: modules/path/path.admin.inc:32; modules/profile/profile.admin.inc:152;
+#: modules/statistics/statistics.admin.inc:17,82;
+#: modules/statistics/statistics.pages.inc:16,48;
+#: modules/system/system.admin.inc:2207; modules/system/system.module:1325;
+#: modules/taxonomy/taxonomy.admin.inc:93,612;
+#: modules/translation/translation.pages.inc:27;
+#: modules/user/user.admin.inc:139,885,912,949
+msgid "Operations"
+msgstr "Operacions"
+
+#: includes/locale.inc:403,920; modules/aggregator/aggregator.admin.inc:191;
+#: modules/block/block.admin.inc:334;
+#: modules/comment/comment.admin.inc:190,249;
+#: modules/contact/contact.admin.inc:138; modules/filter/filter.admin.inc:252;
+#: modules/forum/forum.admin.inc:168; modules/node/node.admin.inc:78,618;
+#: modules/node/node.pages.inc:506,571,591;
+#: modules/profile/profile.admin.inc:375; modules/search/search.admin.inc:14;
+#: modules/system/system.admin.inc:845,1082;
+#: modules/system/system.module:1143,1525;
+#: modules/taxonomy/taxonomy.admin.inc:843,878,913;
+#: modules/trigger/trigger.admin.inc:77; modules/user/user.admin.inc:870;
+#: modules/user/user.pages.inc:324; modules/user/user.module:1872
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: modules/aggregator/aggregator.admin.inc:224;
+#: modules/block/block.admin.inc:39; modules/book/book.module:412;
+#: modules/system/system.admin.inc:1281;
+#: modules/taxonomy/taxonomy.admin.inc:696
+msgid "none"
+msgstr "cap"
+
+#: modules/dblog/dblog.admin.inc:295,325; modules/menu/menu.admin.inc:584;
+#: modules/node/node.admin.inc:255,333; modules/path/path.admin.inc:212;
+#: modules/user/user.admin.inc:82,111
+msgid "Reset"
+msgstr "Reinicialitza"
+
+#: includes/theme.inc:1624; modules/comment/comment.module:1343,1352,1454;
+#: modules/node/node.pages.inc:183; modules/system/system.admin.inc:1162;
+#: modules/system/system.module:1768; modules/user/user.module:818
+msgid "Anonymous"
+msgstr "Anònim"
+
+#: modules/node/node.admin.inc:40; modules/poll/poll.module:250
+msgid "Unlimited"
+msgstr "Il·limitat"
+
+#: modules/aggregator/aggregator.admin.inc:174,338;
+#: modules/blogapi/blogapi.module:238,300;
+#: modules/book/book.admin.inc:130,236; modules/comment/comment.admin.inc:111;
+#: modules/comment/comment.module:708,771;
+#: modules/contact/contact.admin.inc:115,121;
+#: modules/node/content_types.inc:335; modules/node/node.pages.inc:454;
+#: modules/profile/profile.admin.inc:346,388;
+#: modules/update/update.fetch.inc:57,60
+msgid "view"
+msgstr "mostra"
+
+#: modules/dblog/dblog.admin.inc:61,146;
+#: modules/statistics/statistics.admin.inc:16,162;
+#: modules/statistics/statistics.pages.inc:15; modules/user/user.info:0
+msgid "User"
+msgstr "Usuari"
+
+#: modules/aggregator/aggregator.admin.inc:99,113,272,286;
+#: modules/comment/comment.module:1390,1391;
+#: modules/contact/contact.admin.inc:72; modules/forum/forum.admin.inc:58,145;
+#: modules/menu/menu.admin.inc:325,424; modules/node/node.pages.inc:234;
+#: modules/system/system.module:1474;
+#: modules/taxonomy/taxonomy.admin.inc:37,185,414,715,760;
+#: modules/user/user.pages.inc:253
+msgid "Save"
+msgstr "Desa"
+
+#: modules/color/color.module:230; modules/comment/comment.pages.inc:60;
+#: modules/comment/comment.module:1390,1394,1397;
+#: modules/node/node.pages.inc:240,402
+msgid "Preview"
+msgstr "Previsualització"
+
+#: modules/system/system.module:1539; modules/user/user.pages.inc:73,111,147;
+#: modules/user/user.module:1322,1368,1422,1600,2322
+msgid "user"
+msgstr "usuari"
+
+#: includes/locale.inc:86,2047; modules/aggregator/aggregator.admin.inc:30,41;
+#: modules/book/book.admin.inc:237; modules/comment/comment.admin.inc:71;
+#: modules/comment/comment.module:830,841;
+#: modules/contact/contact.admin.inc:16; modules/menu/menu.admin.inc:97;
+#: modules/node/content_types.inc:28; modules/node/node.admin.inc:501;
+#: modules/path/path.admin.inc:44; modules/profile/profile.admin.inc:30;
+#: modules/taxonomy/taxonomy.admin.inc:203,207,401,769,773;
+#: modules/translation/translation.pages.inc:38;
+#: modules/user/user.admin.inc:185,890; modules/user/user.module:1422,2322
+msgid "edit"
+msgstr "edita"
+
+#: modules/blogapi/blogapi.module:238,300; modules/book/book.admin.inc:130;
+#: modules/comment/comment.admin.inc:111,280,286;
+#: modules/comment/comment.module:708,771,793;
+#: modules/forum/forum.admin.inc:177;
+#: modules/node/node.pages.inc:459,463,584,598; modules/node/node.module:977
+msgid "content"
+msgstr "contingut"
+
+#: install.php:286; modules/taxonomy/taxonomy.admin.inc:676
+msgid "Advanced options"
+msgstr "Opcions avançades"
+
+#: includes/locale.inc:58; modules/filter/filter.admin.inc:155,351;
+#: modules/menu/menu.admin.inc:50; modules/profile/profile.admin.inc:44;
+#: modules/system/system.admin.inc:253,276,768;
+#: modules/system/system.module:1024
+msgid "Save configuration"
+msgstr "Desa la configuració"
+
+#: install.php:924,936; includes/install.inc:728
+msgid "Currently using !item !version"
+msgstr "Esteu utilitzant !item !version"
+
+#: includes/common.inc:335; modules/system/system.admin.inc:1645
+msgid ""
+"@site is currently under maintenance. We should be back shortly. Thank you "
+"for your patience."
+msgstr ""
+"@site està actualment en manteniment. El lloc tornarà a funcionar aviat. "
+"Gràcies per la vostre paciència."
+
+#: includes/common.inc:1201; modules/blogapi/blogapi.module:739,749;
+#: modules/upload/upload.admin.inc:98,107,136,145
+msgid "MB"
+msgstr "MB"
+
+#: includes/common.inc:609; includes/image.inc:95; includes/menu.inc:2284;
+#: includes/unicode.inc:151,184
+msgid "php"
+msgstr "php"
+
+#: includes/database.mysql.inc:26; includes/database.mysqli.inc:29
+msgid "MySQL database"
+msgstr "Base de dades MySQL"
+
+#: includes/database.mysql.inc:32; includes/database.mysqli.inc:35
+msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
+msgstr ""
+"El vostre servidor MySQL és massa antic. Drupal requereix almenys MySQL %"
+"version."
+
+#: includes/file.inc:109; modules/system/system.install:198
+msgid "The directory %directory does not exist."
+msgstr "El directori %directory no existeix."
+
+#: includes/file.inc:122,226; modules/system/system.module:1232
+msgid "file system"
+msgstr "sistema de fitxers"
+
+#: includes/file.inc:136; modules/user/user.pages.inc:274,343;
+#: modules/user/user.module:1791,2300
+msgid "security"
+msgstr "seguretat"
+
+#: includes/form.inc:575; modules/upload/upload.module:571
+msgid ""
+"Validation error, please try again. If this error persists, please contact "
+"the site administrator."
+msgstr ""
+"Error de validació, torneu-ho a intentar. Si aquest error persisteix "
+"contacteu amb l'administrador."
+
+#: includes/form.inc:698,704; modules/filter/filter.module:537
+msgid ""
+"An illegal choice has been detected. Please contact the site administrator."
+msgstr ""
+"S'ha detectat una opció il·legal. Si us plau, contacteu amb l'administrador "
+"del lloc."
+
+#: includes/form.inc:705; modules/filter/filter.module:538
+msgid "Illegal choice %choice in %name element."
+msgstr "Opció il·legal %choice a l'element %name."
+
+#: includes/form.inc:1590; modules/user/user.module:659,1257
+msgid "Password"
+msgstr "Contrasenya"
+
+#: includes/form.inc:699,705; modules/filter/filter.module:538
+msgid "form"
+msgstr "formulari"
+
+#: includes/locale.inc:503; modules/blogapi/blogapi.module:259;
+#: modules/filter/filter.module:466; modules/forum/forum-submitted.tpl.php:27;
+#: modules/translation/translation.pages.inc:48
+msgid "n/a"
+msgstr "n/d"
+
+#: includes/locale.inc:546,573; modules/search/search.module:159,1050,1070;
+#: modules/search/search.info:0
+msgid "Search"
+msgstr "Cerca"
+
+#: includes/locale.inc:489,557,2033; modules/locale/locale.module:241,260,287;
+#: modules/node/node.admin.inc:564; modules/path/path.admin.inc:36;
+#: modules/translation/translation.pages.inc:27
+msgid "Language"
+msgstr "Idioma"
+
+#: includes/locale.inc:559; modules/locale/locale.module:261
+msgid "All languages"
+msgstr "Tots els idiomes"
+
+#: includes/locale.inc:423,662,853,995,1052,1879,1883,2224,2227,2230,2233;
+#: modules/locale/locale.module:519
+msgid "locale"
+msgstr "local"
+
+#: includes/menu.inc:1498; modules/blog/blog.module:108;
+#: modules/book/book.module:625; modules/comment/comment.pages.inc:53;
+#: modules/forum/forum.module:198,655;
+#: modules/system/maintenance-page.tpl.php:34,35,42;
+#: modules/system/page.tpl.php:95,96,103;
+#: modules/taxonomy/taxonomy.pages.inc:40;
+#: themes/bluemarine/page.tpl.php:19,20; themes/chameleon/chameleon.theme:42;
+#: themes/pushbutton/page.tpl.php:21,27
+msgid "Home"
+msgstr "Inici"
+
+#: modules/menu/menu.install:12; modules/user/user.module:687,737
+msgid "Navigation"
+msgstr "Navegació"
+
+#: includes/pager.inc:396; modules/book/book-navigation.tpl.php:40
+msgid "Go to previous page"
+msgstr "Ves a la pàgina anterior"
+
+#: includes/pager.inc:397; modules/book/book-navigation.tpl.php:46
+msgid "Go to next page"
+msgstr "Vés a la pàgina següent"
+
+#: includes/theme.inc:1425; modules/comment/comment.module:1686,1711
+msgid "new"
+msgstr "nou"
+
+#: includes/theme.inc:1603; modules/user/user.module:821
+msgid "View user profile."
+msgstr "Mostra el perfil d'usuari."
+
+#: includes/batch.inc:101; includes/unicode.inc:86
+msgid "Error"
+msgstr "Error"
+
+#: modules/aggregator/aggregator.admin.inc:228;
+#: modules/filter/filter.module:678
+msgid "Allowed HTML tags"
+msgstr "Etiquetes HTML permeses"
+
+#: modules/aggregator/aggregator.admin.inc:70;
+#: modules/profile/profile.module:42,550;
+#: modules/statistics/statistics.admin.inc:144;
+#: modules/system/system.module:1824
+msgid "URL"
+msgstr "URL"
+
+#: modules/aggregator/aggregator.admin.inc:30;
+#: modules/aggregator/aggregator.pages.inc:482;
+#: modules/comment/comment.module:396;
+#: modules/statistics/statistics.admin.inc:125;
+#: modules/user/user.admin.inc:184
+msgid "@time ago"
+msgstr "fa @time"
+
+#: modules/aggregator/aggregator.admin.inc:30;
+#: modules/aggregator/aggregator.pages.inc:485;
+#: modules/user/user.admin.inc:184
+msgid "never"
+msgstr "mai"
+
+#: modules/aggregator/aggregator.admin.inc:161,174,325,338;
+#: modules/aggregator/aggregator.pages.inc:16;
+#: modules/aggregator/aggregator.module:607,641,648,717
+msgid "aggregator"
+msgstr "agregador"
+
+#: modules/aggregator/aggregator.pages.inc:363; modules/node/node.module:1699
+msgid "read more"
+msgstr "llegeix més"
+
+#: modules/aggregator/aggregator.admin.inc:30,41;
+#: modules/aggregator/aggregator.module:927
+msgid "1 item"
+msgid_plural "@count items"
+msgstr[0] "1 element"
+msgstr[1] "@count elements"
+
+#: modules/aggregator/aggregator.info:0
+msgid "Aggregator"
+msgstr "Agregador"
+
+#: modules/aggregator/aggregator.info:0
+msgid "Aggregates syndicated content (RSS, RDF, and Atom feeds)."
+msgstr "Afegeix contingut sindicat (canals RSS, RDF i Àtom)."
+
+#: modules/aggregator/aggregator.info:0; modules/blog/blog.info:0;
+#: modules/blogapi/blogapi.info:0; modules/book/book.info:0;
+#: modules/color/color.info:0; modules/comment/comment.info:0;
+#: modules/contact/contact.info:0; modules/dblog/dblog.info:0;
+#: modules/forum/forum.info:0; modules/help/help.info:0;
+#: modules/locale/locale.info:0; modules/menu/menu.info:0;
+#: modules/openid/openid.info:0; modules/path/path.info:0;
+#: modules/php/php.info:0; modules/ping/ping.info:0; modules/poll/poll.info:0;
+#: modules/profile/profile.info:0; modules/search/search.info:0;
+#: modules/statistics/statistics.info:0; modules/syslog/syslog.info:0;
+#: modules/taxonomy/taxonomy.info:0; modules/throttle/throttle.info:0;
+#: modules/tracker/tracker.info:0; modules/translation/translation.info:0;
+#: modules/trigger/trigger.info:0; modules/update/update.info:0;
+#: modules/upload/upload.info:0
+msgid "Core - optional"
+msgstr "Nucli - opcional"
+
+#: modules/block/block.admin.inc:83; modules/filter/filter.admin.inc:34;
+#: modules/system/system.admin.inc:219; modules/system/system.module:1333
+msgid "configure"
+msgstr "configura"
+
+#: modules/block/block-admin-display-form.tpl.php:41;
+#: modules/block/block.info:0
+msgid "Block"
+msgstr "Bloc"
+
+#: modules/block/block-admin-display-form.tpl.php:45;
+#: modules/system/system.admin.inc:2020; modules/throttle/throttle.info:0
+msgid "Throttle"
+msgstr "Regula"
+
+#: modules/block/block.info:0
+msgid "Controls the boxes that are displayed around the main content."
+msgstr "Controla les caixes que es mostren al voltant del contingut principal."
+
+#: modules/block/block.info:0; modules/filter/filter.info:0;
+#: modules/node/node.info:0; modules/system/system.info:0;
+#: modules/user/user.info:0
+msgid "Core - required"
+msgstr "Nucli - necessari"
+
+#: modules/blog/blog.module:51; modules/blog/blog.info:0
+msgid "Blog"
+msgstr "Blog"
+
+#: modules/blog/blog.pages.inc:15; modules/blog/blog.module:108
+msgid "@name's blog"
+msgstr "blog de @name"
+
+#: modules/blog/blog.info:0
+msgid "Enables keeping easily and regularly updated user web pages or blogs."
+msgstr ""
+"Manté actualitzat fàcil i regularment les pàgines web o els blogs d'usuari."
+
+#: modules/blogapi/blogapi.info:0
+msgid "Blog API"
+msgstr "API del Blog"
+
+#: modules/blogapi/blogapi.info:0
+msgid ""
+"Allows users to post content using applications that support XML-RPC blog "
+"APIs."
+msgstr ""
+"Permet als usuaris publicar utilitzant aplicacions que permeten l'ús de les "
+"API del blog XML-RPC."
+
+#: modules/book/book.admin.inc:44,60; modules/book/book.module:57
+msgid "Add child page"
+msgstr "Afegeix pàgina filla"
+
+#: modules/book/book.admin.inc:218; modules/forum/forum.admin.inc:50,131
+msgid "Parent"
+msgstr "Pare"
+
+#: modules/book/book.admin.inc:17; modules/book/book.module:418;
+#: modules/book/book.info:0
+msgid "Book"
+msgstr "Llibre"
+
+#: modules/color/color.module:286;
+#: modules/node/content_types.inc:208,279,306,325;
+#: modules/system/system.admin.inc:257,547;
+#: modules/system/system.module:1025,1048,1058;
+#: modules/update/update.settings.inc:94
+msgid "Reset to defaults"
+msgstr "Reinicialitza als valors predeterminats"
+
+#: modules/color/color.info:0
+msgid "Color"
+msgstr "Color"
+
+#: modules/color/color.info:0
+msgid "Allows the user to change the color scheme of certain themes."
+msgstr "Permet que l'usuari canvii l'esquema de colors d'alguns temes."
+
+#: modules/comment/comment.module:560; modules/node/node.admin.inc:59
+msgid "Optional"
+msgstr "Opcional"
+
+#: modules/comment/comment.module:560; modules/node/node.admin.inc:59;
+#: modules/taxonomy/taxonomy.admin.inc:166
+msgid "Required"
+msgstr "Necessari"
+
+#: modules/comment/comment.admin.inc:111; modules/comment/comment.module:708
+msgid "Comment: updated %subject."
+msgstr "Comentari: s'ha actualitzat %subject."
+
+#: modules/comment/comment.admin.inc:40; modules/node/node.admin.inc:469;
+#: modules/user/user.admin.inc:149
+msgid "Update options"
+msgstr "Actualitza les opcions"
+
+#: modules/comment/comment.admin.inc:48; modules/node/node.admin.inc:484;
+#: modules/user/user.admin.inc:114,164
+msgid "Update"
+msgstr "Actualitza"
+
+#: modules/comment/comment.admin.inc:54; modules/comment/comment.module:1360;
+#: modules/contact/contact.pages.inc:55,187; modules/forum/forum.module:305;
+#: modules/system/system.module:1595;
+#: modules/user/user.admin.inc:257,277,297,317,342,367,392
+msgid "Subject"
+msgstr "Assumpte"
+
+#: modules/comment/comment.admin.inc:55; modules/node/node.admin.inc:562;
+#: modules/tracker/tracker.pages.inc:65
+msgid "Author"
+msgstr "Autor"
+
+#: modules/comment/comment.admin.inc:57;
+#: modules/statistics/statistics.pages.inc:13
+msgid "Time"
+msgstr "Hora"
+
+#: modules/comment/comment.admin.inc:115; modules/node/node.admin.inc:377,429;
+#: modules/user/user.admin.inc:214
+msgid "The update has been performed."
+msgstr "S'ha realitzat l'actualització."
+
+#: modules/aggregator/aggregator.admin.inc:189;
+#: modules/comment/comment.admin.inc:189;
+#: modules/contact/contact.admin.inc:138; modules/menu/menu.admin.inc:459;
+#: modules/node/content_types.inc:391; modules/node/node.admin.inc:617;
+#: modules/node/node.pages.inc:504,591; modules/system/system.module:1134;
+#: modules/user/user.admin.inc:868; modules/user/user.module:1871
+msgid "This action cannot be undone."
+msgstr "L'acció no es pot desfer."
+
+#: modules/comment/comment.module:1191; modules/node/node.module:803
+msgid "You have to specify a valid date."
+msgstr "Heu d'especificar una data vàlida."
+
+#: modules/comment/comment.module:1291,1307; modules/node/node.pages.inc:178
+msgid "Authored by"
+msgstr "Elaborat per"
+
+#: modules/comment/comment.module:1315,1346,1354;
+#: modules/user/user.admin.inc:745,801
+msgid "E-mail"
+msgstr "Correu electrònic"
+
+#: modules/comment/comment.module:1319,1346,1354;
+#: modules/profile/profile.module:341
+msgid ""
+"The content of this field is kept private and will not be shown publicly."
+msgstr ""
+"El contingut d'aquest camp es manté privat i no es mostrarà públicament."
+
+#: modules/comment/comment.module:1331; modules/node/node.pages.inc:187
+msgid "Authored on"
+msgstr "Elaborat el"
+
+#: modules/comment/comment.module:1333; modules/node/node.admin.inc:562;
+#: modules/translation/translation.pages.inc:27;
+#: modules/user/user.admin.inc:135,908; modules/user/user.module:1477
+msgid "Status"
+msgstr "Estat"
+
+#: modules/comment/comment.module:1333; modules/node/content_types.inc:157;
+#: modules/node/node.pages.inc:207;
+#: modules/translation/translation.pages.inc:40
+msgid "Published"
+msgstr "Publicat"
+
+#: modules/comment/comment.module:1333;
+#: modules/translation/translation.pages.inc:40
+msgid "Not published"
+msgstr "No publicat"
+
+#: modules/comment/comment.module:1337,1343,1352;
+#: modules/contact/contact.pages.inc:43
+msgid "Your name"
+msgstr "El vostre nom"
+
+#: modules/comment/comment.module:1372; modules/comment/comment.info:0
+msgid "Comment"
+msgstr "Comentari"
+
+#: includes/locale.inc:458; modules/comment/comment.module:1625
+msgid "Save settings"
+msgstr "Desa la configuració"
+
+#: modules/comment/comment.module:1859; modules/forum/forum.admin.inc:204
+msgid "Date - newest first"
+msgstr "Data - primer els nous"
+
+#: modules/comment/comment.module:1860; modules/forum/forum.admin.inc:204
+msgid "Date - oldest first"
+msgstr "Data - primer els vells"
+
+#: modules/comment/comment.module:419,625; modules/node/node.module:138
+msgid "1 comment"
+msgid_plural "@count comments"
+msgstr[0] "1 comentari"
+msgstr[1] "@count comentaris"
+
+#: modules/comment/comment.info:0
+msgid "Allows users to comment on and discuss published content."
+msgstr "Permet als usuaris fer comentaris sobre el contingut publicat."
+
+#: modules/contact/contact.info:0
+msgid "Contact"
+msgstr "Contacte"
+
+#: modules/contact/contact.admin.inc:16,64;
+#: modules/upload/upload.admin.inc:80; modules/user/user.module:2182
+msgid "Yes"
+msgstr "Sí"
+
+#: modules/contact/contact.admin.inc:16,64;
+#: modules/upload/upload.admin.inc:80; modules/user/user.module:2183
+msgid "No"
+msgstr "No"
+
+#: modules/contact/contact.admin.inc:18,40;
+#: modules/contact/contact.pages.inc:67;
+#: modules/profile/profile.admin.inc:149,214
+msgid "Category"
+msgstr "Categoria"
+
+#: modules/contact/contact.admin.inc:18,63;
+#: modules/system/system.admin.inc:2149
+msgid "Selected"
+msgstr "Seleccionat"
+
+#: modules/contact/contact.admin.inc:83; modules/profile/profile.admin.inc:302
+msgid "You must enter a category."
+msgstr "Heu d’introduir una categoria."
+
+#: modules/contact/contact.admin.inc:157; modules/contact/contact.pages.inc:41
+msgid "You can leave a message using the contact form below."
+msgstr "Podeu deixar un missatge utilitzant el formulari de contacte de sota."
+
+#: modules/contact/contact.pages.inc:81,192;
+#: modules/dblog/dblog.admin.inc:60,108,158;
+#: modules/system/system.module:1602,1748
+msgid "Message"
+msgstr "Missatge"
+
+#: modules/contact/contact.pages.inc:95,200; modules/system/system.module:1277
+msgid "Send e-mail"
+msgstr "Envia un correu electrònic"
+
+#: includes/mail.inc:134; modules/contact/contact.admin.inc:115,121,148;
+#: modules/contact/contact.pages.inc:146,231
+msgid "mail"
+msgstr "correu"
+
+#: modules/contact/contact.info:0
+msgid "Enables the use of both personal and site-wide contact forms."
+msgstr "Activa l'ús de formularis de contacte personal i del lloc."
+
+#: modules/filter/filter.module:220,221,222,223,224,225;
+#: modules/system/system.module:0
+msgid "Header"
+msgstr "Capçalera"
+
+#: modules/filter/filter.admin.inc:69,102,362;
+#: modules/node/content_types.inc:15,72;
+#: modules/profile/profile.admin.inc:147;
+#: modules/system/system.admin.inc:1129,2022,2107,2149,2207;
+#: modules/taxonomy/taxonomy.admin.inc:88,612;
+#: modules/trigger/trigger.admin.inc:238; modules/user/user.admin.inc:949
+msgid "Name"
+msgstr "Nom"
+
+#: modules/filter/filter.admin.inc:69,110;
+#: modules/user/user.admin.inc:136,909; modules/user/user.module:1502
+msgid "Roles"
+msgstr "Rols"
+
+#: modules/filter/filter.admin.inc:146; modules/filter/filter.module:594
+msgid "More information about formatting options"
+msgstr "Més informació sobre opcions de format"
+
+#: modules/filter/filter.admin.inc:153; modules/filter/filter.module:523
+msgid "Formatting guidelines"
+msgstr "Guia de formatat"
+
+#: modules/dblog/dblog.admin.inc:290,306,318; modules/filter/filter.info:0;
+#: modules/node/node.admin.inc:252,317; modules/path/path.admin.inc:206;
+#: modules/user/user.admin.inc:73,98
+msgid "Filter"
+msgstr "Filtre"
+
+#: modules/filter/filter.info:0
+msgid "Handles the filtering of content in preparation for display."
+msgstr "Gestiona el filtre de contingut que es prepara per visualitzar."
+
+#: modules/forum/forum.admin.inc:277; modules/taxonomy/taxonomy.admin.inc:695
+msgid "root"
+msgstr "arrel"
+
+#: modules/forum/forum.module:568; modules/tracker/tracker.pages.inc:65
+msgid "Replies"
+msgstr "Respostes"
+
+#: modules/forum/forum-list.tpl.php:37; modules/forum/forum.info:0
+msgid "Forum"
+msgstr "Fòrum"
+
+#: modules/forum/forum.module:769,831; modules/tracker/tracker.pages.inc:48
+msgid "1 new"
+msgid_plural "@count new"
+msgstr[0] "1 nou"
+msgstr[1] "@count nous"
+
+#: modules/forum/forum.info:0
+msgid "Enables threaded discussions about general topics."
+msgstr "Habilita discussions amb fils sobre temes generals."
+
+#: modules/help/help.info:0
+msgid "Help"
+msgstr "Ajuda"
+
+#: modules/help/help.info:0
+msgid "Manages the display of online help."
+msgstr "Gestiona la visualització de l'ajuda en línia."
+
+#: modules/taxonomy/taxonomy.info:0
+msgid "Taxonomy"
+msgstr "Taxonomia"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1517
+msgid "Thursday"
+msgstr "Dijous"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1517
+msgid "Friday"
+msgstr "Divendres"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1517
+msgid "Saturday"
+msgstr "Dissabte"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1517
+msgid "Sunday"
+msgstr "Diumenge"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1517
+msgid "Monday"
+msgstr "Dilluns"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1517
+msgid "Tuesday"
+msgstr "Dimarts"
+
+#: modules/locale/locale.module:0; modules/system/system.admin.inc:1517
+msgid "Wednesday"
+msgstr "Dimecres"
+
+#: modules/locale/locale.info:0
+msgid "Locale"
+msgstr "Local"
+
+#: modules/menu/menu.admin.inc:230; modules/menu/menu.module:366
+msgid "Menu settings"
+msgstr "Paràmetres de menú"
+
+#: modules/book/book.module:349; modules/menu/menu.admin.inc:312;
+#: modules/menu/menu.module:406
+msgid "Parent item"
+msgstr "Element pare"
+
+#: modules/menu/menu.admin.inc:323; modules/menu/menu.module:419
+msgid ""
+"Optional. In the menu, the heavier items will sink and the lighter items "
+"will be positioned nearer the top."
+msgstr ""
+"Opcional. Al menú, els elements més pesats s'enfonsaran i els més lleugers "
+"es situaran en la part superior."
+
+#: modules/menu/menu.admin.inc:72; modules/menu/menu.module:243
+msgid "disabled"
+msgstr "deshabilitat"
+
+#: modules/menu/menu.admin.inc:493,575; modules/node/content_types.inc:404
+msgid "menu"
+msgstr "menú"
+
+#: modules/menu/menu.info:0
+msgid "Menu"
+msgstr "Menú"
+
+#: modules/menu/menu.info:0
+msgid "Allows administrators to customize the site navigation menu."
+msgstr "Permet als administradors personalitzar el menú de navegació del lloc."
+
+#: modules/dblog/dblog.admin.inc:58,138,223;
+#: modules/node/content_types.inc:15,81,95; modules/node/node.admin.inc:562;
+#: modules/profile/profile.admin.inc:147;
+#: modules/taxonomy/taxonomy.admin.inc:88;
+#: modules/tracker/tracker.pages.inc:65
+msgid "Type"
+msgstr "Tipus"
+
+#: modules/node/content_types.inc:59; modules/node/node.module:591;
+#: modules/user/user.admin.inc:263,283,303,323,348,373,398
+msgid "Body"
+msgstr "Cos"
+
+#: modules/node/content_types.inc:69;
+#: modules/taxonomy/taxonomy.admin.inc:118,658
+msgid "Identification"
+msgstr "Identificació"
+
+#: modules/node/content_types.inc:158; modules/node/node.pages.inc:212
+msgid "Promoted to front page"
+msgstr "Promogut a la portada"
+
+#: modules/node/content_types.inc:159; modules/node/node.pages.inc:217
+msgid "Sticky at top of lists"
+msgstr "Estàtic a la part superior de les llistes"
+
+#: modules/node/content_types.inc:160; modules/node/node.pages.inc:156
+msgid "Create new revision"
+msgstr "Crea una nova revisió"
+
+#: modules/node/node.module:1142; modules/system/system.module:0
+msgid "Content"
+msgstr "Contingut"
+
+#: modules/node/node.admin.inc:138; modules/user/user.module:1977
+msgid "status"
+msgstr "estat"
+
+#: modules/node/node.admin.inc:252,318; modules/user/user.admin.inc:73,98
+msgid "Refine"
+msgstr "Refinar"
+
+#: modules/node/node.admin.inc:254,330; modules/user/user.admin.inc:78,108
+msgid "Undo"
+msgstr "Desfer"
+
+#: modules/node/node.admin.inc:291; modules/user/user.admin.inc:993
+msgid "and"
+msgstr "i"
+
+#: modules/node/node.admin.inc:291; modules/user/user.admin.inc:993
+msgid "where"
+msgstr "quan"
+
+#: modules/node/node.admin.inc:297; modules/user/user.admin.inc:999
+msgid "is"
+msgstr "és"
+
+#: modules/node/node.admin.inc:587; modules/tracker/tracker.pages.inc:62
+msgid "No posts available."
+msgstr "No hi ha articles disponibles."
+
+#: modules/node/node.admin.inc:618; modules/user/user.module:1872
+msgid "Delete all"
+msgstr "Suprimeix-ho tot"
+
+#: modules/node/node.info:0
+msgid "Node"
+msgstr "Node"
+
+#: modules/node/node.info:0
+msgid "Allows content to be submitted to the site and displayed on pages."
+msgstr "Permet que el contingut sigui tramès al lloc i mostrat a les pàgines."
+
+#: modules/path/path.admin.inc:31; modules/system/system.info:0
+msgid "System"
+msgstr "Sistema"
+
+#: modules/path/path.info:0
+msgid "Allows users to rename URLs."
+msgstr "Permet als usuaris canviar el nom de les URLs."
+
+#: modules/ping/ping.info:0
+msgid "Ping"
+msgstr "Ping"
+
+#: modules/ping/ping.info:0
+msgid "Alerts other sites when your site has been updated."
+msgstr "Avisa a altres llocs quan s'actualitza el vostre lloc."
+
+#: modules/poll/poll.module:147,172; modules/poll/poll.info:0
+msgid "Poll"
+msgstr "Enquesta"
+
+#: modules/poll/poll.module:251; modules/user/user.module:1479
+msgid "Active"
+msgstr "Actiu"
+
+#: modules/poll/poll.pages.inc:35; modules/poll/poll.module:566
+msgid "Vote"
+msgstr "Vota"
+
+#: modules/poll/poll.pages.inc:34; modules/statistics/statistics.admin.inc:80
+msgid "Visitor"
+msgstr "Visitant"
+
+#: modules/poll/poll-bar.tpl.php:25; modules/poll/poll.pages.inc:20
+msgid "1 vote"
+msgid_plural "@count votes"
+msgstr[0] "1 vot"
+msgstr[1] "@count vots"
+
+#: modules/poll/poll.info:0
+msgid ""
+"Allows your site to capture votes on different topics in the form of "
+"multiple choice questions."
+msgstr ""
+"Permet al lloc recopilar votacions sobre diferents temes a mode de preguntes "
+"de selecció múltiple."
+
+#: modules/profile/profile.info:0
+msgid "Profile"
+msgstr "Perfil"
+
+#: modules/profile/profile.info:0
+msgid "Supports configurable user profiles."
+msgstr "Permet l'ús de perfils d'usuari configurables."
+
+#: modules/search/search.info:0
+msgid "Enables site-wide keyword searching."
+msgstr "Habilita la cerca de paraules clau per tot el web."
+
+#: modules/dblog/dblog.admin.inc:154;
+#: modules/statistics/statistics.admin.inc:154;
+#: modules/statistics/statistics.pages.inc:14
+msgid "Referrer"
+msgstr "Referent"
+
+#: modules/dblog/dblog.admin.inc:59,142;
+#: modules/statistics/statistics.admin.inc:158
+msgid "Date"
+msgstr "Data"
+
+#: modules/dblog/dblog.admin.inc:166;
+#: modules/statistics/statistics.admin.inc:166;
+#: modules/user/user.admin.inc:812
+msgid "Hostname"
+msgstr "Nom de l'ordinador"
+
+#: modules/statistics/statistics.admin.inc:29;
+#: modules/statistics/statistics.pages.inc:25,56
+msgid "details"
+msgstr "detalls"
+
+#: modules/statistics/statistics.admin.inc:14;
+#: modules/statistics/statistics.pages.inc:46
+msgid "Timestamp"
+msgstr "Marca de temps"
+
+#: modules/statistics/statistics.admin.inc:15,51;
+#: modules/statistics/statistics.pages.inc:47;
+#: profiles/default/default.profile:100
+msgid "Page"
+msgstr "Pàgina"
+
+#: modules/statistics/statistics.info:0
+msgid "Statistics"
+msgstr "Estadístiques"
+
+#: modules/statistics/statistics.info:0
+msgid "Logs access statistics for your site."
+msgstr "Estadístiques del registre d'accés del vostre lloc."
+
+#: install.php:1080; modules/system/system.admin.inc:1661
+msgid "Clean URLs"
+msgstr "URL nets"
+
+#: modules/system/system.admin.inc:1494; modules/system/system.module:558
+msgid "Locale settings"
+msgstr "Configuració local"
+
+#: modules/system/system.admin.inc:209; modules/system/system.module:712
+msgid "Screenshot for %theme theme"
+msgstr "Captura per al tema %theme"
+
+#: modules/system/system.admin.inc:209; modules/system/system.module:712
+msgid "no screenshot"
+msgstr "sense captura"
+
+#: install.php:1051; modules/system/system.admin.inc:1136;
+#: modules/user/user.module:1454
+msgid "E-mail address"
+msgstr "Adreça de correu electrònic"
+
+#: install.php:1071; modules/system/system.admin.inc:1499
+msgid "Default time zone"
+msgstr "Fus horari predeterminat"
+
+#: modules/system/system.admin.inc:549; modules/system/system.module:1059
+msgid "The configuration options have been reset to their default values."
+msgstr ""
+"S'han establert les opcions de configuració als seus valors predeterminats."
+
+#: modules/system/system.admin.inc:306,555,933;
+#: modules/system/system.module:1062
+msgid "The configuration options have been saved."
+msgstr "S'han desat les opcions de configuració."
+
+#: install.php:1019; modules/system/system.admin.inc:378
+msgid "Site name"
+msgstr "Nom del lloc"
+
+#: modules/system/system.install:232; modules/update/update.report.inc:82;
+#: modules/update/update.module:274
+msgid "Up to date"
+msgstr "Actualitzat"
+
+#: modules/system/system.install:242; modules/update/update.module:265
+msgid "Out of date"
+msgstr "Desactualitzat"
+
+#: modules/system/system.info:0
+msgid "Handles general site configuration for administrators."
+msgstr "Gestiona la configuració general del lloc pels administradors."
+
+#: modules/contact/contact.pages.inc:63; modules/forum/forum.module:387;
+#: modules/taxonomy/taxonomy.module:422
+msgid "- Please choose -"
+msgstr "- Trieu -"
+
+#: modules/taxonomy/taxonomy.info:0
+msgid "Enables the categorization of content."
+msgstr "Habilita l'organització de contingut en categories."
+
+#: modules/throttle/throttle.module:104; modules/user/user.module:778,781
+msgid "1 user"
+msgid_plural "@count users"
+msgstr[0] "1 usuari"
+msgstr[1] "@count usuaris"
+
+#: modules/throttle/throttle.info:0
+msgid "Handles the auto-throttling mechanism, to control site congestion."
+msgstr ""
+"Gestiona el mecanisme de regulació automàtica, per controlar la congestió "
+"del lloc."
+
+#: modules/tracker/tracker.info:0
+msgid "Tracker"
+msgstr "Seguidor"
+
+#: modules/tracker/tracker.info:0
+msgid "Enables tracking of recent posts for users."
+msgstr "Permet als usuaris el seguiment dels articles recents."
+
+#: modules/blogapi/blogapi.module:726; modules/upload/upload.admin.inc:86
+msgid "Default permitted file extensions"
+msgstr "Extensions de fitxer permeses per defecte"
+
+#: modules/blogapi/blogapi.module:729; modules/upload/upload.admin.inc:89
+msgid ""
+"Default extensions that users can upload. Separate extensions with a space "
+"and do not include the leading dot."
+msgstr ""
+"Les extensions per defecte que els usuaris poden carregar. Separeu les "
+"extensions amb un espai i no inclogueu el punt del principi."
+
+#: modules/blogapi/blogapi.module:734; modules/upload/upload.admin.inc:93
+msgid "Default maximum file size per upload"
+msgstr "La mida màxima predeterminada del fitxer per carregar"
+
+#: modules/blogapi/blogapi.module:744; modules/upload/upload.admin.inc:102
+msgid "Default total file size per user"
+msgstr "Mida total del fitxer predeterminat per usuari."
+
+#: modules/blogapi/blogapi.module:748; modules/upload/upload.admin.inc:106
+msgid "The default maximum size of all files a user can have on the site."
+msgstr ""
+"La mida màxima predeterminada de tots els fitxers que pot tenir un usuari al "
+"lloc."
+
+#: modules/blogapi/blogapi.module:752; modules/upload/upload.admin.inc:17,110
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr ""
+"Els paràmetres PHP limiten la mida màxima d'un fitxer per carregar a %size."
+
+#: modules/blogapi/blogapi.module:760; modules/upload/upload.admin.inc:118
+msgid "Settings for @role"
+msgstr "Paràmetres per al rol %role"
+
+#: modules/blogapi/blogapi.module:766; modules/upload/upload.admin.inc:124
+msgid "Permitted file extensions"
+msgstr "Extensions de fitxers permeses"
+
+#: modules/blogapi/blogapi.module:769; modules/upload/upload.admin.inc:127
+msgid ""
+"Extensions that users in this role can upload. Separate extensions with a "
+"space and do not include the leading dot."
+msgstr ""
+"Les extensions que poden carregar els usuaris d'aquest rol. Separeu les "
+"extensions amb un espai i no inclogueu el punt del principi."
+
+#: modules/blogapi/blogapi.module:773; modules/upload/upload.admin.inc:131
+msgid "Maximum file size per upload"
+msgstr "Mida màxima dels fitxers per càrrega"
+
+#: modules/blogapi/blogapi.module:781; modules/upload/upload.admin.inc:140
+msgid "Total file size per user"
+msgstr "Mida màxima total dels fitxers per usuari"
+
+#: modules/upload/upload.info:0
+msgid "Allows users to upload and attach files to content."
+msgstr "Permet als usuaris carregar i adjuntar fitxers al contingut."
+
+#: modules/user/user.admin.inc:137,910; modules/user/user.module:623
+msgid "Member for"
+msgstr "Membre des de fa"
+
+#: modules/user/user.pages.inc:123; modules/user/user.module:665,1263
+msgid "Log in"
+msgstr "Entra"
+
+#: modules/user/user.admin.inc:13; modules/user/user.module:669,2448
+msgid "Create new account"
+msgstr "Crea un compte nou"
+
+#: modules/user/user.pages.inc:276,345,274,343;
+#: modules/user/user.module:1791,2300
+msgid "Detected malicious attempt to alter protected user fields."
+msgstr "S'ha detectat un intent maliciós d'alterar camps d'usuari protegits."
+
+#: modules/user/user.admin.inc:582; modules/user/user.module:1964
+msgid "@module module"
+msgstr "mòdul @module"
+
+#: modules/user/user.admin.inc:169; modules/user/user.module:1980
+msgid "blocked"
+msgstr "bloquejat"
+
+#: modules/user/user.admin.inc:169; modules/user/user.module:1980
+msgid "active"
+msgstr "actiu"
+
+#: modules/openid/openid.module:430; modules/user/user.admin.inc:234
+msgid "Only site administrators can create new user accounts."
+msgstr ""
+"Només els administradors del sistema poden crear nous comptes d'usuari."
+
+#: modules/user/user.info:0
+msgid "Manages the user registration and login system."
+msgstr "Habilita el sistema de registre i entrada d'usuaris."
+
+#: includes/common.inc:3581; modules/dblog/dblog.admin.inc:37;
+#: modules/update/update.report.inc:63
+msgid "warning"
+msgstr "avís"
+
+#: includes/common.inc:3580; modules/dblog/dblog.admin.inc:38;
+#: modules/system/system.module:1666,1700; modules/update/update.report.inc:57
+msgid "error"
+msgstr "error"
+
+#: themes/garland/color/color.inc:8; themes/garland/minnelli/color/color.inc:8
+msgid "Blue Lagoon (Default)"
+msgstr "Llac Blau (predeterminat)"
+
+#: themes/garland/color/color.inc:9; themes/garland/minnelli/color/color.inc:9
+msgid "Ash"
+msgstr "Cendre"
+
+#: themes/garland/color/color.inc:10;
+#: themes/garland/minnelli/color/color.inc:10
+msgid "Aquamarine"
+msgstr "Aiguamarina"
+
+#: themes/garland/color/color.inc:11;
+#: themes/garland/minnelli/color/color.inc:11
+msgid "Belgian Chocolate"
+msgstr "Xocolata Belga"
+
+#: themes/bluemarine/bluemarine.info:0; themes/garland/color/color.inc:12;
+#: themes/garland/minnelli/color/color.inc:12
+msgid "Bluemarine"
+msgstr "Blaumarí"
+
+#: themes/garland/color/color.inc:13;
+#: themes/garland/minnelli/color/color.inc:13
+msgid "Citrus Blast"
+msgstr "Ràfega de Cítrics"
+
+#: themes/garland/color/color.inc:14;
+#: themes/garland/minnelli/color/color.inc:14
+msgid "Cold Day"
+msgstr "Dia Fred"
+
+#: themes/garland/color/color.inc:15;
+#: themes/garland/minnelli/color/color.inc:15
+msgid "Greenbeam"
+msgstr "Raig verd"
+
+#: themes/garland/color/color.inc:16;
+#: themes/garland/minnelli/color/color.inc:16
+msgid "Mediterrano"
+msgstr "Mediterrani"
+
+#: themes/garland/color/color.inc:17;
+#: themes/garland/minnelli/color/color.inc:17
+msgid "Mercury"
+msgstr "Mercuri"
+
+#: themes/garland/color/color.inc:18;
+#: themes/garland/minnelli/color/color.inc:18
+msgid "Nocturnal"
+msgstr "Nocturn"
+
+#: themes/garland/color/color.inc:19;
+#: themes/garland/minnelli/color/color.inc:19
+msgid "Olivia"
+msgstr "Oliva"
+
+#: themes/garland/color/color.inc:20;
+#: themes/garland/minnelli/color/color.inc:20
+msgid "Pink Plastic"
+msgstr "Plàstic Rosa"
+
+#: themes/garland/color/color.inc:21;
+#: themes/garland/minnelli/color/color.inc:21
+msgid "Shiny Tomato"
+msgstr "Tomàquet Brillant"
+
+#: themes/garland/color/color.inc:22;
+#: themes/garland/minnelli/color/color.inc:22
+msgid "Teal Top"
+msgstr "Verd blavós sobre"
+
+#: includes/locale.inc:2033; modules/locale/locale.module:594
+msgid "Languages"
+msgstr "Llengües"
+
+#: modules/update/update.info:0
+msgid "Update status"
+msgstr "Estat de les actualitzacions"
+
+#: modules/system/system.module:602; modules/user/user.module:2174
+msgid "Medium"
+msgstr "Mitjana"
+
+#: modules/comment/comment.module:2061,2101;
+#: modules/node/node.module:2599,2608,2617,2626,2635,2644,2653,2663,2743;
+#: modules/system/system.module:1697; modules/user/user.module:2258,2268
+msgid "action"
+msgstr "acció"
+
+#: includes/actions.inc:46,275,297,329,337;
+#: modules/trigger/trigger.admin.inc:87
+msgid "actions"
+msgstr "accions"
+
+#: install.php:731; modules/system/system.admin.inc:1678;
+#: modules/system/system.js:0
+msgid "Your server has been successfully tested to support this feature."
+msgstr ""
+"Ha estat comprovat satisfactòriament que el vostre servidor pot fer servir "
+"aquesta funcionalitat."
+
+#: install.php:731; modules/system/system.js:0
+msgid ""
+"Your system configuration does not currently support this feature. The <a "
+"href=\"http://drupal.org/node/15365\">handbook page on Clean URLs</a> has "
+"additional troubleshooting information."
+msgstr ""
+"La vostra configuració de sistema no pot fer servir aquesta funcionalitat. A "
+"la pàgina <a href=\"http://drupal.org/node/15365\"> del manual d'URL nets</"
+"a> trobareu informació addicional per solucionar-ho."
+
+#: install.php:731; modules/system/system.js:0
+msgid "Testing clean URLs..."
+msgstr "S'estan provant els URL nets..."
+
+#: install.php:1027; modules/system/system.admin.inc:1138
+msgid ""
+"The <em>From</em> address in automated e-mails sent during registration and "
+"new password requests, and other notifications. (Use an address ending in "
+"your site's domain to help prevent this e-mail being flagged as spam.)"
+msgstr ""
+"L'adreça <em>remitent</em> en correus automàtics enviats durant el procés de "
+"registre, sol·licituds de noves contrasenyes i altres notificacions. (Feu "
+"servir una adreça del domini del vostre lloc si no voleu que pugui "
+"considerar-se com a <em>correu brossa</em>.)"
+
+#: install.php:1045; modules/user/user.module:1449
+msgid ""
+"Spaces are allowed; punctuation is not allowed except for periods, hyphens, "
+"and underscores."
+msgstr ""
+"Es permeten espais; no es permet cap puntuació tret de punts, guions i "
+"guions baixos."
+
+#: install.php:1083; modules/system/system.admin.inc:1664
+msgid ""
+"This option makes Drupal emit \"clean\" URLs (i.e. without <code>?q=</code> "
+"in the URL)."
+msgstr ""
+"Aquesta opció fa que Drupal emeti URLs \"netes\" (és a dir, sense <code>?q=</"
+"code> a la URL)."
+
+#: install.php:1092; modules/system/system.install:285
+msgid "Update notifications"
+msgstr "Notificacions d'actualització"
+
+#: includes/common.inc:3577; modules/dblog/dblog.admin.inc:41
+msgid "emergency"
+msgstr "emergència"
+
+#: includes/common.inc:3578; modules/dblog/dblog.admin.inc:40
+msgid "alert"
+msgstr "alerta"
+
+#: includes/common.inc:3579; modules/dblog/dblog.admin.inc:39
+msgid "critical"
+msgstr "crític"
+
+#: includes/form.inc:2437; modules/node/node.admin.inc:362
+msgid "Processing"
+msgstr "Processant"
+
+#: modules/book/book.info:0
+msgid "Allows users to structure site pages in a hierarchy or outline."
+msgstr ""
+"Permet als usuaris estructurar les pàgines del lloc en una jerarquia o "
+"esquema."
+
+#: modules/comment/comment.module:2071; modules/node/node.module:2718
+msgid "Keywords"
+msgstr "Paraules clau"
+
+#: modules/dblog/dblog.info:0
+msgid "Database logging"
+msgstr "Registre de la base de dades"
+
+#: modules/dblog/dblog.info:0
+msgid "Logs and records system events to the database."
+msgstr "Registra els esdeveniments de sistema a la base de dades."
+
+#: modules/locale/locale.module:289; modules/node/node.admin.inc:164,229,499
+msgid "Language neutral"
+msgstr "Neutre lingüísticament"
+
+#: modules/locale/locale.info:0
+msgid ""
+"Adds language handling functionality and enables the translation of the user "
+"interface to languages other than English."
+msgstr ""
+"Afegeix la funcionalitat del gestor de llengües i habilita la traducció de "
+"la interfície d'usuari a altres llengües que no siguin l'anglès."
+
+#: modules/menu/menu.admin.inc:279; modules/menu/menu.module:393
+msgid "Menu link title"
+msgstr "Títol de l'enllaç de menú"
+
+#: modules/menu/menu.admin.inc:315; modules/menu/menu.module:409
+msgid ""
+"The maximum depth for an item and all its children is fixed at !maxdepth. "
+"Some menu items may not be available as parents if selecting them would "
+"exceed this limit."
+msgstr ""
+"La profunditat màxima d'un element i tots els seus fills es determina a !"
+"maxdepth. Alguns elements de menú poden no estar disponibles com a pares si "
+"en seleccionar-los s'excedeix aquest límit."
+
+#: modules/menu/menu.admin.inc:338; modules/system/system.admin.inc:1192
+msgid ""
+"The menu system stores system paths only, but will use the URL alias for "
+"display. %link_path has been stored as %normal_path"
+msgstr ""
+"El sistema de menús guarda només rutes del sistema però utilitzarà l'àlies "
+"de la URL a l'hora de mostar-ho. %link_path es guarda com a %normal_path"
+
+#: modules/menu/menu.admin.inc:354; modules/path/path.admin.inc:143
+msgid ""
+"The path '@link_path' is either invalid or you do not have access to it."
+msgstr "La ruta '@link_path' no és vàlida o no hi teniu accés."
+
+#: modules/menu/menu.admin.inc:379; modules/menu/menu.module:310
+msgid "There was an error saving the menu link."
+msgstr "Hi ha hagut un error desant l'enllaç de menú."
+
+#: modules/openid/openid.pages.inc:42,64; modules/openid/openid.info:0
+msgid "OpenID"
+msgstr "OpenID"
+
+#: modules/openid/openid.info:0
+msgid "Allows users to log into your site using OpenID."
+msgstr ""
+"Dona opció als usuaris de registrar-se al vostre lloc web utilitzant OpenID."
+
+#: modules/php/php.info:0
+msgid "PHP filter"
+msgstr "filtre PHP"
+
+#: modules/php/php.info:0
+msgid "Allows embedded PHP code/snippets to be evaluated."
+msgstr "Permet avaluar codi/fragments PHP incrustats."
+
+#: modules/poll/poll-results-block.tpl.php:26;
+#: modules/poll/poll-results.tpl.php:24
+msgid "Total votes: @votes"
+msgstr "Vots totals: @votes"
+
+#: modules/statistics/statistics.admin.inc:33,64,97,129;
+#: modules/statistics/statistics.pages.inc:29,60
+msgid "No statistics available."
+msgstr "No hi ha cap estadística disponible."
+
+#: modules/syslog/syslog.info:0
+msgid "Syslog"
+msgstr "Syslog"
+
+#: modules/syslog/syslog.info:0
+msgid "Logs and records system events to syslog."
+msgstr "Registra els esdeveniments del sistema al Syslog."
+
+#: modules/menu/menu.install:13; modules/system/system.admin.inc:385
+msgid "Primary links"
+msgstr "Enllaços primaris"
+
+#: modules/menu/menu.install:14; modules/system/system.admin.inc:386
+msgid "Secondary links"
+msgstr "Enllaços secundaris"
+
+#: modules/translation/translation.info:0
+msgid "Content translation"
+msgstr "Traducció del contingut"
+
+#: modules/translation/translation.info:0
+msgid "Allows content to be translated into different languages."
+msgstr "Permet la traducció del contingut a diferents idiomes."
+
+#: modules/trigger/trigger.admin.inc:164; modules/trigger/trigger.module:415
+msgid "Choose an action"
+msgstr "Elegir una acció"
+
+#: modules/trigger/trigger.info:0
+msgid "Trigger"
+msgstr "Disparador"
+
+#: modules/trigger/trigger.info:0
+msgid ""
+"Enables actions to be fired on certain system events, such as when new "
+"content is created."
+msgstr ""
+"Habilita quines accions es desencadenen per determinats esdeveniments del "
+"sistema, tals com quan es creen nous continguts."
+
+#: modules/update/update.info:0
+msgid ""
+"Checks the status of available updates for Drupal and your installed modules "
+"and themes."
+msgstr ""
+"Comprova l'estat de les actualitzacions de Drupal disponibles i dels mòduls "
+"i temes instal·lats al vostre web."
+
+#: themes/bluemarine/bluemarine.info:0
+msgid "Table-based multi-column theme with a marine and ash color scheme."
+msgstr ""
+"Tema multicolumna amb taules i una combinació de colors marins i grisos "
+"clars."
+
+#: themes/chameleon/chameleon.info:0
+msgid "Chameleon"
+msgstr "Chameleon"
+
+#: themes/chameleon/chameleon.info:0
+msgid "Minimalist tabled theme with light colors."
+msgstr "Tema minimalista amb taules i colors clars."
+
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Marvin"
+msgstr "Marvin"
+
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Boxy tabled theme in all grays."
+msgstr "Tema amb taules i caselles i colors grisos."
+
+#: themes/garland/garland.info:0
+msgid "Garland"
+msgstr "Garland"
+
+#: themes/garland/garland.info:0
+msgid "Tableless, recolorable, multi-column, fluid width theme (default)."
+msgstr ""
+"Tema sense taules, colorable, multicolumna i d'amplada variable (tema per "
+"defecte)."
+
+#: themes/garland/minnelli/minnelli.info:0
+msgid "Minnelli"
+msgstr "Minnelli"
+
+#: themes/garland/minnelli/minnelli.info:0
+msgid "Tableless, recolorable, multi-column, fixed width theme."
+msgstr "Tema sense taules, colorable, multicolumna i d'amplada fixa."
+
+#: themes/pushbutton/pushbutton.info:0
+msgid "Pushbutton"
+msgstr "Pushbutton"
+
+#: themes/pushbutton/pushbutton.info:0
+msgid "Tabled, multi-column theme in blue and orange tones."
+msgstr "Tema amb taules i multicolumna amb tons blaus i taronges."
+
+#: modules/comment/comment.module:1661; modules/openid/openid.module:422;
+#: modules/user/user.module:1418,2316
+msgid "Error saving user account."
+msgstr "S'ha produït un error en desar el compte d'usuari."
+
+#: modules/update/update.report.inc:73; modules/update/update.module:259
+msgid "Revoked!"
+msgstr "Revocat!"
+
+#: modules/system/system.module:0; themes/chameleon/chameleon.info:0;
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Left sidebar"
+msgstr "Barra lateral esquerra"
+
+#: modules/system/system.module:0; themes/chameleon/chameleon.info:0;
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Right sidebar"
+msgstr "Barra lateral dreta"

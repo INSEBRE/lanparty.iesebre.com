@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>CK Forms</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>2009 03 08</creationDate>
+	<author>Cookex Developpment Team</author>
+	<authorEmail>info@cookex.eu</authorEmail>
+	<authorUrl>http://www.cookex.eu</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.2.1</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>CK Forms is a forms generator without any programmation. With data saved in database</description>
+
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>ckforms.php</filename>
+		<filename>controller.php</filename>
+		<filename>captcha/index.html</filename>
+		<filename>captcha/elephant.ttf</filename>
+		<filename>captcha/securimage.php</filename>
+		<filename>captcha/images/audio_icon.gif</filename>
+		<filename>captcha/images/refresh.gif</filename>
+		<filename>captcha/gdfonts/automatic.gdf</filename>
+		<filename>captcha/gdfonts/bubblebath.gdf</filename>
+		<filename>captcha/gdfonts/caveman.gdf</filename>
+		<filename>captcha/gdfonts/crass.gdf</filename>
+		<filename>css/ckforms.css</filename>
+		<filename>css/ui.datepicker.css</filename>
+		<filename>css/index.html</filename>
+		<filename>img/info.png</filename>
+		<filename>img/calendar.gif</filename>
+		<filename>js/index.html</filename>
+		<filename>js/form-validation.js</filename>
+		<filename>js/jquery-1.3.2.min.js</filename>
+		<filename>js/jquery.tooltip.min.js</filename>
+		<filename>js/jquery.validate.pack.js</filename>
+		<filename>js/ui.datepicker.packed.js</filename>
+		<filename>js/ui/ui.datepicker-de.js</filename>
+		<filename>js/ui/ui.datepicker-es.js</filename>
+		<filename>js/ui/ui.datepicker-fr.js</filename>
+		<filename>js/ui/ui.datepicker-it.js</filename>
+		<filename>models/ckforms.php</filename>
+		<filename>views/index.html</filename>
+		<filename>views/ckforms/index.html</filename>
+		<filename>views/ckforms/view.html.php</filename>
+		<filename>views/ckforms/tmpl/index.html</filename>
+		<filename>views/ckforms/tmpl/default.php</filename>
+		<filename>views/ckforms/tmpl/default.xml</filename>
+		<filename>views/ckforms/tmpl/message.php</filename>
+		<filename>views/ckforms/tmpl/message.xml</filename>
+	</files>
+	
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	
+	<installfile>install.ckforms.php</installfile>
+	<uninstallfile>uninstall.ckforms.php</uninstallfile>
+	
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>CK Forms</menu>
+		
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+	<!-- Site Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>admin.ckforms.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<filename>controller.php</filename>
+			<filename>controllers/index.html</filename>
+			<filename>controllers/ckforms.php</filename>
+			<filename>controllers/ckfields.php</filename>
+			<filename>controllers/ckdata.php</filename>
+			<filename>controllers/cktools.php</filename>
+			<filename>css/index.html</filename>
+			<filename>css/ckforms.css</filename>
+			<filename>css/jquery.tabs.css</filename>
+			<filename>css/tab.png</filename>
+			<filename>elements/index.html</filename>
+			<filename>elements/ckforms.php</filename>
+			<filename>images/logo-menu.png</filename>
+			<filename>images/logo-banner.png</filename>
+			<filename>images/help.png</filename>
+			<filename>js/ckforms.js</filename>
+			<filename>js/index.html</filename>
+			<filename>js/form-validation.js</filename>
+			<filename>js/jquery-1.3.2.min.js</filename>
+			<filename>js/ui.core.min.js</filename>
+			<filename>js/ui.tabs.min.js</filename>
+			<filename>models/index.html</filename>
+			<filename>models/ckdata.php</filename>
+			<filename>models/ckfield.php</filename>
+			<filename>models/ckform.php</filename>
+			<filename>models/ckforms.php</filename>
+			<filename>models/ckfields.php</filename>
+			<filename>models/cktools.php</filename>
+			<filename>tables/ckform.php</filename>
+			<filename>tables/ckfield.php</filename>
+			<filename>tables/index.html</filename>
+			<filename>views/ckdata/index.html</filename>
+			<filename>views/ckdata/view.html.php</filename>
+			<filename>views/ckdata/tmpl/default.php</filename>
+			<filename>views/ckdata/tmpl/detail.php</filename>
+			<filename>views/ckdata/tmpl/index.html</filename>
+			<filename>views/ckfield/view.html.php</filename>
+			<filename>views/ckfield/index.html</filename>
+			<filename>views/ckfield/tmpl/ckfield_tpl.php</filename>
+			<filename>views/ckfield/tmpl/index.html</filename>
+			<filename>views/ckfields/view.html.php</filename>
+			<filename>views/ckfields/index.html</filename>
+			<filename>views/ckfields/tmpl/default.php</filename>
+			<filename>views/ckfields/tmpl/index.html</filename>
+			<filename>views/ckform/view.html.php</filename>
+			<filename>views/ckform/index.html</filename>
+			<filename>views/ckform/tmpl/form.php</filename>
+			<filename>views/ckform/tmpl/index.html</filename>
+			<filename>views/ckforms/view.html.php</filename>
+			<filename>views/ckforms/index.html</filename>
+			<filename>views/ckforms/tmpl/default.php</filename>
+			<filename>views/ckforms/tmpl/index.html</filename>
+			<filename>views/cktools/index.html</filename>
+			<filename>views/cktools/view.html.php</filename>
+			<filename>views/cktools/tmpl/css.php</filename>
+			<filename>views/cktools/tmpl/backup.php</filename>
+			<filename>views/cktools/tmpl/restore.php</filename>
+			<filename>views/cktools/tmpl/index.html</filename>
+		</files>
+	</administration>
+</install>

@@ -1,0 +1,65 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  tracker.pages.inc,v 1.5 2007/11/28 10:29:20 dries
+#  tracker.module,v 1.154.2.1 2008/04/09 21:11:51 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-06-02 16:43+0200\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/tracker/tracker.pages.inc:57
+msgid "!time ago"
+msgstr "fa !time"
+
+#: modules/tracker/tracker.pages.inc:65
+msgid "Post"
+msgstr "Enviament"
+
+#: modules/tracker/tracker.pages.inc:65
+msgid "Last updated"
+msgstr "Última actualització"
+
+#: modules/tracker/tracker.module:15
+msgid ""
+"The tracker module displays the most recently added or updated content on "
+"your site, and provides user-level tracking to follow the contributions of "
+"particular authors."
+msgstr ""
+"El mòdul de seguiment mostra el contingut més recentment afegit o "
+"actualitzar del lloc web i propociona un seguiment a nivell d'usuari de les "
+"contribucions de cadascun dels autors."
+
+#: modules/tracker/tracker.module:16
+msgid ""
+"The <em>Recent posts</em> page is available via a link in the navigation "
+"menu block and displays new and recently-updated content (including the "
+"content type, the title, the author's name, number of comments, and time of "
+"last update) in reverse chronological order. Posts are marked updated when "
+"changes occur in the text, or when new comments are added. To use the "
+"tracker module to follow a specific user's contributions, select the "
+"<em>Track</em> tab from the user's profile page."
+msgstr ""
+"La pàgina <em>Enviaments recents</em> està disponible mitjançant un enllaç "
+"al bloc del menú de navegació i mostra el contingut nou o recentment "
+"actualitzat (incloent el tipus de contingut, el títol, el nom de l'autor, "
+"nombre de comentaris i el temps de l'última actualització) en ordre "
+"cronològic invers. Els enviaments es marquen com a actualitzats quan hi ha "
+"canvis en el text o quan s'hi afegeixen nous comentaris. Per utilitzar el "
+"mòdul de seguiment per a fer el seguiment de les contribucions d'un usuari "
+"en particular, seleccioneu la pestanya \"Seguiment\" de la pàgina del perfil "
+"d'aquest l'usuari."
+
+#: modules/tracker/tracker.module:17
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@tracker"
+"\">Tracker module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@tracker\">mòdul "
+"Tracker</a> al manual en línia."

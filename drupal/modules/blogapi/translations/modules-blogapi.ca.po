@@ -1,0 +1,282 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from file: blogapi.module,v 1.115.2.5 2008/10/08 20:12:17 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2009-02-03 11:53+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/blogapi/blogapi.module:44
+msgid "Returns information about an author in the system."
+msgstr "Torna informació sobre un autor del sistema."
+
+#: modules/blogapi/blogapi.module:49,74
+msgid "Creates a new post, and optionally publishes it."
+msgstr "Crea un nou missatge i opcionalment ho publica."
+
+#: modules/blogapi/blogapi.module:54
+msgid "Updates the information about an existing post."
+msgstr "Actualitza la informació sobre un article existent."
+
+#: modules/blogapi/blogapi.module:59,84
+msgid "Returns information about a specific post."
+msgstr "Torna informació sobre un article específic."
+
+#: modules/blogapi/blogapi.module:64
+msgid "Deletes a post."
+msgstr "Suprimeix un article."
+
+#: modules/blogapi/blogapi.module:69,99
+msgid "Returns a list of the most recent posts in the system."
+msgstr "Torna una llista amb els articles més recents del sistema."
+
+#: modules/blogapi/blogapi.module:79
+msgid "Updates information about an existing post."
+msgstr "Actualitza la informació sobre un article existent."
+
+#: modules/blogapi/blogapi.module:89
+msgid "Uploads a file to your webserver."
+msgstr "Carrega un fitxer al vostre webserver."
+
+#: modules/blogapi/blogapi.module:94,114
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr ""
+"Torna una llista amb totes les categories a les quals un article ha estat "
+"assignat."
+
+#: modules/blogapi/blogapi.module:104
+msgid ""
+"Returns a bandwidth-friendly list of the most recent posts in the system."
+msgstr ""
+"Torna una llista ampla i amigable dels articles més recents al sistema."
+
+#: modules/blogapi/blogapi.module:119
+msgid "Sets the categories for a post."
+msgstr "Indica les categories per a un article."
+
+#: modules/blogapi/blogapi.module:124
+msgid "Retrieve information about the XML-RPC methods supported by the server."
+msgstr ""
+"Recupera informació sobre els mètodes XML-RPC compatibles amb el servidor."
+
+#: modules/blogapi/blogapi.module:129
+msgid ""
+"Retrieve information about the text formatting plugins supported by the "
+"server."
+msgstr ""
+"Recupera informació sobre els connectors de format de text compatibles amb "
+"el servidor."
+
+#: modules/blogapi/blogapi.module:238
+msgid "@type: added %title using blog API."
+msgstr "@type: s'ha afegit %title utilitzant l'API de blog."
+
+#: modules/blogapi/blogapi.module:243,304
+msgid "Error storing post."
+msgstr "S'ha produït un error en emmagatzemar l'article."
+
+#: modules/blogapi/blogapi.module:265,644
+msgid "You do not have permission to update this post."
+msgstr "No teniu permís per actualitzar aquest article."
+
+#: modules/blogapi/blogapi.module:456
+msgid "No file sent."
+msgstr "No s'ha enviat cap fitxer."
+
+#: modules/blogapi/blogapi.module:460
+msgid "Error storing file."
+msgstr "S'ha produït un error en emmagatzemar el fitxer."
+
+#: modules/blogapi/blogapi.module:635
+msgid "Invalid post."
+msgstr "L'article no és vàlid."
+
+#: modules/blogapi/blogapi.module:684
+msgid "Wrong username or password."
+msgstr "El nom d'usuari o la contrasenya és erroni."
+
+#: modules/blogapi/blogapi.module:815
+msgid "RSD"
+msgstr "RSD"
+
+#: modules/blogapi/blogapi.module:738
+msgid "The default maximum file size a user can upload."
+msgstr "La mida màxima predeterminada del fitxer que pot carregar un usuari."
+
+#: modules/blogapi/blogapi.module:777
+msgid "The maximum size of a file a user can upload (in megabytes)."
+msgstr "La mida màxima del fitxer que pot carregar un usuari (en megabytes)."
+
+#: modules/blogapi/blogapi.module:785
+msgid ""
+"The maximum size of all files a user can have on the site (in megabytes)."
+msgstr ""
+"La mida màxima de tots els fitxers que pot tenir un usuari en el lloc (en "
+"megabytes)."
+
+#: modules/blogapi/blogapi.module:720
+msgid "File settings"
+msgstr "Configuració de fitxer"
+
+#: modules/blogapi/blogapi.module:15
+msgid ""
+"The Blog API module allows your site's users to access and post to their "
+"blogs from external blogging clients. External blogging clients are "
+"available for a wide range of desktop operating systems, and generally "
+"provide a feature-rich graphical environment for creating and editing posts."
+msgstr ""
+"El mòdul d'API de bloc permet als usuaris del web accedir i fer enviaments "
+"als seus blocs des de clients externs. Aquests clients estan disponibles per "
+"a una àmplia gamma de sistemes operatius i proporcionen, normalment, un "
+"entorn gràfic potent per a crear i editar enviaments."
+
+#: modules/blogapi/blogapi.module:16
+msgid ""
+"<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both Mac OS "
+"X and Microsoft Windows, can be used with Blog API. Blog API also supports "
+"<a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api"
+"\">MetaWeblog API</a>, and most of the <a href=\"@movabletype-api\">Movable "
+"Type API</a>. Blogging clients and other services (e.g. <a href=\"@flickr"
+"\">Flickr's</a> \"post to blog\") that support these APIs may also be "
+"compatible."
+msgstr ""
+"<a href=\"@ecto-link\">Ecto</a>, un client de blogs disponible tant per a "
+"Mac OS X com per a Microsoft Windows, es pot utilitzar amb Blog API. Blog "
+"API suporta <a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-"
+"api\">MetaWeblog API</a>, i moltes de les <a href=\"@movabletype-api\">APIs "
+"de tipus mòbil </a>. Els clients de blog i altres serveis  (p.ex: el \"post "
+"to blog\" de <a href=\"@flickr\">Flickr's</a> ) que suporten aquestes APIs "
+"poden ser també compatibles."
+
+#: modules/blogapi/blogapi.module:17
+msgid ""
+"Select the content types available to external clients on the <a href="
+"\"@blogapi-settings\">Blog API settings page</a>. If supported and "
+"available, each content type will be displayed as a separate \"blog\" by the "
+"external client."
+msgstr ""
+"Seleccioneu els tipus de contingut disponibles als clients externs a la <a "
+"href=\"@blogapi-settings\">pàgina de configuració de Blog API </a>. En el "
+"cas d'estar suportat i disponible, cada tipus de contingut es mostrarà com "
+"un \"blog\" individual pel client extern"
+
+#: modules/blogapi/blogapi.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@blogapi"
+"\">Blog API module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Blog API</"
+"a> al manual en línia."
+
+#: modules/blogapi/blogapi.module:39
+msgid "Returns a list of blogs to which an author has posting privileges."
+msgstr "Torna un llistat de blogs on un autor té permisos per publicar."
+
+#: modules/blogapi/blogapi.module:109
+msgid "Returns a list of all categories defined in the blog."
+msgstr "Torna un llistat de totes les categories definides en un blog."
+
+#: modules/blogapi/blogapi.module:134
+msgid ""
+"Publish (rebuild) all of the static files related to an entry from your "
+"blog. Equivalent to saving an entry in the system (but without the ping)."
+msgstr ""
+"Publicar (reconstruir) tots els arxius estàtics relacionats amb una entrada "
+"del vostre blog. Equivalent a desar una entrada al sistema (però sense el "
+"ping)."
+
+#: modules/blogapi/blogapi.module:216
+msgid "You do not have permission to create this type of post."
+msgstr "No teniu permís per crear aquest tipus d'enviament."
+
+#: modules/blogapi/blogapi.module:680
+msgid "You do not have permission to edit this blog."
+msgstr "No teniu permís per editar aquest blog."
+
+#: modules/blogapi/blogapi.module:707
+msgid "Enable for external blogging clients"
+msgstr "Activar per a clients externs de blogging"
+
+#: modules/blogapi/blogapi.module:711
+msgid ""
+"Select the content types available to external blogging clients via Blog "
+"API. If supported, each enabled content type will be displayed as a separate "
+"\"blog\" by the external client."
+msgstr ""
+"Seleccioneu el tipus de contingut disponible per als clients externs de "
+"blogging via Blog API. Cada tipus de contingut actiu que ho permeti será "
+"mostrat com un 'blog' separat pel client extern."
+
+#: modules/blogapi/blogapi.module:300
+msgid "@type: updated %title using Blog API."
+msgstr "@type: actualitzat %title utilitzant Blog API."
+
+#: modules/blogapi/blogapi.module:933
+msgid ""
+"Blog API module is not configured to support the %type content type, or you "
+"don't have sufficient permissions to post this type of content."
+msgstr ""
+"El mòdul Blog API no està configurat per usar el tipus de contingut %type, o "
+"no teniu suficients permisos per publicar aquest tipus de contingut."
+
+#: modules/blogapi/blogapi.module:426
+msgid ""
+"It is not possible to upload the file, because it exceeded the maximum "
+"filesize of @maxsize."
+msgstr ""
+"No és possible carregar l'arxiu perquè excedeix el pes màxim permès de "
+"@maxsize."
+
+#: modules/blogapi/blogapi.module:430
+msgid ""
+"The file can not be attached to this post, because the disk quota of @quota "
+"has been reached."
+msgstr ""
+"L'arxiu no es pot adjuntar a aquesta entrada perquè s'ha arribat al límit de "
+"quota de disc de @quota."
+
+#: modules/blogapi/blogapi.module:446
+msgid ""
+"It is not possible to upload the file, because it is only possible to upload "
+"files with the following extensions: @extensions"
+msgstr ""
+"No és possible pujar l'arxiu perquè només es poden pujar arxius amb les "
+"següents extensions: @extensions."
+
+#: modules/blogapi/blogapi.module:338
+msgid ""
+"You do not have permission to publish this type of post. Please save it as a "
+"draft instead."
+msgstr ""
+"No teniu permís per publicar aquest tipus d'article. En lloc d'això, si us "
+"plau, deseu-lo com un esborrany."
+
+#: modules/blogapi/blogapi.module:341
+msgid ""
+"You do not have permission to save this post as a draft. Please publish it "
+"instead."
+msgstr ""
+"No teniu permís per desar aquest article com un esborrany. En lloc d'això, "
+"si us plau, publiqueu-lo."
+
+#: modules/blogapi/blogapi.module:584
+msgid "Invalid categories submitted."
+msgstr "Enviades categories invàlides."
+
+#: modules/blogapi/blogapi.module:593
+msgid "A category from the @vocabulary_name vocabulary is required."
+msgstr "Es necessita una categoria del vocabulari @vocabulary_name."
+
+#: modules/blogapi/blogapi.module:597
+msgid "You may only choose one category from the @vocabulary_name vocabulary."
+msgstr "Només podeu triar una categoria del vocabulari @vocabulary_name."
+
+#: modules/blogapi/blogapi.module:602
+msgid "Error saving categories. This feature is not available."
+msgstr "Error desant les categories. Aquesta funció no està disponible."

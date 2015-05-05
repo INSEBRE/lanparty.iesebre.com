@@ -1,0 +1,1427 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  user.module,v 1.892.2.11 2009/01/14 23:34:08 goba
+#  user.admin.inc,v 1.18.2.1 2008/08/13 23:59:14 drumm
+#  user.pages.inc,v 1.11.2.1 2008/10/08 20:12:18 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-12-03 05:33+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/user/user.module:1368
+msgid "Session opened for %name."
+msgstr "S'ha obert la sessió per a %name."
+
+#: modules/user/user.module:619
+msgid "History"
+msgstr "Història"
+
+#: modules/user/user.module:1519
+msgid "Signature"
+msgstr "Signatura"
+
+#: modules/user/user.module:1521
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr ""
+"La vostra signatura es mostrarà públicament al final dels vostres comentaris."
+
+#: modules/user/user.admin.inc:956
+msgid "locked"
+msgstr "bloquejat"
+
+#: modules/user/user.module:381
+msgid "You must enter a username."
+msgstr "Heu d'introduir un nom d'usuari."
+
+#: modules/user/user.module:382
+msgid "The username cannot begin with a space."
+msgstr "El nom d'usuari no pot començar amb un espai."
+
+#: modules/user/user.module:383
+msgid "The username cannot end with a space."
+msgstr "El nom d'usuari no pot acabar amb un espai."
+
+#: modules/user/user.module:384
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "El nom d'usuari no pot contenir espais consecutius."
+
+#: modules/user/user.module:385,396
+msgid "The username contains an illegal character."
+msgstr "El nom d'usuari conté un caràcter il·legal."
+
+#: modules/user/user.module:398
+msgid "The username is not a valid authentication ID."
+msgstr "El nom d'usuari no és una ID d'autenticació vàlida."
+
+#: modules/user/user.module:399
+msgid "The username %name is too long: it must be %max characters or less."
+msgstr ""
+"El nom d'usuari %name és massa llarg: ha de tenir %max caràcters o menys."
+
+#: modules/user/user.module:403
+msgid "You must enter an e-mail address."
+msgstr "Heu d'introduir una adreça de correu electrònic."
+
+#: modules/user/user.module:405
+msgid "The e-mail address %mail is not valid."
+msgstr "L'adreça de correu %mail no és vàlida."
+
+#: modules/user/user.module:431
+msgid ""
+"Failed to upload the picture image; the %directory directory doesn't exist "
+"or is not writable."
+msgstr ""
+"Ha fallat la càrrega de la imatge; el directori %directory no existeix o no "
+"s'hi pot escriure."
+
+#: modules/user/user.module:568
+msgid "Users"
+msgstr "Usuaris"
+
+#: modules/user/user.module:641
+msgid "Account settings"
+msgstr "Paràmetres del compte"
+
+#: modules/user/user.module:669
+msgid "Create a new user account."
+msgstr "Crea un compte d'usuari nou."
+
+#: modules/user/user.module:671
+msgid "Request new password"
+msgstr "Demana una contrasenya nova"
+
+#: modules/user/user.module:671
+msgid "Request new password via e-mail."
+msgstr "Demana una nova contrasenya per correu electrònic."
+
+#: modules/user/user.module:683,730
+msgid "User login"
+msgstr "Inici de sessió d'usuari"
+
+#: modules/user/user.module:692,751
+msgid "Who's new"
+msgstr "Qui és nou"
+
+#: modules/user/user.module:695,790
+msgid "Who's online"
+msgstr "Qui està connectat"
+
+#: modules/user/user.module:702
+msgid "Number of users to display"
+msgstr "Nombre d'usuaris a mostrar"
+
+#: modules/user/user.module:710
+msgid "User activity"
+msgstr "Activitat de l'usuari"
+
+#: modules/user/user.module:710
+msgid ""
+"A user is considered online for this long after they have last viewed a page."
+msgstr ""
+"Un usuari es considera connectat per aquest temps des de que va veure per "
+"darrer cop una pàgina."
+
+#: modules/user/user.module:711
+msgid "User list length"
+msgstr "Mida de la llista d'usuaris"
+
+#: modules/user/user.module:711
+msgid "Maximum number of currently online users to display."
+msgstr "Màxim nombre d'usuaris actualment connectats a mostrar."
+
+#: modules/user/user.module:778
+msgid "There is currently %members and %visitors online."
+msgstr "Actualment hi ha %members i %visitors connectats."
+
+#: modules/user/user.module:781
+msgid "There are currently %members and %visitors online."
+msgstr "Actualment hi ha %members i %visitors connectats."
+
+#: modules/user/user.module:787
+msgid "Online users"
+msgstr "Usuaris connectats"
+
+#: modules/user/user.module:818
+msgid "@user's picture"
+msgstr "imatge de @user"
+
+#: modules/user/user.admin.inc:717
+msgid "Add rule"
+msgstr "Afegeix una regla"
+
+#: modules/user/user.module:1182
+msgid "My account"
+msgstr "El meu compte"
+
+#: modules/user/user.module:1255
+msgid "Enter your @s username."
+msgstr "Introduïu el vostre nom d'usuari de @s."
+
+#: modules/user/user.module:1258
+msgid "Enter the password that accompanies your username."
+msgstr "Introduïu la contrasenya per al vostre nom d'usuari."
+
+#: modules/user/user.module:1297
+msgid "The username %name has not been activated or is blocked."
+msgstr "El nom d'usuari %name no ha estat activat o està bloquejat."
+
+#: modules/user/user.module:1301
+msgid "The name %name is a reserved username."
+msgstr "El nom %name és un nom d'usuari reservat."
+
+#: modules/user/user.module:1321
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"Ho sentim, el nom d'usuari o la contrasenya no són correctes. <a href="
+"\"@password\">Heu oblidat la contrasenya?</a>"
+
+#: modules/user/user.module:1322
+msgid "Login attempt failed for %user."
+msgstr "L'intent d'inici de sessió ha fallat per a %user."
+
+#: modules/user/user.pages.inc:147
+msgid "Session closed for %name."
+msgstr "S'ha tancat la sessió per a %name."
+
+#: modules/user/user.pages.inc:34
+msgid "Username or e-mail address"
+msgstr "Nom d'usuari o adreça de correu electrònic"
+
+#: modules/user/user.pages.inc:39
+msgid "E-mail new password"
+msgstr "Envia una nova contrasenya"
+
+#: modules/user/user.pages.inc:73
+msgid "Password reset instructions mailed to %name at %email."
+msgstr ""
+"Les instruccions per a la inicialització de la contrasenya s'han enviat a %"
+"name a %email."
+
+#: modules/user/user.pages.inc:74
+msgid "Further instructions have been sent to your e-mail address."
+msgstr ""
+"Les instruccions corresponents s'han enviat a la vostra adreça de correu "
+"electrònic."
+
+#: modules/user/user.pages.inc:88
+msgid ""
+"You have already used this one-time login link. It is not necessary to use "
+"this link to login anymore. You are already logged in."
+msgstr ""
+"Ja heu utilitzat aquest enllaç d'inici de sessió d'un sol cop. No és "
+"necessari utilitzar mai més aquest enllaç per entrar. Ja esteu registrat."
+
+#: modules/user/user.pages.inc:105
+msgid ""
+"You have tried to use a one-time login link that has expired. Please request "
+"a new one using the form below."
+msgstr ""
+"Heu intentat utilitzar un enllaç d'inici de sessió d'un sol cop que ha "
+"caducat. Demaneu-ne un de nou utilitzant el formulari de sota."
+
+#: modules/user/user.pages.inc:111
+msgid "User %name used one-time login link at time %timestamp."
+msgstr ""
+"L'usuari %name ha utilitzat l'enllaç d'inici de sessió d'un sol cop a les %"
+"timestamp."
+
+#: modules/user/user.pages.inc:117
+msgid ""
+"You have just used your one-time login link. It is no longer necessary to "
+"use this link to login. Please change your password."
+msgstr ""
+"Heu acabat d'utilitzar el vostre enllaç d'inici de sessió d'un sol cop. No "
+"és necessari utilitzar aquest enllaç per tornar a entrar. Canvieu la vostra "
+"contrasenya."
+
+#: modules/user/user.pages.inc:122
+msgid "This login can be used only once."
+msgstr "Aquest inici de sessió només es pot utilitzar un cop."
+
+#: modules/user/user.pages.inc:129
+msgid ""
+"You have tried to use a one-time login link which has either been used or is "
+"no longer valid. Please request a new one using the form below."
+msgstr ""
+"Heu intentat utilitzar un enllaç d'inici de sessió d'un sol cop que ja ha "
+"estat utilitzat o ja no és vàlid. Sol·liciteu-ne un de nou utilitzant el "
+"formulari de sota."
+
+#: modules/user/user.module:2405
+msgid "Notify user of new account"
+msgstr "Notifica a l'usuari del nou compte"
+
+#: modules/user/user.module:2360
+msgid ""
+"Your password and further instructions have been sent to your e-mail address."
+msgstr ""
+"La vostra contrasenya i les instruccions corresponents s'han enviat a la "
+"vostra adreça de correu."
+
+#: modules/user/user.module:1661
+msgid ""
+"!username has applied for an account.\n"
+"\n"
+"!edit_uri"
+msgstr ""
+"!username ha aplicat per un compte.\n"
+"\n"
+"!edit_uri"
+
+#: modules/user/user.module:1441
+msgid "Account information"
+msgstr "Informació del compte"
+
+#: modules/user/user.module:1457
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"Una adreça de correu vàlida. Tots els correus provinents del sistema seran "
+"enviats aquí. L'adreça no es fa mai pública i només s'utilitzarà en el cas "
+"que desitgeu rebre una nova contrasenya o notificacions per correu."
+
+#: modules/user/user.module:1462
+msgid ""
+"To change the current user password, enter the new password in both fields."
+msgstr ""
+"Per a canviar la contrasenya actual de l'usuari, introduïu la nova "
+"contrasenya en els dos camps."
+
+#: modules/user/user.module:1469
+msgid "Provide a password for the new account in both fields."
+msgstr "Proporcioneu una contrasenya pel nou compte en els dos camps."
+
+#: modules/user/user.module:1479
+msgid "Blocked"
+msgstr "Bloquejat"
+
+#: modules/user/user.module:0
+msgid "authenticated user"
+msgstr "usuari autentificat"
+
+#: modules/user/user.module:1527
+msgid "Picture"
+msgstr "Imatge"
+
+#: modules/user/user.module:1531
+msgid "Delete picture"
+msgstr "Suprimeix la imatge"
+
+#: modules/user/user.module:1531
+msgid "Check this box to delete your current picture."
+msgstr "Marqueu aquest quadre per a suprimir la vostra imatge actual."
+
+#: modules/user/user.module:1536
+msgid "Upload picture"
+msgstr "Carrega la imatge"
+
+#: modules/user/user.module:1536
+msgid ""
+"Your virtual face or picture. Maximum dimensions are %dimensions and the "
+"maximum size is %size kB."
+msgstr ""
+"La vostra fotografia o imatge. Les dimensions màximes de la imatge han de "
+"ser de %dimensions i la mida del fitxer no pot superar els %size kB."
+
+#: modules/user/user.module:1553
+msgid "The name %name is already taken."
+msgstr "El nom %name ja està en ús."
+
+#: modules/user/user.module:1556
+msgid "The name %name has been denied access."
+msgstr "S'ha denegat l'accés al nom %name."
+
+#: modules/user/user.module:1565
+msgid ""
+"The e-mail address %email is already registered. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+"L'adreça de correu %email ja està registrada. <a href=\"@password\">Heu "
+"oblidat la vostra contrasenya?</a>"
+
+#: modules/user/user.module:1568
+msgid "The e-mail address %email has been denied access."
+msgstr "S'ha denegat l'accés a l'adreça de correu %email."
+
+#: modules/user/user.pages.inc:321
+msgid "Are you sure you want to delete the account %name?"
+msgstr "Esteu segur de voler eliminar el compte %name?"
+
+#: modules/user/user.pages.inc:323
+msgid ""
+"All submissions made by this user will be attributed to the anonymous "
+"account. This action cannot be undone."
+msgstr ""
+"Totes les submissions fetes per aquest usuari s'atribuiran al compte anònim. "
+"Aquesta acció no es pot desfer."
+
+#: modules/user/user.module:1600
+msgid "Deleted user: %name %email."
+msgstr "Usuari borrat: %name %email."
+
+#: modules/user/user.pages.inc:332
+msgid "%name has been deleted."
+msgstr "%name ha estat eliminat."
+
+#: modules/user/user.module:1648
+msgid "Account details for !username at !site"
+msgstr "Detalls del compte per a !username en !site"
+
+#: modules/user/user.module:1650
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. You may now log in to !login_uri using "
+"the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Gràcies per registrar-vos a !site. Ara podeu iniciar sessió a !login_uri "
+"utilitzant el següent nom d'usuari i contrasenya:\n"
+"\n"
+"Nom d'usuari: !username\n"
+"Contrasenya: !password\n"
+"\n"
+"També podeu entrar fent clic en aquest enllaç o copiar-lo i aferrar-lo en el "
+"vostre navegador:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Aquest inici de sessió és per un cop, només pot ser usat una vegada.\n"
+"\n"
+"Després d'iniciar sessió, sereu redirigit a !edit_uri perquè pugueu canviar "
+"la contrasenya.\n"
+"\n"
+"\n"
+"--  L'equip de !site"
+
+#: modules/user/user.module:1652
+msgid "An administrator created an account for you at !site"
+msgstr "Un administrador us ha creat un compte a !site"
+
+#: modules/user/user.module:1654
+msgid ""
+"!username,\n"
+"\n"
+"A site administrator at !site has created an account for you. You may now "
+"log in to !login_uri using the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Un administrador de !site us ha creat un compte. Ara podeu iniciar sessió a !"
+"login_uri utilitzant el següent nom d'usuari i contrasenya:\n"
+"\n"
+"Nom d'usuari: !username\n"
+"Contrasenya: !password\n"
+"\n"
+"També podeu entrar fent clic en aquest enllaç o copieu-lo i aferreu-lo en el "
+"vostre navegador:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Aquest inici de sessió és per un cop, només pot ser usat una vegada.\n"
+"\n"
+"Després d'iniciar sessió, sereu redirigit a !edit_uri perquè pugueu canviar "
+"la contrasenya.\n"
+"\n"
+"\n"
+"--  L'equip de !site"
+
+#: modules/user/user.module:1657
+msgid "Account details for !username at !site (pending admin approval)"
+msgstr ""
+"Detalls del compte de !username a !site (pendent d'aprovació administrativa)"
+
+#: modules/user/user.module:1663
+msgid "Replacement login information for !username at !site"
+msgstr "Canvi de contrasenya per a !username a !site"
+
+#: modules/user/user.admin.inc:791
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr "Introduïu un usuari per comprovar si serà permès o denegat."
+
+#: modules/user/user.admin.inc:793
+msgid "Check username"
+msgstr "Comprova el nom d'usuari"
+
+#: modules/user/user.admin.inc:802
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr ""
+"Introduïu una adreça de correu electrònic per comprovar si serà permès o "
+"denegat."
+
+#: modules/user/user.admin.inc:804
+msgid "Check e-mail"
+msgstr "Comprova el correu"
+
+#: modules/user/user.admin.inc:813
+msgid ""
+"Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr ""
+"Entreu un nom de màquina o una adreça IP per verificar si serà permesa o "
+"denegada."
+
+#: modules/user/user.admin.inc:815
+msgid "Check hostname"
+msgstr "Comprova el nom de la màquina"
+
+#: modules/user/user.admin.inc:785
+msgid "No value entered. Please enter a test string and try again."
+msgstr ""
+"No s'ha entrat un valor. Entreu una cadena de prova i torneu-ho a provar."
+
+#: modules/user/user.admin.inc:826
+msgid "The username %name is not allowed."
+msgstr "El nom d'usuari %name no és vàlid."
+
+#: modules/user/user.admin.inc:829
+msgid "The username %name is allowed."
+msgstr "El nom d'usuari %name és vàlid."
+
+#: modules/user/user.admin.inc:834
+msgid "The e-mail address %mail is not allowed."
+msgstr "L'adreça de correu %mail no és vàlida."
+
+#: modules/user/user.admin.inc:837
+msgid "The e-mail address %mail is allowed."
+msgstr "L'adreça de correu %mail és vàlida."
+
+#: modules/user/user.admin.inc:842
+msgid "The hostname %host is not allowed."
+msgstr "El nom de la màquina %host no és valid."
+
+#: modules/user/user.admin.inc:845
+msgid "The hostname %host is allowed."
+msgstr "El nom de la màquina %host és valid."
+
+#: modules/user/user.admin.inc:778
+msgid "The access rule has been added."
+msgstr "S'ha afegit la regla d'accés."
+
+#: modules/user/user.admin.inc:860,887
+msgid "username"
+msgstr "nom d'usuari"
+
+#: modules/user/user.admin.inc:860,887
+msgid "e-mail"
+msgstr "correu electrònic"
+
+#: modules/user/user.admin.inc:860,887
+msgid "host"
+msgstr "servidor"
+
+#: modules/user/user.admin.inc:866
+msgid "Are you sure you want to delete the @type rule for %rule?"
+msgstr "Esteu segur de voler eliminar el rol %type per %rule?"
+
+#: modules/user/user.admin.inc:876
+msgid "The access rule has been deleted."
+msgstr "S'ha eliminat la regla d'accés."
+
+#: modules/user/user.admin.inc:774
+msgid "The access rule has been saved."
+msgstr "S'ha afegit la regla d'accés."
+
+#: modules/user/user.admin.inc:725
+msgid "Save rule"
+msgstr "Desa la regla"
+
+#: modules/user/user.admin.inc:741,885
+msgid "Access type"
+msgstr "Tipus d'accés"
+
+#: modules/user/user.admin.inc:743
+msgid "Allow"
+msgstr "Admet"
+
+#: modules/user/user.admin.inc:743
+msgid "Deny"
+msgstr "Denega"
+
+#: modules/user/user.admin.inc:745
+msgid "Host"
+msgstr "Servidor"
+
+#: modules/user/user.admin.inc:748,885
+msgid "Rule type"
+msgstr "Tipus de regla"
+
+#: modules/user/user.admin.inc:754,885
+msgid "Mask"
+msgstr "Màscara"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches any number of characters, even zero characters"
+msgstr ""
+"Coincideix amb qualsevol nombre de caràcters, fins i tot zero caràcters"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches exactly one character."
+msgstr "Coincideix amb un caràcter exactament."
+
+#: modules/user/user.admin.inc:890
+msgid "allow"
+msgstr "admet"
+
+#: modules/user/user.admin.inc:890
+msgid "deny"
+msgstr "denega"
+
+#: modules/user/user.admin.inc:893
+msgid "There are currently no access rules."
+msgstr "Actualment no hi ha regles d'accés."
+
+#: modules/user/user.admin.inc:543
+msgid "Save permissions"
+msgstr "Desa els permisos"
+
+#: modules/user/user.admin.inc:595
+msgid "Permission"
+msgstr "Permís"
+
+#: modules/user/user.admin.inc:624
+msgid "Role name"
+msgstr "Nom del rol"
+
+#: modules/user/user.admin.inc:629
+msgid ""
+"The name for this role. Example: \"moderator\", \"editorial board\", \"site "
+"architect\"."
+msgstr ""
+"El nom per a aquest rol. Per exemple: \"moderador\", \"grup d'editors\", "
+"\"arquitecte del lloc\"."
+
+#: modules/user/user.admin.inc:637,662,679
+msgid "Save role"
+msgstr "Desa el rol"
+
+#: modules/user/user.admin.inc:641,683
+msgid "Delete role"
+msgstr "Suprimeix el rol"
+
+#: modules/user/user.admin.inc:652,667,691
+msgid "Add role"
+msgstr "Afegeix un rol"
+
+#: modules/user/user.admin.inc:664,669
+msgid "The role name %name already exists. Please choose another role name."
+msgstr "El nom del rol ja està assignat, escolliu-ne un altre."
+
+#: modules/user/user.admin.inc:674
+msgid "You must specify a valid role name."
+msgstr "Heu d'especificar un nom de rol vàlid."
+
+#: modules/user/user.admin.inc:681
+msgid "The role has been renamed."
+msgstr "El rol s'ha renombrat."
+
+#: modules/user/user.admin.inc:689
+msgid "The role has been deleted."
+msgstr "S'ha suprimit el rol."
+
+#: modules/user/user.admin.inc:693
+msgid "The role has been added."
+msgstr "S'ha afegit el rol."
+
+#: modules/user/user.admin.inc:951
+msgid "edit permissions"
+msgstr "edita permisos"
+
+#: modules/user/user.admin.inc:953
+msgid "edit role"
+msgstr "edita un rol"
+
+#: modules/user/user.admin.inc:138,911
+msgid "Last access"
+msgstr "Darrer accés"
+
+#: modules/user/user.admin.inc:930
+msgid "No users available."
+msgstr "No hi ha usuaris disponibles."
+
+#: modules/user/user.admin.inc:221
+msgid "No users selected."
+msgstr "No s'ha seleccionat cap usuari"
+
+#: modules/user/user.module:1737
+msgid "Unblock the selected users"
+msgstr "Desbloqueja els usuaris seleccionats"
+
+#: modules/user/user.module:1741
+msgid "Block the selected users"
+msgstr "Bloca els usuaris seleccionats"
+
+#: modules/user/user.module:1745
+msgid "Delete the selected users"
+msgstr "Esborra els usuaris seleccionats"
+
+#: modules/user/user.module:1765
+msgid "Add a role to the selected users"
+msgstr "Afegeix un rol als usuaris seleccionats"
+
+#: modules/user/user.module:1768
+msgid "Remove a role from the selected users"
+msgstr "Elimina un rol dels usuaris seleccionats"
+
+#: modules/user/user.module:1870
+msgid "Are you sure you want to delete these users?"
+msgstr "Esteu segur que voleu esborrar aquests usuaris?"
+
+#: modules/user/user.module:1880
+msgid "The users have been deleted."
+msgstr "Els usuaris s'han esborrat."
+
+#: modules/user/user.admin.inc:233
+msgid "User registration settings"
+msgstr "Paràmetres del registre d'usuaris"
+
+#: modules/user/user.admin.inc:234
+msgid "Public registrations"
+msgstr "Enregistraments públics"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr ""
+"Els visitants poden crear comptes i no es requereix l'aprovació de "
+"l'administrador."
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr ""
+"Els visitants poden crear comptes però es requereix l'aprovació de "
+"l'administrador."
+
+#: modules/user/user.admin.inc:235
+msgid "Require e-mail verification when a visitor creates an account"
+msgstr "Requereix correu de validació quan un visitant crea un compte"
+
+#: modules/user/user.admin.inc:236
+msgid "User registration guidelines"
+msgstr "Guia d'enregistrament d'usuaris"
+
+#: modules/user/user.admin.inc:241
+msgid "User e-mail settings"
+msgstr "Paràmetres del correu d'usuari"
+
+#: modules/user/user.admin.inc:246
+msgid "Available variables are:"
+msgstr "Les variables disponibles són:"
+
+#: modules/user/user.admin.inc:423
+msgid "Pictures"
+msgstr "Imatges"
+
+#: modules/user/user.admin.inc:428
+msgid "Picture support"
+msgstr "Suport d'imatges"
+
+#: modules/user/user.admin.inc:448
+msgid "Picture image path"
+msgstr "Camí a les imatges"
+
+#: modules/user/user.admin.inc:452
+msgid "Subdirectory in the directory %dir where pictures will be stored."
+msgstr "Subdirectori en el directori %dir on s'emmagatzemaran les imatges."
+
+#: modules/user/user.admin.inc:456
+msgid "Default picture"
+msgstr "Imatge predeterminada"
+
+#: modules/user/user.admin.inc:460
+msgid ""
+"URL of picture to display for users with no custom picture selected. Leave "
+"blank for none."
+msgstr ""
+"URL de la imatge a mostrar per als usuaris que no han seleccionat cap imatge "
+"personalitzada. Deixeu-ho en blanc per a cap."
+
+#: modules/user/user.admin.inc:464
+msgid "Picture maximum dimensions"
+msgstr "Dimensions màximes de la imatge"
+
+#: modules/user/user.admin.inc:468
+msgid "Maximum dimensions for pictures, in pixels."
+msgstr "Mida màxima del fitxer per a les imatges, en píxels."
+
+#: modules/user/user.admin.inc:472
+msgid "Picture maximum file size"
+msgstr "Mida màxima del fitxer d'imatge"
+
+#: modules/user/user.admin.inc:476
+msgid "Maximum file size for pictures, in kB."
+msgstr "Mida màxima del fitxer per a les imatges, en KB."
+
+#: modules/user/user.admin.inc:480
+msgid "Picture guidelines"
+msgstr "Directrius de les imatges"
+
+#: modules/user/user.admin.inc:482
+msgid ""
+"This text is displayed at the picture upload form in addition to the default "
+"guidelines. It's useful for helping or instructing your users."
+msgstr ""
+"Aquest text es mostra al formulari de càrrega d'imatge a més de les "
+"directrius predeterminades. És útil per a ajudar o instruir els vostres "
+"usuaris."
+
+#: modules/user/user.module:1900
+msgid ""
+"Drupal allows users to register, login, log out, maintain user profiles, "
+"etc. Users of the site may not use their own names to post content until "
+"they have signed up for a user account."
+msgstr ""
+"Drupal permet als usuaris registrar-se, iniciar sessió, tancar la sessió, "
+"mantenir els perfils d'usuari, etc. Els usuaris del lloc no poden utilitzar "
+"el seu propi nom per enviar contingut fins que hagin donat d'alta un compte "
+"d'usuari."
+
+#: modules/user/user.module:1905
+msgid ""
+"Set up username and e-mail address access rules for new <em>and</em> "
+"existing accounts (currently logged in accounts will not be logged out). If "
+"a username or e-mail address for an account matches any deny rule, but not "
+"an allow rule, then the account will not be allowed to be created or to log "
+"in. A host rule is effective for every page view, not just registrations."
+msgstr ""
+"Configureu les regles d'accés pels noms d'usuari i les adreces de correu "
+"electrònic per als comptes nous <em>i</em> existents (els usuaris en el "
+"sistema no seran trets fora). Si un nom d'usuari o una adreça de correu d'un "
+"compte coincideix amb alguna regla de negació d'accés, però no amb una regla "
+"de permetre l'accés, llavors el compte no es podrà crear o iniciar sessió al "
+"lloc. Una regla de sistema és efectiva per a totes les pàgines, no només per "
+"registrar-se."
+
+#: modules/user/user.module:1907
+msgid ""
+"Permissions let you control what users can do on your site. Each user role "
+"(defined on the <a href=\"@role\">user roles page</a>) has its own set of "
+"permissions. For example, you could give users classified as \"Administrators"
+"\" permission to \"administer nodes\" but deny this power to ordinary, "
+"\"authenticated\" users. You can use permissions to reveal new features to "
+"privileged users (those with subscriptions, for example). Permissions also "
+"allow trusted users to share the administrative burden of running a busy "
+"site."
+msgstr ""
+"Els permisos us permeten controlar que poden fer els usuaris al vostre lloc. "
+"Cada rol d'usuari (definit a la <a href=\"@role\">pàgina de rols d'usuari</"
+"a>) té el seu propi joc de permisos. Per exemple, podríeu donar als usuaris "
+"classificats com \"Administradors\" permisos per \"administrar nodes\" però "
+"denegar aquesta funcionalitat als usuaris ordinaris, \"autenticats\". Podeu "
+"usar els permisos per mostrar noves funcionalitats als usuaris privilegiats "
+"(aquells amb subscripcions, per exemple). Els permisos també permeten als "
+"usuaris reconeguts compartir la càrrega administrativa de gestionar un lloc "
+"amb molta càrrega."
+
+#: modules/user/user.module:1909
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A "
+"role defines a group of users that have certain privileges as defined in <a "
+"href=\"@permissions\">user permissions</a>. Examples of roles include: "
+"anonymous user, authenticated user, moderator, administrator and so on. In "
+"this area you will define the <em>role names</em> of the various roles. To "
+"delete a role choose \"edit\".</p><p>By default, Drupal comes with two user "
+"roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user "
+"account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all "
+"logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p>Els rols permeten ajustar la seguretat i administració de Drupal. Un rol "
+"defineix un grup d'usuaris que tenen certs privilegis definits a <a href="
+"\"@permissions\">permisos d'usuari</a>. Exemples de rols inclouen: usuari "
+"anònim, usuari autenticat, moderador, administrador i més. En aquesta àrea "
+"definireu els <em>noms dels rols</em> dels diversos rols. Per suprimir un "
+"rol trieu \"edita\".</p><p>Per defecte, Drupal ve amb dos rols d'usuari:</"
+"p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: aquest rol s'utilitza per usuaris que no tenen un "
+"compte d'usuari o que no s'han autenticat.</li>\n"
+"      <li>Authenticated user: aquest rol és automàticament assignat a tots "
+"els usuaris que han entrat en el lloc.</li>\n"
+"      </ul>"
+
+#: modules/user/user.module:1952
+msgid "role"
+msgstr "rol"
+
+#: modules/user/user.module:1970
+msgid "permission"
+msgstr "permís"
+
+#: modules/user/user.admin.inc:43
+msgid "Show only users where"
+msgstr "Mostra només usuaris on"
+
+#: modules/user/user.admin.inc:52
+msgid ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+msgstr "<em>i</em> on <strong>%property</strong> és <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:55
+msgid "<strong>%property</strong> is <strong>%value</strong>"
+msgstr "<strong>%property</strong> és <strong>%value</strong>"
+
+#: modules/user/user.module:778,781
+msgid "1 guest"
+msgid_plural "@count guests"
+msgstr[0] "1 convidat"
+msgstr[1] "@count convidats"
+
+#: modules/user/user.admin.inc:235
+msgid ""
+"If this box is checked, new users will be required to validate their e-mail "
+"address prior to logging into the site, and will be assigned a system-"
+"generated password. With it unchecked, users will be logged in immediately "
+"upon registering, and may select their own passwords during registration."
+msgstr ""
+"Si aquesta casella està marcada, es requerirà als nous usuaris que validin "
+"la seva adreça de correu electrònic abans d'identificar-se en el lloc web i "
+"se'ls assignarà una contrasenya generada pel sistema. Si no està marcada, "
+"els nous usuaris entraran immediatament en el sistema un cop registrats i "
+"podran definir la seva contrasenya durant el procés de registre."
+
+#: modules/user/user.admin.inc:236
+msgid ""
+"This text is displayed at the top of the user registration form and is "
+"useful for helping or instructing your users."
+msgstr ""
+"Aquest text es mostra a la part superior del formulari de registre d'usuari "
+"i proporciona ajuda i instruccions als usuaris."
+
+#: modules/user/user.admin.inc:242
+msgid ""
+"Drupal sends emails whenever new users register on your site, and "
+"optionally, may also notify users after other account actions. Using a "
+"simple set of content templates, notification e-mails can be customized to "
+"fit the specific needs of your site."
+msgstr ""
+"Drupal envia sempre un correu electrònic quan un nou  usuari es registra en "
+"el web i, opcionalment, també pot notificar als usuaris en el cas d'altres "
+"accions. Utilitzant un senzill conjunt de plantilles de contingut, els "
+"correus de notificació es poden personalitzar per adaptar-los a les "
+"necessitats específiques del vostre web."
+
+#: modules/user/user.admin.inc:250
+msgid "Welcome, new user created by administrator"
+msgstr "Benvingut, nou usuari creat per l'administrador"
+
+#: modules/user/user.admin.inc:253
+msgid ""
+"Customize welcome e-mail messages sent to new member accounts created by an "
+"administrator."
+msgstr ""
+"Personalitzar el correu electrònic de benvinguda que s'envia als nous "
+"usuaris creats per un administrador."
+
+#: modules/user/user.admin.inc:270
+msgid "Welcome, no approval required"
+msgstr "Benvinguda, no cal aprovació"
+
+#: modules/user/user.admin.inc:273
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"no administrator approval is required."
+msgstr ""
+"Personalitzar el correu electrònic de benvinguda que s'envia als nous "
+"membres un cop s'han registrat, quan no cal l'aprovació per part de "
+"l'administrador."
+
+#: modules/user/user.admin.inc:290
+msgid "Welcome, awaiting administrator approval"
+msgstr "Benvinguda, pendent de l'aprovació de l'administrador"
+
+#: modules/user/user.admin.inc:293
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"administrative approval is required."
+msgstr ""
+"Personalitzar el correu electrònic de benvinguda que s'envia als nous "
+"membres un cop s'han registrat, quan cal  l'aprovació per part de "
+"l'administrador."
+
+#: modules/user/user.admin.inc:310
+msgid "Password recovery email"
+msgstr "Correu per recuperar la contrasenya"
+
+#: modules/user/user.admin.inc:313
+msgid "Customize e-mail messages sent to users who request a new password."
+msgstr ""
+"Personalitzeu els missatges de correu electrònic enviats als usuaris que "
+"demanen una nova contrasenya."
+
+#: modules/user/user.admin.inc:330
+msgid "Account activation email"
+msgstr "Correu electrònic d'activació de compte"
+
+#: modules/user/user.admin.inc:333
+msgid ""
+"Enable and customize e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+"Habilitar i personalitzar els missatges de correu que s'envien als usuaris "
+"en activar un compte (quan un administrador activa el compte d'un usuari que "
+"ja s'ha registrat en un web en què es requereix aprovació administrativa)."
+
+#: modules/user/user.admin.inc:337
+msgid "Notify user when account is activated."
+msgstr "Notificar a l'usuari quan el compte ha estat activat."
+
+#: modules/user/user.admin.inc:355
+msgid "Account blocked email"
+msgstr "Correu electrònic de bloqueig de compte"
+
+#: modules/user/user.admin.inc:358
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr ""
+"Activeu i personalitzeu els missatges de correu electrònic enviats als "
+"usuaris quan els seus comptes són bloquejats."
+
+#: modules/user/user.admin.inc:362
+msgid "Notify user when account is blocked."
+msgstr "Notificar a l'usuari quan es bloqueja el seu compte."
+
+#: modules/user/user.admin.inc:380
+msgid "Account deleted email"
+msgstr "Correu electrònic d'eliminació de compte."
+
+#: modules/user/user.admin.inc:383
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"deleted."
+msgstr ""
+"Activeu i personalitzeu els missatges de correu electrònic enviats als "
+"usuaris quan els seus comptes són eliminats."
+
+#: modules/user/user.admin.inc:387
+msgid "Notify user when account is deleted."
+msgstr "Notificar a l'usuari quan el seu compte s'elimina."
+
+#: modules/user/user.admin.inc:406
+msgid "Signatures"
+msgstr "Signatures"
+
+#: modules/user/user.admin.inc:410
+msgid "Signature support"
+msgstr "Ajut de signatura"
+
+#: modules/user/user.pages.inc:63
+msgid "Sorry, %name is not recognized as a user name or an e-mail address."
+msgstr ""
+"Disculpeu, %name no es reconeix com a cap nom d'usuari o adreça de correu "
+"electrònic."
+
+#: modules/user/user.module:1514
+msgid "Signature settings"
+msgstr "Configuració de les signatures."
+
+#: modules/user/user.module:1659
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Gràcies per registrar-vos a !site. La vostra petició d'un compte està "
+"pendent d'aprovació. Un cop aprovada, rebreu un altre correu amb informació "
+"de com identificar-vos, definir la vostra contrasenya i altres detalls\r\n"
+"\r\n"
+" --L'equip de !site"
+
+#: modules/user/user.module:1665
+msgid ""
+"!username,\n"
+"\n"
+"A request to reset the password for your account has been made at !site.\n"
+"\n"
+"You may now log in to !uri_brief by clicking on this link or copying and "
+"pasting it in your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password."
+msgstr ""
+"!username, \r\n"
+"S'ha fet una petició per a regenerar la contrasenya del vostre compte a !"
+"site. \r\n"
+"Podeu entrar ara a !uri_brief clicant a aquest enllaç o copiant-lo i pegant-"
+"lo al vostre navegador: \r\n"
+"!login_url \r\n"
+"Aquest enllaç és d'una sola entrada; és a dir, sols es pot fer servir només "
+"un cop. \r\n"
+"Després d'entrar, sereu redirigit a !edit_uri on podreu canviar la vostra "
+"contrasenya."
+
+#: modules/user/user.module:1667
+msgid "Account details for !username at !site (approved)"
+msgstr "Els detalls del compte per !username a !site (aprovat)"
+
+#: modules/user/user.module:1669
+msgid ""
+"!username,\n"
+"\n"
+"Your account at !site has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to !"
+"login_uri in the future using:\n"
+"\n"
+"username: !username\n"
+msgstr ""
+"!username, \r\n"
+"El vostre compte a !site ja estat activat. \r\n"
+"Podeu entrar clicant a aquest enllaç o copiant-lo i enganxant-lo al vostre "
+"navegador: \r\n"
+"!login_url \r\n"
+"Aquest enllaç és d'una sola entrada; és a dir, sols es pot fer servir un "
+"cop. Després d'entrar, sereu redirigit a !edit_uri on podreu canviar la "
+"vostra contrasenya. \r\n"
+"Un cop haureu entrat la vostra contrasenya, podreu entrar a !login_uri en el "
+"futur utilitzant: \r\n"
+"Nom d'usuari: !username\n"
+
+#: modules/user/user.module:1671
+msgid "Account details for !username at !site (blocked)"
+msgstr "Els detalls del compte per !username a !site (bloquejat)"
+
+#: modules/user/user.module:1673
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been blocked."
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"El teu compte a !site ha estat boquejat."
+
+#: modules/user/user.module:1675
+msgid "Account details for !username at !site (deleted)"
+msgstr "Els detalls del compte per !username a !site (esborrat)"
+
+#: modules/user/user.module:1677
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been deleted."
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"El teu compte a !site s'ha esborrat."
+
+#: modules/user/user.module:1894
+msgid ""
+"The user module allows users to register, login, and log out. Users benefit "
+"from being able to sign on because it associates content they create with "
+"their account and allows various permissions to be set for their roles. The "
+"user module supports user roles which establish fine grained permissions "
+"allowing each role to do only what the administrator wants them to. Each "
+"user is assigned to one or more roles. By default there are two roles "
+"<em>anonymous</em> - a user who has not logged in, and <em>authenticated</"
+"em> a user who has signed up and who has been authorized."
+msgstr ""
+"El mòdul d'usuaris permet registrar-se, autenticar-se i sortir del sistema. "
+"Els usuaris es beneficien d'estar identificats perquè el mòdul associa els "
+"continguts que els usuaris creen amb els seus comptes i permet definir "
+"permisos associats als seus rols. El mòdul d'usuaris suporta rols d'usuari i "
+"permisos amb una granularitat molt fina, de manera que cada rol far només "
+"allò que l'administrador li permet fer. Cada usuari està assignat a un o més "
+"rols. Per defecte hi ha només dos rols: <em>anònim</em> - un usuari que no "
+"s'ha registrat - i <em>autenticat</em> - un usuari que ha estat identificat "
+"i autoritzat pel sistema."
+
+#: modules/user/user.module:1895
+msgid ""
+"Users can use their own name or handle and can specify personal "
+"configuration settings through their individual <em>My account</em> page. "
+"Users must authenticate by supplying a local username and password or "
+"through their OpenID, an optional and secure method for logging into many "
+"websites with a single username and password. In some configurations, users "
+"may authenticate using a username and password from another Drupal site, or "
+"through some other site-specific mechanism."
+msgstr ""
+"Els usuaris poden fer servir el seu propi nom o un sobrenom [àlies] i poden "
+"definir paràmetres de configuració personals mitjançant la seva pàgina "
+"individual <em>El meu compte</em>. També poden autenticar-se donant un nom "
+"d'usuari local i una contrasenya, o mitjançant el seu OpenID, un mètode "
+"opcional i segur d'autenticar-se en diversos llocs web utilitzant un sol nom "
+"d'usuari i contrasenya. En algunes configuracions, l'usuari pot autenticar-"
+"se amb el nom d'usuari i la contrasenya d'un altre lloc Drupal, o a través "
+"de qualsevol altre mecanisme propi del lloc web."
+
+#: modules/user/user.module:1896
+msgid ""
+"A visitor accessing your website is assigned a unique ID, or session ID, "
+"which is stored in a cookie. The cookie does not contain personal "
+"information, but acts as a key to retrieve information from your site. Users "
+"should have cookies enabled in their web browser when using your site."
+msgstr ""
+"Quan un visitant accedeix al vostre lloc web, se li assigna un identificador "
+"únic, o ID de sessió, que es desa en una cookie. La cookie no conté cap "
+"informació personal, però actua com a clau per a obtenir informació del web. "
+"Per poder accedir al vostre web, l'usuari ha de tenir habilitades les "
+"cookies en el seu navegador."
+
+#: modules/user/user.module:1897
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@user"
+"\">User module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@block\">mòdul Usuari</"
+"a> al manual en línia."
+
+#: modules/user/user.module:1903
+msgid ""
+"This web page allows administrators to register new users. Users' e-mail "
+"addresses and usernames must be unique."
+msgstr ""
+"Aquesta pàgina dóna opció a l'administrador de registrar nous usuaris. Els "
+"noms d'usuari i les adreces de correu electrònic ha de ser únics."
+
+#: modules/user/user.module:1915
+msgid ""
+"Enter a simple pattern (\"*\" may be used as a wildcard match) to search for "
+"a username or e-mail address. For example, one may search for \"br\" and "
+"Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
+msgstr ""
+"Entreu un patró senzill (podeu usar \"*\" com a comodí) per cercar un nom "
+"d'usuari o una adreça de correu. Per exemple, es pot cercar \"br\" i Drupal "
+"retornarà \"brian\", \"brad\", i \"brenda@example.com\"."
+
+#: modules/user/user.module:2172
+msgid "Password strength:"
+msgstr "Complexitat de la contrasenya:"
+
+#: modules/user/user.module:2173
+msgid "Low"
+msgstr "Baixa"
+
+#: modules/user/user.module:2175
+msgid "High"
+msgstr "Alta"
+
+#: modules/user/user.module:2176
+msgid ""
+"It is recommended to choose a password that contains at least six "
+"characters. It should include numbers, punctuation, and both upper and "
+"lowercase letters."
+msgstr ""
+"Es recomana escollir una contrasenya que contingui almenys sis caràcters. "
+"Hauria d'incloure nombres, símbols i lletres en majúscules i minúscules."
+
+#: modules/user/user.module:2177
+msgid "The password does not include enough variation to be secure. Try:"
+msgstr ""
+"La contrasenya no és prou complexa perquè pugui considerar-se segura. Torneu-"
+"ho a provar:"
+
+#: modules/user/user.module:2178
+msgid "Adding both upper and lowercase letters."
+msgstr "Afegint-hi tant lletres majúscules com minúscules."
+
+#: modules/user/user.module:2179
+msgid "Adding numbers."
+msgstr "Afegint-hi nombres."
+
+#: modules/user/user.module:2180
+msgid "Adding punctuation."
+msgstr "Afegint-hi signes de puntuació."
+
+#: modules/user/user.module:2181
+msgid "It is recommended to choose a password different from the username."
+msgstr "Es recomana escollir una contrasenya diferent al nom d'usuari."
+
+#: modules/user/user.module:2184
+msgid "Passwords match:"
+msgstr "Les contrasenyes concorden:"
+
+#: modules/user/user.module:2199
+msgid "After a user account has been created"
+msgstr "Després que un compte d'usuari hagi estat creat"
+
+#: modules/user/user.module:2202
+msgid "After a user's profile has been updated"
+msgstr "Després que un perfil d'usuari hagi estat actualitzat"
+
+#: modules/user/user.module:2205
+msgid "After a user has been deleted"
+msgstr "Després que un usuari hagi estat eliminat."
+
+#: modules/user/user.module:2208
+msgid "After a user has logged in"
+msgstr "Després que un usuari hagi entrat"
+
+#: modules/user/user.module:2211
+msgid "After a user has logged out"
+msgstr "Després que un usuari hagi sortit"
+
+#: modules/user/user.module:2214
+msgid "When a user's profile is being viewed"
+msgstr "Quan un perfil d'usuari esta sent vist"
+
+#: modules/user/user.module:2227
+msgid "Block current user"
+msgstr "Bloquejar l'usuari actual."
+
+#: modules/user/user.module:2233
+msgid "Ban IP address of current user"
+msgstr "Prohibir l'adreça IP de l'usuari actual"
+
+#: modules/user/user.module:2326
+msgid ""
+"Welcome to Drupal. You are now logged in as user #1, which gives you full "
+"control over your website."
+msgstr ""
+"Us donem la benvinguda al Drupal. Heu iniciat una sessió com a usuari #1, "
+"que us dóna control total del lloc web."
+
+#: modules/user/user.module:2328
+msgid ""
+"</p><p> Your password is <strong>%pass</strong>. You may change your "
+"password below.</p>"
+msgstr ""
+"</p><p> La vostra contrasenya és <strong>%pass</strong>. Podeu canviar-la "
+"més avall.</p>"
+
+#: modules/user/user.module:2340
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail has "
+"been sent."
+msgstr ""
+"S'ha creat un nou compte d'usuari per a <a href=\"@url\">%name</a>. No s'ha "
+"enviat cap correu electrònic."
+
+#: modules/user/user.module:2347
+msgid "Registration successful. You are now logged in."
+msgstr "Registre realitzat correctament. Ara ja esteu validat al sistema."
+
+#: modules/user/user.module:2357
+msgid ""
+"Password and further instructions have been e-mailed to the new user <a href="
+"\"@url\">%name</a>."
+msgstr ""
+"La contrasenya i les instruccions addicionals s'han enviat al correu "
+"electrònic del nou usuari <a href=\"@url\">%name</a>."
+
+#: modules/user/user.module:2368
+msgid ""
+"Thank you for applying for an account. Your account is currently pending "
+"approval by the site administrator.<br />In the meantime, a welcome message "
+"with further instructions has been sent to your e-mail address."
+msgstr ""
+"Gràcies per demanar un compte. El vostre compte està ara pendent d'aprovació "
+"per l'administrador del lloc web.<br />Mentrestant, un missatge de "
+"benvinguda amb instruccions posteriors ha estat enviat a la vostra adreça de "
+"correu electrònic."
+
+#: modules/user/user.module:1422
+msgid "New external user: %name using module %module."
+msgstr "Nou usuari extern: %name utilitzant el mòdul %module."
+
+#: modules/user/user.module:2258
+msgid "Blocked user %name."
+msgstr "Usuari %name bloquejat."
+
+#: modules/user/user.module:2268
+msgid "Banned IP address %ip"
+msgstr "Adreça IP %ip prohibida."
+
+#: modules/user/user.module:2322
+msgid "New user: %name (%email)."
+msgstr "Nou usuari: %name (%email)."
+
+#: modules/user/user.pages.inc:121
+msgid ""
+"<p>This is a one-time login for %user_name and will expire on %"
+"expiration_date.</p><p>Click on this button to login to the site and change "
+"your password.</p>"
+msgstr ""
+"<p>Aquest és un identificador d'un sol ús per a %user_name que expirarà el %"
+"expiration_date.</p>.<p>Cliqueu en aquest botó per entrar al web i canviar "
+"la vostra contrasenya</p>"
+
+#: modules/user/user.module:0
+msgid "anonymous user"
+msgstr "usuari anònim"
+
+#: modules/user/user.pages.inc:50
+msgid "%name is not allowed to request a new password."
+msgstr ""
+
+#: modules/user/user.pages.inc:99
+msgid ""
+"You have tried to use a one-time login for an account which has been blocked."
+msgstr ""
+
+#: modules/user/user.module:1344
+msgid ""
+"The name %name is registered using a reserved e-mail address and therefore "
+"could not be logged in."
+msgstr ""

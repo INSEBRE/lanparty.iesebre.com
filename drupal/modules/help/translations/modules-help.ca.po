@@ -1,0 +1,71 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  help.admin.inc,v 1.5 2007/11/25 11:11:17 goba
+#  help.module,v 1.78.2.1 2008/04/09 21:11:48 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-12-10 05:22+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/help/help.admin.inc:30
+msgid "No help is available for module %module."
+msgstr "L'ajuda no es troba disponible pel mòdul %module."
+
+#: modules/help/help.admin.inc:41
+msgid "@module administration pages"
+msgstr "pàgines d'administració de @module"
+
+#: modules/help/help.admin.inc:15
+msgid "Help topics"
+msgstr "Temes d'ajuda"
+
+#: modules/help/help.admin.inc:15
+msgid "Help is available on the following items:"
+msgstr "L'ajuda està disponible en els següents temes:"
+
+#: modules/help/help.module:41
+msgid ""
+"This guide provides context sensitive help on the use and configuration of "
+"<a href=\"@drupal\">Drupal</a> and its modules, and is a supplement to the "
+"more extensive online <a href=\"@handbook\">Drupal handbook</a>. The online "
+"handbook may contain more up-to-date information, is annotated with helpful "
+"user-contributed comments, and serves as the definitive reference point for "
+"all Drupal documentation."
+msgstr ""
+"Aquesta guia proporciona ajuda sensible al context al voltant de l'ús i de "
+"la configuració de <a href=\"@drupal\">Drupal</a> i dels seus mòduls, i és "
+"un suplement del <a href=\"@handbook\">Manual de Drupal en línia</a>, que és "
+"més extens. El manual en línia pot contenir informació més actualitzada, "
+"està ple d'útils comentaris dels usuaris i serveix com a punt de referència "
+"definitiu de tota la documentació de Drupal."
+
+#: modules/help/help.module:44
+msgid ""
+"The help module provides context sensitive help on the use and configuration "
+"of <a href=\"@drupal\">Drupal</a> and its modules, and is a supplement to "
+"the more extensive online <a href=\"@handbook\">Drupal handbook</a>. The "
+"online handbook may contain more up-to-date information, is annotated with "
+"helpful user-contributed comments, and serves as the definitive reference "
+"point for all Drupal documentation."
+msgstr ""
+"El mòdul d'ajuda proporciona ajuda sensible al context al voltant de l'ús i "
+"de la configuració de <a href=\"@drupal\">Drupal</a> i dels seus mòduls, i "
+"és un suplement del <a href=\"@handbook\">Manual de Drupal en línia</a>, que "
+"és més extens. El manual en línia pot contenir informació més actualitzada, "
+"està ple d'útils comentaris dels usuaris i serveix com a punt de referència "
+"definitiu de tota la documentació de Drupal."
+
+#: modules/help/help.module:45
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@help"
+"\">Help module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@help\">Mòdul Ajuda</a> "
+"dins del manual en línia."

@@ -1,0 +1,426 @@
+# Catalan translation of drupal (6.9)
+# Copyright (c) 2009 by the Catalan translation team
+# Generated from files:
+#  forum.install,v 1.16.2.2 2009/01/06 15:46:37 goba
+#  forum.module,v 1.448.2.5 2008/10/24 19:07:47 dries
+#  forum.admin.inc,v 1.8 2008/01/30 10:14:42 goba
+#  forum-submitted.tpl.php,v 1.3 2007/08/07 08:39:35 goba
+#  forum-list.tpl.php,v 1.4 2007/08/30 18:58:12 goba
+#  forum-topic-navigation.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.9)\n"
+"POT-Creation-Date: 2009-02-21 22:39+0100\n"
+"PO-Revision-Date: 2008-12-10 08:24+0100\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/forum/forum.install:27,115
+msgid "Forums"
+msgstr "Fòrums"
+
+#: modules/forum/forum.module:302
+msgid "Forum topic"
+msgstr "Tema de debat"
+
+#: modules/forum/forum.admin.inc:192
+msgid "Hot topic threshold"
+msgstr "Llindar dels temes calents"
+
+#: modules/forum/forum.admin.inc:199
+msgid "Topics per page"
+msgstr "Temes per pàgina"
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - most active first"
+msgstr "Articles - els més actius primer"
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - least active first"
+msgstr "Articles - els menys actius primer"
+
+#: modules/forum/forum.admin.inc:206
+msgid "Default order"
+msgstr "Ordre predeterminat"
+
+#: modules/forum/forum.module:367
+msgid ""
+"This is the designated forum vocabulary. Some of the normal vocabulary "
+"options have been removed."
+msgstr ""
+"Aquest és el vocabulari assignat del fòrum. Algunes de les opcions de "
+"vocabulari normal s'han eliminat."
+
+#: modules/forum/forum.module:409,425
+msgid "Active forum topics"
+msgstr "Temes de debat actius"
+
+#: modules/forum/forum.module:410,432
+msgid "New forum topics"
+msgstr "Nous temes de debat"
+
+#: modules/forum/forum.module:414
+msgid "Number of topics"
+msgstr "Nombre de temes"
+
+#: modules/forum/forum.module:441
+msgid "Read the latest forum topics."
+msgstr "Llegiu els nous temes de debat."
+
+#: modules/forum/forum.module:236
+msgid ""
+"The item %forum is only a container for forums. Please select one of the "
+"forums below it."
+msgstr ""
+"L'element %forum és només un contenidor per a fòrums. Seleccioneu un dels "
+"fòrums que hi ha a continuació."
+
+#: modules/forum/forum.module:460
+msgid "Leave shadow copy"
+msgstr "Deixa una còpia d'ombra"
+
+#: modules/forum/forum.module:460
+msgid ""
+"If you move this topic, you can leave a link in the old forum to the new "
+"forum."
+msgstr ""
+"Si moveu aquest tema, podreu deixar un enllaç al fòrum antic que apunti al "
+"nou fòrum."
+
+#: modules/forum/forum.admin.inc:116
+msgid "Container name"
+msgstr "Nom de contenidor"
+
+#: modules/forum/forum.admin.inc:38
+msgid "Forum name"
+msgstr "Nom del fòrum"
+
+#: modules/forum/forum.admin.inc:75
+msgid "forum container"
+msgstr "contenidor de fòrum"
+
+#: modules/forum/forum.admin.inc:79
+msgid "forum"
+msgstr "fòrum"
+
+#: modules/forum/forum.admin.inc:90
+msgid "Created new @type %term."
+msgstr "Crea un nou @type %term."
+
+#: modules/forum/forum.admin.inc:93
+msgid "The @type %term has been updated."
+msgstr "El @type %term s'ha actualitzat."
+
+#: modules/forum/forum.admin.inc:168
+msgid "Are you sure you want to delete the forum %name?"
+msgstr "Esteu segur de voler eliminar el fòrum %name?"
+
+#: modules/forum/forum.admin.inc:176
+msgid ""
+"The forum %term and all sub-forums and associated posts have been deleted."
+msgstr ""
+"El %term del fòrum i tots els sub-fòrums i articles associats s'han esborrat."
+
+#: modules/forum/forum.admin.inc:177
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr ""
+"forum: s'ha esborrat %term i tots els seus sub-fòrums i articles associats."
+
+#: modules/forum/forum.admin.inc:230
+msgid "edit container"
+msgstr "edita contenidor"
+
+#: modules/forum/forum.admin.inc:233
+msgid "edit forum"
+msgstr "edita fòrum"
+
+#: modules/forum/forum-submitted.tpl.php:21
+msgid "@time ago<br />by !author"
+msgstr "fa @time<br />per !author"
+
+#: modules/forum/forum.module:567
+msgid "Topic"
+msgstr "Tema"
+
+#: modules/forum/forum.module:569
+msgid "Created"
+msgstr "Creat"
+
+#: modules/forum/forum.module:570
+msgid "Last reply"
+msgstr "Última resposta"
+
+#: modules/forum/forum.module:732
+msgid "No forums defined"
+msgstr "No s'ha definit cap fòrum"
+
+#: modules/forum/forum-list.tpl.php:38
+msgid "Topics"
+msgstr "Temes"
+
+#: modules/forum/forum-list.tpl.php:39
+msgid "Posts"
+msgstr "Articles"
+
+#: modules/forum/forum-list.tpl.php:40
+msgid "Last post"
+msgstr "Darrer article"
+
+#: modules/forum/forum.module:818
+msgid "This topic has been moved"
+msgstr "Aquest tema s'ha mogut"
+
+#: modules/forum/forum-topic-navigation.tpl.php:29
+msgid "Go to previous forum topic"
+msgstr "Vés a la discussió anterior"
+
+#: modules/forum/forum-topic-navigation.tpl.php:32
+msgid "Go to next forum topic"
+msgstr "Vés a la discussió següent"
+
+#: modules/forum/forum.admin.inc:41
+msgid "Short but meaningful name for this collection of threaded discussions."
+msgstr "Nom curt amb significat per aquesta col·lecció de discussions."
+
+#: modules/forum/forum.admin.inc:47
+msgid "Description and guidelines for discussions within this forum."
+msgstr "Descripció i directrius per a discussions dins d'aquest fòrum."
+
+#: modules/forum/forum.admin.inc:54
+msgid ""
+"Forums are displayed in ascending order by weight (forums with equal weights "
+"are displayed alphabetically)."
+msgstr ""
+"Els fòrums es mostren en ordre ascendent per pes (els fòrums amb pesos "
+"iguals es mostren alfabèticament)."
+
+#: modules/forum/forum.admin.inc:120
+msgid "Short but meaningful name for this collection of related forums."
+msgstr ""
+"Nom curt però significatiu per a aquesta col·lecció de fòrums relacionats."
+
+#: modules/forum/forum.admin.inc:128
+msgid "Description and guidelines for forums within this container."
+msgstr "Descripció i directrius per a fòrums dins d'aquest contenidor."
+
+#: modules/forum/forum.admin.inc:136
+msgid ""
+"Containers are displayed in ascending order by weight (containers with equal "
+"weights are displayed alphabetically)."
+msgstr ""
+"Els contenidors ses mostren en orde ascendent per pes (els contenidors amb "
+"el mateix pes es mostren alfabèticament)."
+
+#: modules/forum/forum.admin.inc:195
+msgid "The number of posts a topic must have to be considered \"hot\"."
+msgstr ""
+"El nombre d'enviaments que un tema ha de tenir per a ser considerat \"calent"
+"\"."
+
+#: modules/forum/forum.admin.inc:202
+msgid "Default number of forum topics displayed per page."
+msgstr "Nombre de temes de fòrum mostrats per pàgina."
+
+#: modules/forum/forum.admin.inc:209
+msgid "Default display order for topics."
+msgstr "Orde per defecte com es mostren el temes."
+
+#: modules/forum/forum.admin.inc:245
+msgid ""
+"There are no existing containers or forums. Containers and forums may be "
+"added using the <a href=\"@container\">add container</a> and <a href=\"@forum"
+"\">add forum</a> pages."
+msgstr ""
+"No hi ha cap contenidor ni fòrum. Podeu afegir-ne usant les pàgines <a href="
+"\"@container\">afegir contenidor</a> i <a href=\"@forum\">afegir fòrum</a>."
+
+#: modules/forum/forum.admin.inc:286
+msgid ""
+"Containers are usually placed at the top (root) level, but may also be "
+"placed inside another container or forum."
+msgstr ""
+"Els contenidors es posen normalment al primer nivell (arrel), però també es "
+"poden posar dins d'un altre contenidor o fòrum."
+
+#: modules/forum/forum.admin.inc:289
+msgid ""
+"Forums may be placed at the top (root) level, or inside another container or "
+"forum."
+msgstr ""
+"Els fòrums es poden posar al primer nivell (arrel), o dins d'un altre "
+"contenidor o fòrum."
+
+#: modules/forum/forum.module:15
+msgid ""
+"The forum module lets you create threaded discussion forums with "
+"functionality similar to other message board systems. Forums are useful "
+"because they allow community members to discuss topics with one another "
+"while ensuring those conversations are archived for later reference. The <a "
+"href=\"@create-topic\">forum topic</a> menu item (under <em>Create content</"
+"em> on the Navigation menu) creates the initial post of a new threaded "
+"discussion, or thread."
+msgstr ""
+"El mòdul de fòrums permet crear discussions organitzades per converses amb "
+"una funcionalitat similar a altres sistemes de tauler de missatges. Els "
+"fòrums són útils perquè permeten als membres d'una comunitat discutir temes "
+"entre ells assegurant que les converses queden arxivades per a referència "
+"posterior. L'opció de menú <a href=\"@create-topic\">Crea tema de debat</a> "
+"(dins de l'opció <em>Crea contingut</em> del menú de navegació) crea el punt "
+"d'inici d'una nova discussió organitzada per converses o per fil de "
+"discussió."
+
+#: modules/forum/forum.module:16
+msgid ""
+"A threaded discussion occurs as people leave comments on a forum topic (or "
+"on other comments within that topic). A forum topic is contained within a "
+"forum, which may hold many similar or related forum topics. Forums are "
+"(optionally) nested within a container, which may hold many similar or "
+"related forums. Both containers and forums may be nested within other "
+"containers and forums, and provide structure for your message board. By "
+"carefully planning this structure, you make it easier for users to find and "
+"comment on a specific forum topic."
+msgstr ""
+"Una discussió enfilada es crea quan la gent deixa comentaris en un tema de "
+"fòrum (o en altres comentaris dins d'aquell tema). Un tema de fòrum forma "
+"part d'un fòrum, que pot contenir molts altres temes similars o relacionats. "
+"Els fòrums estan (opcionalment) niats dins d'un contenidor, que pot tenir "
+"molts altres fòrums similars o relacionats. Tant els contenidors com els "
+"fòrums es poden niar dins d'uns altres contenidors i fòrums, donant "
+"estructura al vostre tauler de missatges. Planejant acuradament aquesta "
+"estructura podeu facilitar als usuaris el trobar comentaris dins d'un tema "
+"de fòrum concret."
+
+#: modules/forum/forum.module:17
+msgid "When administering a forum, note that:"
+msgstr "Quan administreu un fòrum, tingueu en compte:"
+
+#: modules/forum/forum.module:18
+msgid ""
+"a forum topic (and all of its comments) may be moved between forums by "
+"selecting a different forum while editing a forum topic."
+msgstr ""
+"un tema de fòrum (i tots els seus comentaris) es pot moure entre els fòrums "
+"seleccionant un fòrum diferent mentre editeu el tema de fòrum."
+
+#: modules/forum/forum.module:19
+msgid ""
+"when moving a forum topic between forums, the <em>Leave shadow copy</em> "
+"option creates a link in the original forum pointing to the new location."
+msgstr ""
+"quan moveu un tema de fòrum entre fòrums, l'opció <em>Deixar còpia umbracle</"
+"em> crear un enllaç al fòrum original apuntant a la nova localització."
+
+#: modules/forum/forum.module:20
+msgid ""
+"selecting <em>Read only</em> under <em>Comment settings</em> while editing a "
+"forum topic will lock (prevent new comments) on the thread."
+msgstr ""
+"seleccionant <em>Sols lectura</em> a les <em>preferències de Comentari</em> "
+"mentre editeu un tema de fòrum bloquejarà (impedint nous comentaris) el fil "
+"de discussió."
+
+#: modules/forum/forum.module:21
+msgid ""
+"selecting <em>Disabled</em> under <em>Comment settings</em> while editing a "
+"forum topic will hide all existing comments on the thread, and prevent new "
+"ones."
+msgstr ""
+"seleccionant <em>Desactivat</em> a les <em>preferències de Comentari</em> "
+"mentre editeu un tema de fòrum amagarà tots els comentaris existents al fil "
+"de discussió, i n'evitarà de nous."
+
+#: modules/forum/forum.module:22
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@forum"
+"\">Forum module</a>."
+msgstr ""
+"Per a més informació, vegeu l'entrada del <a href=\"@forum\">mòdul Fòrum</a> "
+"dins del manual en línia."
+
+#: modules/forum/forum.module:25
+msgid ""
+"This page displays a list of existing forums and containers. Containers "
+"(optionally) hold forums, and forums hold forum topics (a forum topic is the "
+"initial post to a threaded discussion). To provide structure, both "
+"containers and forums may be placed inside other containers and forums. To "
+"rearrange forums and containers, grab a drag-and-drop handle under the "
+"<em>Name</em> column and drag the forum or container to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"Aquesta pàgina mostra una llista de contenidors i fòrums existents. Els "
+"contenidors (opcionalment) contenen fòrums, i els fòrums contenen temes de "
+"debat (un tema de debat és el punt inicial d'una discussió organitzada per "
+"converses). Per donar estructura, tant els contenidors com els fòrums es "
+"poden ficar dins d'altres contenidors i fòrums. Per reorganitzar els fòrums "
+"i contenidors, arrossegueu per la icona de desplaçament dels elements de la "
+"columna <em>Nom</em> i deixeu-lo anar a la nova ubicació. (Arrossegueu un "
+"element prement el botó del ratolí sobre la icona de desplaçament i "
+"mantenint-lo premut, tot movent el ratolí fins a la destinació desitjada i "
+"deixeu anar el botó per deixar anar l'element.) Recordeu que els canvis no "
+"seran guardats fins que premeu el botó <em>Guardar</em> del final de la "
+"pàgina."
+
+#: modules/forum/forum.module:27
+msgid ""
+"By grouping related or similar forums, containers help organize forums. For "
+"example, a container named \"Food\" may hold two forums named \"Fruit\" and "
+"\"Vegetables\", respectively."
+msgstr ""
+"Agrupant els fòrums relacionats o similars, els contenidors ajuden a "
+"organitzar els fòrums. Per exemple, un contenidor anomenat \"Menjar\" pot "
+"contenir dos fòrums anomenats \"Fruita\" i \"Verdures\", respectivament."
+
+#: modules/forum/forum.module:29
+msgid ""
+"A forum holds related or similar forum topics (a forum topic is the initial "
+"post to a threaded discussion). For example, a forum named \"Fruit\" may "
+"contain forum topics titled \"Apples\" and \"Bananas\", respectively."
+msgstr ""
+"Un fòrum conté temes de fòrum relacionats o similars (un tema de fòrum és el "
+"missatge inicial d'una discussió enfilada). Per exemple, un fòrum anomenat "
+"\"Fruita\" pot contenir temes de fòrum titulats \"Pomes\" i \"Plàtans\", "
+"respectivament."
+
+#: modules/forum/forum.module:31
+msgid ""
+"These settings allow you to adjust the display of your forum topics. The "
+"content types available for use within a forum may be selected by editing "
+"the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum "
+"vocabulary page</a>."
+msgstr "Aquests paràmetres permeten ajustar la visualització"
+
+#: modules/forum/forum.module:304
+msgid ""
+"A <em>forum topic</em> is the initial post to a new discussion thread within "
+"a forum."
+msgstr ""
+"Un <em>tema de fòrum</em> és l'enviament inicial a un nou fil de debat dins "
+"d'un fòrum."
+
+#: modules/forum/forum.module:683
+msgid "Post new @node_type"
+msgstr "Enviar nou @node_type"
+
+#: modules/forum/forum.module:690
+msgid "You are not allowed to post new content in forum."
+msgstr "No teniu permisos per enviar nou contingut al fòrum."
+
+#: modules/forum/forum.module:694
+msgid "<a href=\"@login\">Login</a> to post new content in forum."
+msgstr "<a href=\"@login\">Entreu</a> per enviar nou contingut al fòrum."
+
+#: modules/forum/forum.admin.inc:168
+msgid ""
+"Deleting a forum or container will also delete its sub-forums, if any. To "
+"delete posts in this forum, visit <a href=\"@content\">content "
+"administration</a> first. This action cannot be undone."
+msgstr ""
+"Quan s'elimina un fòrum o un contenidor també s'eliminen els seus subfòrums, "
+"si en té. Per eliminar els enviaments a aquest fòrum, visiteu l'<a href="
+"\"@content\">administració de contingut</a> primer. Aquesta acció no es pot "
+"desfer."
