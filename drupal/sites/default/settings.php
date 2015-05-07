@@ -90,7 +90,6 @@
  *   $db_url = 'pgsql://username:password@localhost/databasename';
  */
 //$db_url = 'mysqli://ebresudlan_dr:9PZeN387lzC4@localhost/ebresudlan_drupal';
-$db_url = 'mysql://lanparty:iepWhpLWlb0P2@localhost/lanparty';
 $db_prefix = '';
 
 /**
