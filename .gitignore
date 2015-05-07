@@ -4,6 +4,8 @@
 htaccess.txt
 
 configuration.php
+configuration.php.original
+drupal/sites/default/settings.php
 
 .DS_Store
 .idea/misc.xml

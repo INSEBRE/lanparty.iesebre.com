@@ -919,11 +919,12 @@ ul.menu li a  {
 	color:#fff;
 	display:block; 
 	float:left;
-	font-size:17px;
+	font-size:15px;
 	font-family:"Myriad Pro";
 	font-weight:normal;
 	line-height:normal;
-	padding:13px 21px 0px 18px;
+	padding:15px 21px 0px 18px;
+	/*padding:13px 21px 0px 18px;*/
 	text-decoration:none;
 	text-transform:lowercase;
 	text-align:center; 
@@ -1148,12 +1149,12 @@ label.remember{
 	}
 	#topmenu {
 		background:url(../images/topmenu-separator.gif) no-repeat right 17px;
-		float:left;
+		float:none;
 
 	}
 	#links {
 		float:right;
-		width:220px;
+		width:180px;
 		color:#6fbdd0;
 		padding:18px 0px 0px 0px;
 	}
